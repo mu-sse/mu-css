@@ -1,0 +1,80 @@
+@layer base {
+    :root {
+        /* Color variables */
+        @each $variant, $colors in $variants {
+            --variant-#{$variant}-color: #{map-get($colors, 'color')};
+            --variant-#{$variant}-mutted-color: #{map-get($colors, 'mutted-color')};
+            --variant-#{$variant}-contrast-color: #{map-get($colors, 'contrast-color')};
+            --variant-#{$variant}-darker-color: #{map-get($colors, 'darker-color')};
+    
+        }
+        /* Global variables */
+        --darker-color: #{map-get(map-get($variants, 'primary'), 'darker-color')};
+        --variant-color: #{map-get(map-get($variants,'primary'), 'color')};
+        --mutted-color: #{map-get(map-get($variants, 'primary'), 'mutted-color')};
+        --contrast-color: #{map-get(map-get($variants, 'primary'), 'contrast-color')};
+        --additional-space: #{map-get((map-get($scales, '7')), 'size')};
+    
+        /* Main configuration */
+        font-family: #{$font-family};
+        font-size: #{map-get((map-get($scales, '3')), 'font-size')};
+    }
+    
+    *, *::before, *::after {
+        box-sizing: border-box;
+        min-width: 0; /*https://defensivecss.dev/tip/flexbox-min-content-size/*/
+    }
+    
+    body {
+        margin: 0;
+        /*
+        ** If you are using 'min-height: 100vh', change it 
+        ** for '100svh' instead for better mobile support.
+        */
+    }
+    
+    img {
+        /* Image reset from: https://twitter.com/csswizardry/status/1717841334462005661 */
+        /*display: block;*/
+        max-width: 100%;			/* [1] */
+        height: auto;			/* [1] */
+        vertical-align: middle;		/* [2] */
+        font-style: italic;			/* [3] */
+        background-repeat: no-repeat;	/* [4] */
+        background-size: cover;		/* [4] */
+        shape-margin: 0.75rem;		/* [5] */
+        
+        /*
+        ** [1] Allow resize, never more than the parent, `height:auto` to maintain
+        ** aspect ratio.
+        **
+        ** [2] Vertical-align middle instead of display: block to remove 
+        ** white space below image.
+        ** 
+        ** [3] Italic for alt text. To differenciate from regular text.
+        **
+        ** [4] Set up backgrounds fo optional LQIP (Low-Quality Image Placeholders).
+        **
+        ** [5] If our image has a shape, and we put it floating in a text, this 
+        ** gives it a margin. (not working on IE)
+        **/
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        /*
+        ** Balance title texts (chrome 114+, firefox 121+, opera 99+):  Not working on safari yet (2023-11-22)
+        ** https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap#balance
+        ** https://caniuse.com/?search=text%20wrap%20balance
+        */
+        
+        text-wrap: balance;
+    }
+    
+    p {
+        /*
+        ** Balance paragraph text (chrome 117+, opera 103+). Not working on firefox/safari yet (2023-11-22)
+        ** https://caniuse.com/?search=text%20wrap%20pretty
+        */
+        text-wrap: pretty;
+    }
+    }

@@ -1,0 +1,11 @@
+/**** Variant colors ****/
+/* Get value from variant */
+@function get-value-from-variant($variant, $value) {
+    @return map-get(map-get($variants, $variant), $value);
+}
+
+/**** Scales ****/
+/* Get value from scale */
+@function get-value-from-scale($scale, $value) {
+    @return map-get(map-get($scales, $scale), $value);
+}

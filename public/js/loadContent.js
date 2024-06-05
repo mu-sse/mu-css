@@ -27,7 +27,7 @@ const createHeader = (variant, vertical=false, outline=false) => {
     if(vertical) header.classList.add('header-vertical');
     else header.classList.add('header');
     
-    header.classList.add('variant-' + variant, 'mbe-5');
+    header.classList.add('variant-' + variant);
     if(outline) header.classList.add('outline');
     let headerH1 = document.createElement('h1');
 
@@ -120,7 +120,7 @@ for (let variant of variants) {
 
 
     let pageOutline = document.createElement('article');
-    pageOutline.classList.add('page', 'pb-5');
+    pageOutline.classList.add('page');
     if(variant === 'light') pageOutline.classList.add('bg-dark');
     pageOutline.appendChild(createHeader(variant, false, true));
     pageOutline.appendChild(createContent());

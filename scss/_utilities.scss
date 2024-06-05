@@ -1,0 +1,210 @@
+@layer utilities {    
+    @each $variant, $colors in $variants {
+        .bg-#{$variant} {
+            background-color: #{map-get($colors, 'color')};
+            color: #{map-get($colors, 'contrast-color')};
+        }
+    }
+    
+    .text-content {
+        max-width: 35em;
+    }
+    .m-auto {
+        margin: auto;
+    }
+    
+    .mis-auto {
+        margin-inline-start: auto;
+    }
+    
+    .mie-auto {
+        margin-inline-end: auto;
+    }
+    
+    .mbs-auto {
+        margin-block-start: auto;
+    }
+    
+    .mbe-auto {
+        margin-block-end: auto;
+    }
+    
+    .w-max-content {
+        width: max-content;
+    }
+    
+    .w-min-content {
+        width: min-content;
+    }
+    
+    
+    
+    @each $scale, $value in $scales {
+        @if map-has-key($value, 'size') {
+            /* Margin */
+            .m-#{$scale}-mod {
+                --margin: #{map-get($value, 'size')};
+            }
+            .m-#{$scale} {
+                margin: #{map-get($value, 'size')};
+            }
+    
+            .mi-#{$scale} {
+                margin-inline-start: #{map-get($value, 'size')};
+                margin-inline-end: #{map-get($value, 'size')};
+            }
+            .mis-#{$scale} {
+                margin-inline-start: #{map-get($value, 'size')};
+            }
+            .mie-#{$scale} {
+                margin-inline-end: #{map-get($value, 'size')};
+            }
+    
+            .mb-#{$scale} {
+                margin-block-start: #{map-get($value, 'size')};
+                margin-block-end: #{map-get($value, 'size')};
+            }
+            .mbs-#{$scale} {
+                margin-block-start: #{map-get($value, 'size')};
+            }
+            .mbe-#{$scale} {
+                margin-block-end: #{map-get($value, 'size')};
+            }
+    
+            /* Padding */
+            .p-#{$scale}-mod {
+                --padding: #{map-get($value, 'size')};
+            }
+            .p-#{$scale} {
+                padding: #{map-get($value, 'size')};
+            }
+    
+            .pi-#{$scale} {
+                padding-inline-start: #{map-get($value, 'size')};
+                padding-inline-end: #{map-get($value, 'size')};
+            }
+            .pis-#{$scale} {
+                padding-inline-start: #{map-get($value, 'size')};
+            }
+            .pie-#{$scale} {
+                padding-inline-end: #{map-get($value, 'size')};
+            }
+            .pb-#{$scale} {
+                padding-block-start: #{map-get($value, 'size')};
+                padding-block-end: #{map-get($value, 'size')};
+            }
+            .pbs-#{$scale} {
+                padding-block-start: #{map-get($value, 'size')};
+            }
+            .pbe-#{$scale} {
+                padding-block-end: #{map-get($value, 'size')};
+            }
+    
+            /* Border radius */
+            .br-#{$scale} {
+                border-radius: #{map-get($value, 'size')};
+            }
+            /* Additional space */
+            .as-#{$scale} {
+                --additional-space: #{map-get($value, 'size')};
+            }
+    
+        }
+    
+        @if map-has-key($value, 'font-size') {
+            .fs-#{$scale} {
+                font-size: #{map-get($value, 'font-size')};
+            }
+        }
+    }
+    
+    /*********** Displays ***********/
+    .d-inline {
+        display: inline;
+    }
+    
+    .d-inline-block {
+        display: inline-block;
+    }
+    
+    .d-block {
+        display: block;
+    }
+    
+    .d-flex {
+        display: flex;
+    }
+    
+    .d-inline-flex {
+        display: inline-flex;
+    }
+    
+    .flex-grow {
+        flex-grow: 1;
+    }
+    
+    .flex-shrink {
+        flex-shrink: 1;
+    }
+    
+    .flex-direction-row {
+        flex-direction: row;
+    }
+    
+    .flex-direction-row-reverse {
+        flex-direction: row-reverse;
+    }
+    
+    .flex-direction-column {
+        flex-direction: column;
+    }
+    
+    .flex-direction-column-reverse {
+        flex-direction: column-reverse;
+    }
+    
+    .d-grid {
+        display: grid;
+    }
+    
+    .d-inline-grid {
+        display: inline-grid;
+    }
+    
+    .align-items-start {
+        align-items: start;
+    }
+    
+    .align-items-center {
+        align-items: center;
+    }
+    
+    .align-items-end {
+        align-items: end;
+    }
+    
+    .align-items-stretch {
+        align-items: stretch;
+    }
+    
+    
+    @each $scale, $value in $scales {
+        @if map-has-key($value, 'size') {
+            $size: map-get($value, 'size');
+    
+            @if $size > 0 {
+                .grid-auto-fill-#{$scale} {
+                    grid-template-columns: repeat(auto-fill, minmax(Min(100%, #{$size}), 1fr));
+                }
+    
+                .grid-auto-fit-#{$scale} {
+                    grid-template-columns: repeat(auto-fit, minmax(Min(100%, #{$size}), 1fr));
+                }
+            }
+    
+            .gap-#{$scale} {
+                gap: #{$size};
+            }
+        }
+    }
+    }

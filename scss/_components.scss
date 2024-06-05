@@ -1,0 +1,208 @@
+@layer components {
+    .page {
+        padding: #{get-value-from-scale('0', 'size')};
+        
+    
+        --variant-color: get-value-from-variant('light', 'color');
+        --contrast-color: get-value-from-variant('light', 'contrast-color');
+    
+        background-color: var(--variant-color);
+        color: var(--contrast-color);
+    
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+        &:has(> .header) {
+            padding-block-start: get-value-from-scale('5', 'size');
+        }
+
+        &:has(> .footer) {
+            padding-block-end: get-value-from-scale('5', 'size');
+        }
+
+    }
+    
+    .page-animated {
+        transition: box-shadow 0.1s;
+        &:hover {
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);;
+        }
+    }
+    
+    .btn {
+        --padding: #{get-value-from-scale('3', 'size')};
+        --padding-inline-start: var(--padding);
+        --padding-inline-end: calc(var(--padding) / 2);
+        --margin: #{get-value-from-scale('0', 'size')};
+    
+        display: inline-block;
+    
+        border-radius: #{get-value-from-scale('3', 'size')};
+        margin: var(--margin);
+    
+        padding-inline: var(--padding);
+        padding-block: calc(var(--padding) / 2);
+    
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        border: 1px solid transparent;
+        text-decoration: none;
+    
+        /*user-select: none;*/
+        vertical-align: middle;
+        line-height: 1.5;
+    
+    
+        background-color: var(--variant-color);
+        color: var(--contrast-color);
+    
+        transition: background-color 0.2s;
+    
+        &:hover {
+            background-color: var(--darker-color);
+            text-decoration: none;
+        }
+    }
+    
+    .pill {
+        border-radius: 1000em;
+    }
+    
+    .header, .header-inline {
+        --padding: #{get-value-from-scale('3', 'size')};
+        --border-radius: #{get-value-from-scale('3', 'size')};
+    
+        padding: var(--padding);
+        padding-inline-end: calc(var(--padding) + var(--additional-space));
+        margin-inline-end: var(--additional-space);
+    
+        border-radius: 0 1000em 1000em 0;
+        background-color: var(--variant-color);
+        color: var(--contrast-color);
+    
+        width: fit-content;
+        max-width: 90%;
+        &.outline {
+            border-inline-start-width: 0;
+        }
+    }
+    
+    .header-vertical, .header-block {
+        --additional-space: #{get-value-from-scale('9', 'size')};
+        --padding: #{get-value-from-scale('3', 'size')};
+        --margin: #{get-value-from-scale('0', 'size')};
+        padding: var(--padding);
+        padding-block-end: var(--additional-space);
+        --a: 5em;
+    
+        margin: var(--margin);
+        margin-inline-start: calc(var(--additional-space) / 2);
+        margin-inline-end: auto;
+        margin-block-end: calc(var(--additional-space) / 2);
+        
+        border-radius: 0 0 1000em 1000em;
+        background-color: var(--variant-color);
+        color: var(--contrast-color);
+    
+        width: fit-content;
+        text-align: center;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        & * {
+            text-align: center;
+            width: fit-content;
+        }
+        &.outline{
+            border-block-start-width: 0;
+        }
+    
+    }
+    
+    .footer, .footer-inline {
+        --additional-space: #{get-value-from-scale('3', 'size')};
+        --padding: #{get-value-from-scale('3', 'size')};
+        --margin: #{get-value-from-scale('0', 'size')};
+        --border-radius: #{get-value-from-scale('3', 'size')};
+    
+        padding: var(--padding);
+        padding-inline-start: calc(var(--padding) + var(--additional-space));
+    
+        margin: calc(var(--margin));
+        margin-inline-start: auto;
+        margin-inline-end: 0;
+    
+        border-radius: 1000em 0 0 1000em;
+        background-color: var(--variant-color);
+        color: var(--contrast-color);
+        width: fit-content;
+        max-width: 90%;
+        text-align: right;
+
+        &.outline {
+            border-inline-end-width: 0;
+        }
+    }
+    
+    
+    .footer-vertical, .footer-block {
+        --additional-space: #{get-value-from-scale('9', 'size')};
+        --padding: #{get-value-from-scale('3', 'size')};
+        --margin: #{get-value-from-scale('0', 'size')};
+    
+        padding: var(--padding);
+        padding-block-start: var(--additional-space);
+    
+        margin-block: var(--margin);
+        margin-inline-start: auto;
+        margin-inline-end: calc(var(--additional-space) / 2);;
+    
+        border-radius: 1000em 1000em 0 0;
+        background-color: var(--variant-color);
+        color: var(--contrast-color);
+        
+        width: fit-content;
+        text-align: center;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        & * {
+            text-align: center;
+            width: fit-content;
+        }
+        &.outline{
+            border-block-end-width: 0;
+        }
+    }
+
+    @each $variant, $colors in $variants {
+        .variant-#{$variant} {
+            --variant-color: #{map-get($colors, 'color')};
+            --mutted-color: #{map-get($colors, 'mutted-color')};
+            --contrast-color: #{map-get($colors, 'contrast-color')};
+            --darker-color: #{map-get($colors, 'darker-color')};
+            &.outline {
+                --darker-color: var(--mutted-color);
+            }
+        }
+    
+        .btn:hover.type-#{$variant} {
+            background-color: #{map-get($colors, 'color-mutted')};
+        }
+    }
+    
+    .outline {
+        background-color: transparent;
+        border: 1px solid var(--variant-color);
+        color: var(--variant-color);
+    }
+    
+    .mutted {
+        color: var(--mutted-color);
+        border-color: var(--mutted-color);
+    }
+}

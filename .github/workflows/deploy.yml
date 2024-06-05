@@ -33,8 +33,7 @@ jobs:
         with:
           name: css-files
           path: | 
-            public/css/*.css
-            public/css/*.map
+            public/css/**
 
       - name: Create page artifact
         uses: actions/upload-pages-artifact@v3
