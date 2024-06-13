@@ -8,17 +8,32 @@
     <title>MU CSS</title>
     <link rel="stylesheet" href="css/minified/mu-css.css" />
     <script src="js/loadContent.js" defer></script>
+    <script type="module" src="components/mu-loader-lit.js" defer></script>
 </head>
 
 <body>
     <h1 class="header variant-primary">MU CSS</h1>
-    <section id="links" class="page mi-5">
+    <section id="links" class="page">
         <header class="header variant-primary">
             <h2>Links</h2>
         </header>
         <ul>
-            <li><b>Minified:</b><a href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-css.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-css.css</a></li>
-            <li><b>Uncompressed:</b><a href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-css.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-css.css</a></li>
+            <li><b>Minified:</b><a
+                    href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-css.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-css.css</a>
+            </li>
+            <li><b>Uncompressed:</b><a
+                    href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-css.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-css.css</a>
+            </li>
+            <li>
+                <b>Web Components</b>
+                <ul>
+                    <li>
+                        <mu-loader empty-space="10"></mu-loader><br>
+                        <a href="#mu-loaders"><b>&lt;mu-loader&gt;&lt;/mu-loader&gt;</b></a><br />
+                        <code>&lt;script type="module" src="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/components/mu-loader-lit.js" defer&gt;&lt;/script&gt;</code>
+                    </li>
+                </ul>
+            </li>
         </ul>
         <footer class="footer variant-secondary">
             Thanks to jsdelivr CDN
@@ -32,38 +47,54 @@
                 <h2 class="m-0">Froga</h2>
             </header>
             <main class="p-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus iusto, maiores fugiat libero impedit
-                    officiis mollitia itaque autem, fugit enim unde natus quod ullam. Obcaecati aut eos, dolore est labore
-                    ratione, voluptas suscipit debitis natus atque, commodi officiis. Vero harum, sint et excepturi quis qui
-                    tenetur, non doloremque distinctio libero ipsam vitae tempore numquam delectus ratione eum repellendus
-                    cum nobis dolorum asperiores, ut quaerat. Adipisci eligendi, sapiente quaerat fugit magnam voluptatem
-                    esse dicta reiciendis iusto beatae? Cupiditate sunt voluptatem odit qui dolores et provident corporis
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus iusto, maiores fugiat libero
+                    impedit
+                    officiis mollitia itaque autem, fugit enim unde natus quod ullam. Obcaecati aut eos, dolore est
+                    labore
+                    ratione, voluptas suscipit debitis natus atque, commodi officiis. Vero harum, sint et excepturi quis
+                    qui
+                    tenetur, non doloremque distinctio libero ipsam vitae tempore numquam delectus ratione eum
+                    repellendus
+                    cum nobis dolorum asperiores, ut quaerat. Adipisci eligendi, sapiente quaerat fugit magnam
+                    voluptatem
+                    esse dicta reiciendis iusto beatae? Cupiditate sunt voluptatem odit qui dolores et provident
+                    corporis
                     ipsam doloribus quam, repudiandae quaerat blanditiis natus maiores quasi possimus repellat sapiente
-                    minus illum sed consectetur. Sunt, aspernatur voluptate deserunt officia consequuntur repellendus, sit
-                    quo temporibus ratione, eligendi non aliquam nemo blanditiis incidunt labore error. Molestiae vero quis
+                    minus illum sed consectetur. Sunt, aspernatur voluptate deserunt officia consequuntur repellendus,
+                    sit
+                    quo temporibus ratione, eligendi non aliquam nemo blanditiis incidunt labore error. Molestiae vero
+                    quis
                     illum incidunt! Magni, sequi tenetur.</p>
-                    <button class="btn variant-cta p-6-mod">Call to action button with mod padding</button>
+                <button class="btn variant-cta p-6-mod">Call to action button with mod padding</button>
             </main>
             <footer class="footer variant-secondary">
                 Footer
             </footer>
         </article>
-    
+
         <article id="playground" class="page">
             <header class="header-vertical variant-pro">
                 <h1 class="m-0">Vertical<br>(no animated page)</h1>
                 <h2 class="m-0 mutted">Froga</h2>
             </header>
             <main class="p-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus iusto, maiores fugiat libero impedit
-                    officiis mollitia itaque autem, fugit enim unde natus quod ullam. Obcaecati aut eos, dolore est labore
-                    ratione, voluptas suscipit debitis natus atque, commodi officiis. Vero harum, sint et excepturi quis qui
-                    tenetur, non doloremque distinctio libero ipsam vitae tempore numquam delectus ratione eum repellendus
-                    cum nobis dolorum asperiores, ut quaerat. Adipisci eligendi, sapiente quaerat fugit magnam voluptatem
-                    esse dicta reiciendis iusto beatae? Cupiditate sunt voluptatem odit qui dolores et provident corporis
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus iusto, maiores fugiat libero
+                    impedit
+                    officiis mollitia itaque autem, fugit enim unde natus quod ullam. Obcaecati aut eos, dolore est
+                    labore
+                    ratione, voluptas suscipit debitis natus atque, commodi officiis. Vero harum, sint et excepturi quis
+                    qui
+                    tenetur, non doloremque distinctio libero ipsam vitae tempore numquam delectus ratione eum
+                    repellendus
+                    cum nobis dolorum asperiores, ut quaerat. Adipisci eligendi, sapiente quaerat fugit magnam
+                    voluptatem
+                    esse dicta reiciendis iusto beatae? Cupiditate sunt voluptatem odit qui dolores et provident
+                    corporis
                     ipsam doloribus quam, repudiandae quaerat blanditiis natus maiores quasi possimus repellat sapiente
-                    minus illum sed consectetur. Sunt, aspernatur voluptate deserunt officia consequuntur repellendus, sit
-                    quo temporibus ratione, eligendi non aliquam nemo blanditiis incidunt labore error. Molestiae vero quis
+                    minus illum sed consectetur. Sunt, aspernatur voluptate deserunt officia consequuntur repellendus,
+                    sit
+                    quo temporibus ratione, eligendi non aliquam nemo blanditiis incidunt labore error. Molestiae vero
+                    quis
                     illum incidunt! Magni, sequi tenetur.</p>
                 <button class="btn variant-primary p-10-mod">Primary button with mod padding</button>
             </main>
@@ -79,6 +110,73 @@
 
     <h2 class="header outline">Headers</h2>
     <section id="headers" class="m-5 pb-5 d-grid  grid-auto-fit-16 align-items-start  gap-5"></section>
+
+
+    <h2 class="header">
+        MU Loader Component
+    </h2>
+    <section id="mu-loaders" class="m-5 pb-5 d-grid grid-columns-9 gap-5">
+        <b class="center-all text-center">Variants</b>
+        <i class="center-all text-center">Default</i>
+        <i class="center-all text-center">Light</i>
+        <i class="center-all text-center">Dark</i>
+        <i class="center-all text-center">Mgep</i>
+        <i class="center-all text-center">Huezi</i>
+        <i class="center-all text-center">Eteo</i>
+        <i class="center-all text-center">Pro</i>
+        <i class="center-all text-center">Cta</i>
+
+        <b class="center-all text-center">Default</b>
+        <mu-loader></mu-loader>
+        <mu-loader variant="light" class="bg-dark"></mu-loader>
+        <mu-loader variant="dark"></mu-loader>
+        <mu-loader variant="mgep"></mu-loader>
+        <mu-loader variant="huezi"></mu-loader>
+        <mu-loader variant="eteo"></mu-loader>
+        <mu-loader variant="pro"></mu-loader>
+        <mu-loader variant="cta"></mu-loader>
+
+        <b class="center-all text-center">Duration (500-4000ms)</b>
+        <mu-loader duration="500ms"></mu-loader>
+        <mu-loader duration="1000ms" variant="light" class="bg-dark"></mu-loader>
+        <mu-loader duration="1500ms" variant="dark"></mu-loader>
+        <mu-loader duration="2000ms" variant="mgep"></mu-loader>
+        <mu-loader duration="2500ms" variant="huezi"></mu-loader>
+        <mu-loader duration="3000ms" variant="eteo"></mu-loader>
+        <mu-loader duration="3500ms" variant="pro"></mu-loader>
+        <mu-loader duration="4000ms" variant="cta"></mu-loader>
+
+        <b class="center-all text-center">Alternate false</b>
+        <mu-loader alternate="false"></mu-loader>
+        <mu-loader alternate="false" variant="light" class="bg-dark"></mu-loader>
+        <mu-loader alternate="false" variant="dark"></mu-loader>
+        <mu-loader alternate="false" variant="mgep"></mu-loader>
+        <mu-loader alternate="false" variant="huezi"></mu-loader>
+        <mu-loader alternate="false" variant="eteo"></mu-loader>
+        <mu-loader alternate="false" variant="pro"></mu-loader>
+        <mu-loader alternate="false" variant="cta"></mu-loader>
+
+        <b class="center-all text-center">Infinite false</b>
+        <mu-loader infinite="false"></mu-loader>
+        <mu-loader infinite="false" variant="light" class="bg-dark"></mu-loader>
+        <mu-loader infinite="false" variant="dark"></mu-loader>
+        <mu-loader infinite="false" variant="mgep"></mu-loader>
+        <mu-loader infinite="false" variant="huezi"></mu-loader>
+        <mu-loader infinite="false" variant="eteo"></mu-loader>
+        <mu-loader infinite="false" variant="pro"></mu-loader>
+        <mu-loader infinite="false" variant="cta"></mu-loader>
+
+
+        <b class="center-all text-center">Empty Space (0-70)</b>
+        <mu-loader empty-space="0"></mu-loader>
+        <mu-loader empty-space="10" variant="light" class="bg-dark"></mu-loader>
+        <mu-loader empty-space="20" variant="dark"></mu-loader>
+        <mu-loader empty-space="30" variant="mgep"></mu-loader>
+        <mu-loader empty-space="40" variant="huezi"></mu-loader>
+        <mu-loader empty-space="50" variant="eteo"></mu-loader>
+        <mu-loader empty-space="60" variant="pro"></mu-loader>
+        <mu-loader empty-space="70" variant="cta"></mu-loader>
+    </section>
 </body>
 
 </html>

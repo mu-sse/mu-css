@@ -9,6 +9,11 @@
     .text-content {
         max-width: 35em;
     }
+
+    .text-center {
+        text-align: center;
+    }
+
     .m-auto {
         margin: auto;
     }
@@ -35,6 +40,12 @@
     
     .w-min-content {
         width: min-content;
+    }
+
+    .center-all {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     
@@ -165,6 +176,7 @@
     
     .d-grid {
         display: grid;
+        grid-template-columns: repeat(var(--grid-columns, 1), 1fr);
     }
     
     .d-inline-grid {
@@ -207,4 +219,10 @@
             }
         }
     }
+
+    @for $number from 1 through 64 {
+        .grid-columns-#{$number} {
+            grid-template-columns: repeat(#{$number}, 1fr);
+        }
     }
+}
