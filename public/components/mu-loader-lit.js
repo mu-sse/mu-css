@@ -1,5 +1,4 @@
-import { LitElement, html, css, svg } from 'https://unpkg.com/lit@2.0.0?module';
-
+import { LitElement, html, css } from 'https://cdn.jsdelivr.net/gh/lit/dist@3/core/lit-core.min.js';
 class AnimatedSvg extends LitElement {
     static properties = {
         variant: { type: String },
@@ -76,7 +75,7 @@ class AnimatedSvg extends LitElement {
                     }
                     #mu {
                         fill:none;
-                        stroke: ${this.getBackground()};
+                        stroke: ${this.getColor(0.1)};
                         stroke-width: 10;
                         stroke-linecap: round;
                     }
@@ -99,50 +98,16 @@ class AnimatedSvg extends LitElement {
             </svg>
         `;
     }
-    /*
-
-    <g id="layer1">
-        <path id="mu"
-        d="M 35,60 L 35,45 A 10 10 0 1 1 55 45 L 55,60 M 55,45 A 10 10 0 1 1 75,45 L 75,50 A 10 10 0 1 0 95,50 L 95,45 A 10 10 0 1 1 115 45 L 115, 60"></path>  
-        <path id="mugreen1" class="mugreen"
-        d="M 35,60 L 35,45 A 10 10 0 1 1 55 45 L 55,60"/>
-
-        <path id="mugreen2" class="mugreen"
-        d="M 75,50 L 75,45 A 10 10 0 1 0 55 45 L 55,60"/>
-
-        <path id="mugreen3" class="mugreen"
-        d="M 75,50 A 10 10 0 1 0 95 50 L 95,45 A 10 10 0 1 1 115 45 L 115,60"/>
-
-        <path id="mugreen4" class="mugreen"
-        d="M 115,60 L 115,45 A 10 10 0 1 0 95 45" />
-    </g>
-    */
-    getColor() {
+    getColor(alpha = 1) {
         const colorMap = {
-            mu: 'hsl(184, 100%, 34%)',
-            light: 'hsl(0, 100%, 100%)',
-            dark: 'hsl(20, 4%, 17%)',
-            mgep: 'hsl(21, 71%, 52%)',
-            huezi: 'hsl(328, 100%, 32%)',
-            eteo: 'hsl(115, 44%, 38%)',
-            pro: 'hsl(346, 100%, 42%)',
-            cta: 'hsl(44, 100%, 59%)'
-        };
-        return colorMap[this.variant] || colorMap.mu;
-    }
-    
-
-    getBackground() {
-        const light = 95;
-        const colorMap = {
-            mu: `hsl(184, 100%, ${light}%)`,
-            light: `hsl(0, 0%, ${100 - light}%)`,
-            dark: `hsl(20, 4%, ${light}%)`,
-            mgep: `hsl(35, 87%, ${light}%)`,
-            huezi: `hsl(328, 100%, ${light}%)`,
-            eteo: `hsl(115, 44%, ${light}%)`,
-            pro: `hsl(346, 100%, ${light}%)`,
-            cta: `hsl(44, 100%, ${light}%)`
+            mu: `hsla(184, 100%, 34%, ${alpha})`,
+            light: `hsla(0, 100%, 100%, ${alpha})`,
+            dark: `hsla(20, 4%, 17%, ${alpha})`,
+            mgep: `hsla(21, 71%, 52%, ${alpha})`,
+            huezi: `hsla(328, 100%, 32%, ${alpha})`,
+            eteo: `hsla(115, 44%, 38%, ${alpha})`,
+            pro: `hsla(346, 100%, 42%, ${alpha})`,
+            cta: `hsla(44, 100%, 59%, ${alpha})`
         };
         return colorMap[this.variant] || colorMap.mu;
     }
