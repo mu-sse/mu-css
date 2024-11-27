@@ -4,31 +4,31 @@ $font-family: 'Duplicate', 'Noto Sans', 'Roboto', sans-serif !default;
 $pantone-colors: (
     /*********** Pantone ***********/
     /* Naranja */
-    'pantone-7599': hsl(9, 66%, 46%),  // oscuro
-    'pantone-7578': hsl(24, 75%, 49%),  // neutral
-    'pantone-144-50': hsl(30, 88%, 73%),  // brillante 50%
+    'pantone-7599': hsl(9, 66%, 46%),  // iluna
+    'pantone-7578': hsl(24, 75%, 49%),  // neutrala
+    'pantone-144-50': hsl(30, 88%, 73%),  // distira 50%
     /* Magenta */
-    'pantone-222': hsl(330, 58%, 19%),  // oscuro
-    'pantone-220': hsl(330, 100%, 32%),  // neutral
-    'pantone-219': hsl(327, 80%, 47%),  // brillante
-    'pantone-219-50': hsl(330, 70%, 74%),  // brillante 50%
+    'pantone-222': hsl(330, 58%, 19%),  // iluna
+    'pantone-220': hsl(330, 100%, 32%),  // neutrala
+    'pantone-219': hsl(327, 80%, 47%),  // distira
+    'pantone-219-50': hsl(330, 70%, 74%),  // distira 50%
     /* Verde */
-    'pantone-7483': hsl(147, 41%, 26%),  // oscuro
-    'pantone-7741': hsl(123, 47%, 40%),  // neutral
-    'pantone-362': hsl(112, 53%, 40%),  // brillante
-    'pantone-362-50': hsl(108, 41%, 70%),  // brillante 50%
+    'pantone-7483': hsl(147, 41%, 26%),  // iluna
+    'pantone-7741': hsl(123, 47%, 40%),  // neutrala
+    'pantone-362': hsl(112, 53%, 40%),  // distira
+    'pantone-362-50': hsl(108, 41%, 70%),  // distira 50%
     /* PRO */
     'pantone-199': hsl(347, 100%, 42%),  // pro
-    'pantone-black': hsl(0, 0%, 0%),  // oscuro
-    'pantone-black-50': hsl(0, 0%, 50%),  // brillante 50%
+    'pantone-black': hsl(0, 0%, 0%),  // iluna
+    'pantone-black-50': hsl(0, 0%, 50%),  // distira 50%
     /* MU */
-    'pantone-316': hsl(187, 100%, 16%),  // oscuro
-    'pantone-7467': hsl(183, 100%, 34%),  // neutral
-    'pantone-7467-60': hsl(183, 64%, 60%),  // brillante
-    'pantone-7467-35': hsl(183, 64%, 77%),  // brillante 50
+    'pantone-316': hsl(187, 100%, 16%),  // iluna
+    'pantone-7467': hsl(183, 100%, 34%),  // neutrala
+    'pantone-7467-60': hsl(183, 64%, 60%),  // distira
+    'pantone-7467-35': hsl(183, 64%, 77%),  // distira 50
 
     /* CTA */
-    'pantone-123': hsl(45, 100%, 53%),  // neutral
+    'pantone-123': hsl(45, 100%, 53%),  // neutrala
 ) !default;
 
 $colors: (
@@ -45,60 +45,97 @@ $colors: (
 
     'black': hsl(210, 0%, 0%),
 
-    'azul-oscuro': hsl(200, 100%, 20%),
-    'azul-neutral': hsl(200, 100%, 41%),
-    'azul-brillante': hsl(200, 100%, 60%),
-    'azul-brillante-50': hsl(200, 100%, 80%),
+    'azul-iluna': hsl(200, 100%, 20%),
+    'azul-neutrala': hsl(200, 100%, 41%),
+    'azul-distira': hsl(200, 100%, 60%),
+    'azul-distira-50': hsl(200, 100%, 80%),
 
-    'naranja-oscuro': map.get($pantone-colors, 'pantone-7599'),
-    'naranja-neutral': map.get($pantone-colors, 'pantone-7578'),
-    'naranja-brillante': hsl(33, 91%, 47%),
-    'naranja-brillante-50': map.get($pantone-colors, 'pantone-144-50'),
+    'naranja-iluna': map.get($pantone-colors, 'pantone-7599'),
+    'naranja-neutrala': map.get($pantone-colors, 'pantone-7578'),
+    'naranja-distira': hsl(33, 91%, 47%),
+    'naranja-distira-50': map.get($pantone-colors, 'pantone-144-50'),
 
-    'magenta-oscuro': map.get($pantone-colors, 'pantone-222'),
-    'magenta-neutral': map.get($pantone-colors, 'pantone-220'),
-    'magenta-brillante': map.get($pantone-colors, 'pantone-219'),
-    'magenta-brillante-50': map.get($pantone-colors, 'pantone-219-50'),
+    'magenta-iluna': map.get($pantone-colors, 'pantone-222'),
+    'magenta-neutrala': map.get($pantone-colors, 'pantone-220'),
+    'magenta-distira': map.get($pantone-colors, 'pantone-219'),
+    'magenta-distira-50': map.get($pantone-colors, 'pantone-219-50'),
 
-    'verde-oscuro': map.get($pantone-colors, 'pantone-7483'),
-    'verde-neutral': map.get($pantone-colors, 'pantone-7741'),
-    'verde-brillante': map.get($pantone-colors, 'pantone-362'),
-    'verde-brillante-50': map.get($pantone-colors, 'pantone-362-50'),
+    'verde-iluna': map.get($pantone-colors, 'pantone-7483'),
+    'verde-neutrala': map.get($pantone-colors, 'pantone-7741'),
+    'verde-distira': map.get($pantone-colors, 'pantone-362'),
+    'verde-distira-50': map.get($pantone-colors, 'pantone-362-50'),
+
+    /* Gray */
+    'gray-iluna': hsl(210, 17%, 10%),
+    'gray-neutrala': hsl(210, 17%, 50%),
+    'gray-distira': hsl(210, 17%, 80%),
+    'gray-distira-50': hsl(210, 17%, 90%),
 
     /* Dark */
-    'dark-oscuro': hsl(0, 0%, 10%),
-    'dark-neutral': map.get($pantone-colors, 'pantone-black'),
-    'dark-brillante-50': map.get($pantone-colors, 'pantone-black-50'),
+    'dark-iluna': hsl(0, 0%, 10%),
+    'dark-neutrala': map.get($pantone-colors, 'pantone-black'),
+    'dark-distira-50': map.get($pantone-colors, 'pantone-black-50'),
 
     /* Light */
-    'light-oscuro': hsl(0, 0%, 90%),
-    'light-neutral': hsl(0, 0%, 100%),
-    'light-brillante': hsl(0, 0%, 75%),
-    'light-brillante-50': hsl(0, 0%, 50%),
+    'light-iluna': hsl(0, 0%, 90%),
+    'light-neutrala': hsl(0, 0%, 100%),
+    'light-distira': hsl(0, 0%, 75%),
+    'light-distira-50': hsl(0, 0%, 50%),
 
     /* Pro */
-    'pro-oscuro': hsl(347, 100%, 15%),
-    'pro-neutral': map.get($pantone-colors, 'pantone-199'),
-    'pro-brillante': hsl(347, 100%, 60%),
-    'pro-brillante-50': hsl(347, 100%, 80%),
+    'pro-iluna': hsl(347, 100%, 15%),
+    'pro-neutrala': map.get($pantone-colors, 'pantone-199'),
+    'pro-distira': hsl(347, 100%, 60%),
+    'pro-distira-50': hsl(347, 100%, 80%),
 
     /* MU */
-    'mu-oscuro': map.get($pantone-colors, 'pantone-316'),
-    'mu-neutral': map.get($pantone-colors, 'pantone-7467'),
-    'mu-brillante': map.get($pantone-colors, 'pantone-7467-60'),
-    'mu-brillante-50': map.get($pantone-colors, 'pantone-7467-35'),
+    'mu-iluna': map.get($pantone-colors, 'pantone-316'),
+    'mu-neutrala': map.get($pantone-colors, 'pantone-7467'),
+    'mu-distira': map.get($pantone-colors, 'pantone-7467-60'),
+    'mu-distira-50': map.get($pantone-colors, 'pantone-7467-35'),
 
     /* MU Secondary */
-    'mu-secondary-oscuro': hsl(187, 100%, 5%),
-    'mu-secondary-neutral': hsl(187, 100%, 16%),
-    'mu-secondary-brillante': hsl(187, 100%, 48%),
-    'mu-secondary-brillante-50': hsl(187, 100%, 80%),
+    'mu-secondary-iluna': hsl(187, 100%, 5%),
+    'mu-secondary-neutrala': hsl(187, 100%, 16%),
+    'mu-secondary-distira': hsl(187, 100%, 48%),
+    'mu-secondary-distira-50': hsl(187, 100%, 80%),
+
+    /* Goi eskola politeknikoa (MGEP) */
+    'mgep-iluna': hsl(10, 65%, 43%),      /* #b53e26 */
+    'mgep-neutrala': hsl(21, 71%, 52%),      /* #dc6b2e */
+    'mgep-distira': hsl(35, 100%, 46%),     /* #eb8900 */
+    'mgep-distira-50': hsl(35, 87%, 73%),      /* #f6c47e */
+
+    /* Humanitate eta Hezkuntza Zientzien Fakultatea (HUEZI) */
+    'huezi-iluna': hsl(330, 58%, 27%),     /* #6C1D45 */
+    'huezi-neutrala': hsl(331, 100%, 32%),    /* #A50050 */
+    'huezi-distira': hsl(327, 80%, 47%),     /* #DA1884 */
+    'huezi-distira-50': hsl(327, 73%, 74%),     /* #ED8CC2 */
+
+
+    /* Empresagintza (ETEO) */
+    'eteo-iluna':  	    hsl(139, 41%, 26%),     /* #275D38 */
+    'eteo-neutrala':        hsl(115, 37%, 39%),     /* #44883E */
+    'eteo-distira':       hsl(102, 54%, 40%),     /* #509E2F */
+    'eteo-distira-50':  	hsl(102, 37%, 70%),     /* #A8CF97 */
+
+    /* Bilbao AS Fabrik (asfabrik) */
+    'asfabrik-iluna':       hsl(6, 100%, 30%),      /* #cc0000 */
+    'asfabrik-neutrala':    hsl(6, 100%, 55%),      /* #ff2e17 */
+    'asfabrik-distira':    hsl(6, 100%, 70%),      /* #ff5c39 */
+    'asfabrik-distira-50': hsl(6, 100%, 85%),      /* #ff8a5b */
+
+    /* Bilbao Berrikuntza Faktoria (BBF)*/
+    'bbf-iluna': hsl(4, 67%, 31%),       /* #b53e26 */
+    'bbf-neutrala': hsl(4, 67%, 51%),       /* #d6382d */
+    'bbf-distira': hsl(4, 67%, 66%),       /* #f13e2d */
+    'bbf-distira-50': hsl(4, 67%, 81%),       /* #f13e2d */
 
     /* CTA */
-    'cta-oscuro': hsl(45, 100%, 20%),
-    'cta-neutral': map.get($pantone-colors, 'pantone-123'),
-    'cta-brillante': hsl(45, 100%, 69%),
-    'cta-brillante-50': hsl(45, 100%, 85%),
+    'cta-iluna': hsl(45, 100%, 20%),
+    'cta-neutrala': map.get($pantone-colors, 'pantone-123'),
+    'cta-distira': hsl(45, 100%, 69%),
+    'cta-distira-50': hsl(45, 100%, 85%),
 ) !default;
 
 //$colors: map.merge($base-colors, $additional-colors) !default;
@@ -106,78 +143,105 @@ $colors: (
 
 $variants: (
     'primary': (
-        'color': map.get($colors, 'mu-neutral'),
-        'mutted-color': map.get($colors, 'mu-brillante-50'),
-        'darker-color': map.get($colors, 'mu-oscuro'),
+        'color': map.get($colors, 'mu-neutrala'),
+        'mutted-color': map.get($colors, 'mu-distira-50'),
+        'darker-color': map.get($colors, 'mu-iluna'),
         'contrast-color': map.get($colors, 'white'),
     ),
     'secondary': (
-        'color': map.get($colors, 'mu-secondary-neutral'),
-        'mutted-color': map.get($colors, 'mu-secondary-brillante-50'),
-        'darker-color': map.get($colors, 'mu-secondary-oscuro'),
+        'color': map.get($colors, 'mu-secondary-neutrala'),
+        'mutted-color': map.get($colors, 'mu-secondary-distira-50'),
+        'darker-color': map.get($colors, 'mu-secondary-iluna'),
         'contrast-color': map.get($colors, 'white'),
     ),
-    /*'mgep': (
-        'color': $white,
-        'mutted-color': #007bff,
-        'contrast-color': #004085,
-    ), 
-    'eteo': (
-        'color': $white,
-        'mutted-color': #007bff,
-        'contrast-color': #004085,
-    ), 
+    'gray': (
+        'color': map.get($colors, 'gray-neutrala'),
+        'mutted-color': map.get($colors, 'gray-distira-50'),
+        'darker-color': map.get($colors, 'gray-iluna'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
+    'mu': (
+        'color': map.get($colors, 'mu-neutrala'),
+        'mutted-color': map.get($colors, 'mu-distira-50'),
+        'darker-color': map.get($colors, 'mu-iluna'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
+    'mgep': (
+        'color': map.get($colors, 'mgep-neutrala'),
+        'mutted-color': map.get($colors, 'mgep-distira-50'),
+        'darker-color': map.get($colors, 'mgep-iluna'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
     'huezi': (
-        'color': $white,
-        'mutted-color': #007bff,
-        'contrast-color': #004085,
-    ),*/ 
-    'pro': (
-        'color': map.get($colors, 'pro-neutral'),
-        'mutted-color': map.get($colors, 'pro-brillante-50'),
-        'darker-color': map.get($colors, 'pro-oscuro'),
+        'color': map.get($colors, 'huezi-neutrala'),
+        'mutted-color': map.get($colors, 'huezi-distira-50'),
+        'darker-color': map.get($colors, 'huezi-iluna'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
+    'eteo': (
+        'color': map.get($colors, 'eteo-neutrala'),
+        'mutted-color': map.get($colors, 'eteo-distira-50'),
+        'darker-color': map.get($colors, 'eteo-iluna'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
+    'asfabrik': (
+        'color': map.get($colors, 'asfabrik-neutrala'),
+        'mutted-color': map.get($colors, 'asfabrik-distira-50'),
+        'darker-color': map.get($colors, 'asfabrik-iluna'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
+    'bbf': (
+        'color': map.get($colors, 'bbf-neutrala'),
+        'mutted-color': map.get($colors, 'bbf-distira-50'),
+        'darker-color': map.get($colors, 'bbf-iluna'),
         'contrast-color': map.get($colors, 'white'),
     ),
     'cta': (
-        'color': map.get($colors, 'cta-neutral'),
-        'mutted-color': map.get($colors, 'cta-brillante-50'),
-        'darker-color': map.get($colors, 'cta-oscuro'),
+        'color': map.get($colors, 'cta-neutrala'),
+        'mutted-color': map.get($colors, 'cta-distira-50'),
+        'darker-color': map.get($colors, 'cta-iluna'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
+    'pro': (
+        'color': map.get($colors, 'pro-neutrala'),
+        'mutted-color': map.get($colors, 'pro-distira-50'),
+        'darker-color': map.get($colors, 'pro-iluna'),
         'contrast-color': map.get($colors, 'white'),
     ),
     'success': (
-        'color': map.get($colors, 'verde-neutral'),
-        'mutted-color': map.get($colors, 'verde-brillante-50'),
-        'darker-color': map.get($colors, 'verde-oscuro'),
+        'color': map.get($colors, 'verde-neutrala'),
+        'mutted-color': map.get($colors, 'verde-distira-50'),
+        'darker-color': map.get($colors, 'verde-iluna'),
         'contrast-color': map.get($colors, 'white'),
     ),
     'danger': (
-        'color': map.get($colors, 'magenta-neutral'),
-        'mutted-color': map.get($colors, 'magenta-brillante-50'),
-        'darker-color': map.get($colors, 'magenta-oscuro'),
+        'color': map.get($colors, 'magenta-neutrala'),
+        'mutted-color': map.get($colors, 'magenta-distira-50'),
+        'darker-color': map.get($colors, 'magenta-iluna'),
         'contrast-color': map.get($colors, 'white'),
     ),
     'warning': (
-        'color': map.get($colors, 'naranja-neutral'),
-        'mutted-color': map.get($colors, 'naranja-brillante-50'),
-        'darker-color': map.get($colors, 'naranja-oscuro'),
+        'color': map.get($colors, 'naranja-neutrala'),
+        'mutted-color': map.get($colors, 'naranja-distira-50'),
+        'darker-color': map.get($colors, 'naranja-iluna'),
         'contrast-color': map.get($colors, 'white'),
     ),
     'info': (
-        'color': map.get($colors, 'azul-neutral'),
-        'mutted-color': map.get($colors, 'azul-brillante-50'),
-        'darker-color': map.get($colors, 'azul-oscuro'),
+        'color': map.get($colors, 'azul-neutrala'),
+        'mutted-color': map.get($colors, 'azul-distira-50'),
+        'darker-color': map.get($colors, 'azul-iluna'),
         'contrast-color': map.get($colors, 'white'),
     ),
     'light': (
-        'color': map.get($colors, 'light-neutral'),
-        'mutted-color': map.get($colors, 'light-brillante-50'),
-        'darker-color': map.get($colors, 'light-oscuro'),
+        'color': map.get($colors, 'light-neutrala'),
+        'mutted-color': map.get($colors, 'light-distira-50'),
+        'darker-color': map.get($colors, 'light-iluna'),
         'contrast-color': map.get($colors, 'black'),
     ),
     'dark': (
-        'color': map.get($colors, 'dark-neutral'),
-        'mutted-color': map.get($colors, 'dark-brillante-50'),
-        'darker-color': map.get($colors, 'dark-oscuro'),
+        'color': map.get($colors, 'dark-neutrala'),
+        'mutted-color': map.get($colors, 'dark-distira-50'),
+        'darker-color': map.get($colors, 'dark-iluna'),
         'contrast-color': map.get($colors, 'white'),
     ),
 ) !default;

@@ -7,9 +7,13 @@ let bodyElement = document.querySelector('body');
 const variants = [
     'primary',
     'secondary',
-    /*'mgep', 
+    'gray',
+    'mu',
+    'mgep', 
+    'huezi',
     'eteo', 
-    'huezi',*/ 
+    'asfabrik',
+    'bbf',
     'pro', 
     'cta',
     'success', 

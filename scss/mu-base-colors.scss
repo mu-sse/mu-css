@@ -1,9 +1,0 @@
-@use "sass:map";
-@use "variables";
-
-:root {
-    @each $name, $color in variables.$pantone-colors {
-        --color-#{$name}: #{$color};
-    }
-
-}

@@ -10,14 +10,42 @@
     --variant-secondary-mutted-color: hsl(187, 100%, 80%);
     --variant-secondary-contrast-color: hsl(0, 0%, 100%);
     --variant-secondary-darker-color: hsl(187, 100%, 5%);
-    --variant-pro-color: hsl(347, 100%, 42%);
-    --variant-pro-mutted-color: hsl(347, 100%, 80%);
-    --variant-pro-contrast-color: hsl(0, 0%, 100%);
-    --variant-pro-darker-color: hsl(347, 100%, 15%);
+    --variant-gray-color: hsl(210, 17%, 50%);
+    --variant-gray-mutted-color: hsl(210, 17%, 90%);
+    --variant-gray-contrast-color: hsl(0, 0%, 100%);
+    --variant-gray-darker-color: hsl(210, 17%, 10%);
+    --variant-mu-color: hsl(183, 100%, 34%);
+    --variant-mu-mutted-color: hsl(183, 64%, 77%);
+    --variant-mu-contrast-color: hsl(0, 0%, 100%);
+    --variant-mu-darker-color: hsl(187, 100%, 16%);
+    --variant-mgep-color: hsl(21, 71%, 52%);
+    --variant-mgep-mutted-color: hsl(35, 87%, 73%);
+    --variant-mgep-contrast-color: hsl(0, 0%, 100%);
+    --variant-mgep-darker-color: hsl(10, 65%, 43%);
+    --variant-huezi-color: hsl(331, 100%, 32%);
+    --variant-huezi-mutted-color: hsl(327, 73%, 74%);
+    --variant-huezi-contrast-color: hsl(0, 0%, 100%);
+    --variant-huezi-darker-color: hsl(330, 58%, 27%);
+    --variant-eteo-color: hsl(115, 37%, 39%);
+    --variant-eteo-mutted-color: hsl(102, 37%, 70%);
+    --variant-eteo-contrast-color: hsl(0, 0%, 100%);
+    --variant-eteo-darker-color: hsl(139, 41%, 26%);
+    --variant-asfabrik-color: hsl(6, 100%, 55%);
+    --variant-asfabrik-mutted-color: hsl(6, 100%, 85%);
+    --variant-asfabrik-contrast-color: hsl(0, 0%, 100%);
+    --variant-asfabrik-darker-color: hsl(6, 100%, 30%);
+    --variant-bbf-color: hsl(4, 67%, 51%);
+    --variant-bbf-mutted-color: hsl(4, 67%, 81%);
+    --variant-bbf-contrast-color: hsl(0, 0%, 100%);
+    --variant-bbf-darker-color: hsl(4, 67%, 31%);
     --variant-cta-color: hsl(45, 100%, 53%);
     --variant-cta-mutted-color: hsl(45, 100%, 85%);
     --variant-cta-contrast-color: hsl(0, 0%, 100%);
     --variant-cta-darker-color: hsl(45, 100%, 20%);
+    --variant-pro-color: hsl(347, 100%, 42%);
+    --variant-pro-mutted-color: hsl(347, 100%, 80%);
+    --variant-pro-contrast-color: hsl(0, 0%, 100%);
+    --variant-pro-darker-color: hsl(347, 100%, 15%);
     --variant-success-color: hsl(123, 47%, 40%);
     --variant-success-mutted-color: hsl(108, 41%, 70%);
     --variant-success-contrast-color: hsl(0, 0%, 100%);
@@ -259,13 +287,67 @@
   .variant-secondary.outline {
     --darker-color: var(--mutted-color);
   }
-  .variant-pro {
-    --variant-color: hsl(347, 100%, 42%);
-    --mutted-color: hsl(347, 100%, 80%);
+  .variant-gray {
+    --variant-color: hsl(210, 17%, 50%);
+    --mutted-color: hsl(210, 17%, 90%);
     --contrast-color: hsl(0, 0%, 100%);
-    --darker-color: hsl(347, 100%, 15%);
+    --darker-color: hsl(210, 17%, 10%);
   }
-  .variant-pro.outline {
+  .variant-gray.outline {
+    --darker-color: var(--mutted-color);
+  }
+  .variant-mu {
+    --variant-color: hsl(183, 100%, 34%);
+    --mutted-color: hsl(183, 64%, 77%);
+    --contrast-color: hsl(0, 0%, 100%);
+    --darker-color: hsl(187, 100%, 16%);
+  }
+  .variant-mu.outline {
+    --darker-color: var(--mutted-color);
+  }
+  .variant-mgep {
+    --variant-color: hsl(21, 71%, 52%);
+    --mutted-color: hsl(35, 87%, 73%);
+    --contrast-color: hsl(0, 0%, 100%);
+    --darker-color: hsl(10, 65%, 43%);
+  }
+  .variant-mgep.outline {
+    --darker-color: var(--mutted-color);
+  }
+  .variant-huezi {
+    --variant-color: hsl(331, 100%, 32%);
+    --mutted-color: hsl(327, 73%, 74%);
+    --contrast-color: hsl(0, 0%, 100%);
+    --darker-color: hsl(330, 58%, 27%);
+  }
+  .variant-huezi.outline {
+    --darker-color: var(--mutted-color);
+  }
+  .variant-eteo {
+    --variant-color: hsl(115, 37%, 39%);
+    --mutted-color: hsl(102, 37%, 70%);
+    --contrast-color: hsl(0, 0%, 100%);
+    --darker-color: hsl(139, 41%, 26%);
+  }
+  .variant-eteo.outline {
+    --darker-color: var(--mutted-color);
+  }
+  .variant-asfabrik {
+    --variant-color: hsl(6, 100%, 55%);
+    --mutted-color: hsl(6, 100%, 85%);
+    --contrast-color: hsl(0, 0%, 100%);
+    --darker-color: hsl(6, 100%, 30%);
+  }
+  .variant-asfabrik.outline {
+    --darker-color: var(--mutted-color);
+  }
+  .variant-bbf {
+    --variant-color: hsl(4, 67%, 51%);
+    --mutted-color: hsl(4, 67%, 81%);
+    --contrast-color: hsl(0, 0%, 100%);
+    --darker-color: hsl(4, 67%, 31%);
+  }
+  .variant-bbf.outline {
     --darker-color: var(--mutted-color);
   }
   .variant-cta {
@@ -275,6 +357,15 @@
     --darker-color: hsl(45, 100%, 20%);
   }
   .variant-cta.outline {
+    --darker-color: var(--mutted-color);
+  }
+  .variant-pro {
+    --variant-color: hsl(347, 100%, 42%);
+    --mutted-color: hsl(347, 100%, 80%);
+    --contrast-color: hsl(0, 0%, 100%);
+    --darker-color: hsl(347, 100%, 15%);
+  }
+  .variant-pro.outline {
     --darker-color: var(--mutted-color);
   }
   .variant-success {
@@ -350,12 +441,40 @@
     background-color: hsl(187, 100%, 16%);
     color: hsl(0, 0%, 100%);
   }
-  .bg-pro {
-    background-color: hsl(347, 100%, 42%);
+  .bg-gray {
+    background-color: hsl(210, 17%, 50%);
+    color: hsl(0, 0%, 100%);
+  }
+  .bg-mu {
+    background-color: hsl(183, 100%, 34%);
+    color: hsl(0, 0%, 100%);
+  }
+  .bg-mgep {
+    background-color: hsl(21, 71%, 52%);
+    color: hsl(0, 0%, 100%);
+  }
+  .bg-huezi {
+    background-color: hsl(331, 100%, 32%);
+    color: hsl(0, 0%, 100%);
+  }
+  .bg-eteo {
+    background-color: hsl(115, 37%, 39%);
+    color: hsl(0, 0%, 100%);
+  }
+  .bg-asfabrik {
+    background-color: hsl(6, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+  }
+  .bg-bbf {
+    background-color: hsl(4, 67%, 51%);
     color: hsl(0, 0%, 100%);
   }
   .bg-cta {
     background-color: hsl(45, 100%, 53%);
+    color: hsl(0, 0%, 100%);
+  }
+  .bg-pro {
+    background-color: hsl(347, 100%, 42%);
     color: hsl(0, 0%, 100%);
   }
   .bg-success {
