@@ -1,6 +1,10 @@
+@use "sass:map";
+@use "variables";
+@use "functions";
+
 @layer components {
     .page {
-        padding: #{get-value-from-scale('0', 'size')};
+        padding: #{functions.get-value-from-scale('0', 'size')};
         
     
         --variant-color: get-value-from-variant('light', 'color');
@@ -12,11 +16,11 @@
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
         &:has(> .header) {
-            padding-block-start: get-value-from-scale('5', 'size');
+            padding-block-start: functions.get-value-from-scale('5', 'size');
         }
 
         &:has(> .footer) {
-            padding-block-end: get-value-from-scale('5', 'size');
+            padding-block-end: functions.get-value-from-scale('5', 'size');
         }
 
     }
@@ -29,14 +33,14 @@
     }
     
     .btn {
-        --padding: #{get-value-from-scale('3', 'size')};
+        --padding: #{functions.get-value-from-scale('3', 'size')};
         --padding-inline-start: var(--padding);
         --padding-inline-end: calc(var(--padding) / 2);
-        --margin: #{get-value-from-scale('0', 'size')};
+        --margin: #{functions.get-value-from-scale('0', 'size')};
     
         display: inline-block;
     
-        border-radius: #{get-value-from-scale('3', 'size')};
+        border-radius: #{functions.get-value-from-scale('3', 'size')};
         margin: var(--margin);
     
         padding-inline: var(--padding);
@@ -69,8 +73,8 @@
     }
     
     .header, .header-inline {
-        --padding: #{get-value-from-scale('3', 'size')};
-        --border-radius: #{get-value-from-scale('3', 'size')};
+        --padding: #{functions.get-value-from-scale('3', 'size')};
+        --border-radius: #{functions.get-value-from-scale('3', 'size')};
     
         padding: var(--padding);
         padding-inline-end: calc(var(--padding) + var(--additional-space));
@@ -88,9 +92,9 @@
     }
     
     .header-vertical, .header-block {
-        --additional-space: #{get-value-from-scale('9', 'size')};
-        --padding: #{get-value-from-scale('3', 'size')};
-        --margin: #{get-value-from-scale('0', 'size')};
+        --additional-space: #{functions.get-value-from-scale('9', 'size')};
+        --padding: #{functions.get-value-from-scale('3', 'size')};
+        --margin: #{functions.get-value-from-scale('0', 'size')};
         padding: var(--padding);
         padding-block-end: var(--additional-space);
         --a: 5em;
@@ -122,10 +126,10 @@
     }
     
     .footer, .footer-inline {
-        --additional-space: #{get-value-from-scale('3', 'size')};
-        --padding: #{get-value-from-scale('3', 'size')};
-        --margin: #{get-value-from-scale('0', 'size')};
-        --border-radius: #{get-value-from-scale('3', 'size')};
+        --additional-space: #{functions.get-value-from-scale('3', 'size')};
+        --padding: #{functions.get-value-from-scale('3', 'size')};
+        --margin: #{functions.get-value-from-scale('0', 'size')};
+        --border-radius: #{functions.get-value-from-scale('3', 'size')};
     
         padding: var(--padding);
         padding-inline-start: calc(var(--padding) + var(--additional-space));
@@ -148,9 +152,9 @@
     
     
     .footer-vertical, .footer-block {
-        --additional-space: #{get-value-from-scale('9', 'size')};
-        --padding: #{get-value-from-scale('3', 'size')};
-        --margin: #{get-value-from-scale('0', 'size')};
+        --additional-space: #{functions.get-value-from-scale('9', 'size')};
+        --padding: #{functions.get-value-from-scale('3', 'size')};
+        --margin: #{functions.get-value-from-scale('0', 'size')};
     
         padding: var(--padding);
         padding-block-start: var(--additional-space);
@@ -179,19 +183,19 @@
         }
     }
 
-    @each $variant, $colors in $variants {
+    @each $variant, $colors in variables.$variants {
         .variant-#{$variant} {
-            --variant-color: #{map-get($colors, 'color')};
-            --mutted-color: #{map-get($colors, 'mutted-color')};
-            --contrast-color: #{map-get($colors, 'contrast-color')};
-            --darker-color: #{map-get($colors, 'darker-color')};
+            --variant-color: #{map.get($colors, 'color')};
+            --mutted-color: #{map.get($colors, 'mutted-color')};
+            --contrast-color: #{map.get($colors, 'contrast-color')};
+            --darker-color: #{map.get($colors, 'darker-color')};
             &.outline {
                 --darker-color: var(--mutted-color);
             }
         }
     
         .btn:hover.type-#{$variant} {
-            background-color: #{map-get($colors, 'color-mutted')};
+            background-color: #{map.get($colors, 'color-mutted')};
         }
     }
     

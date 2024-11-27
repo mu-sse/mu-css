@@ -3,19 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass:compressed": "node-sass --output-style compressed --source-map true -o public/css/minified scss",
-    "sass:uncompressed": "node-sass --source-map true -o public/css/uncompressed scss",
-    "sass": "npm run sass:compressed && npm run sass:uncompressed",
-    "watch:compressed": "node-sass --watch --output-style compressed --source-map true -o public/css/minified scss",
-    "watch:uncompressed": "node-sass --watch --source-map true -o public/css/uncompressed scss",
-    "watch": "npm run watch:compressed & npm run watch:uncompressed"
+    "sass": "npm run sass:dev && npm run sass:prod",
+    "sass:dev": "sass scss:public/css/uncompressed --style expanded",
+    "sass:prod": "sass scss:public/css/minified --style compressed",
+    "build": "npm run sass",
+    "watch:dev": "sass --watch scss:public/css/uncompressed --style expanded",
+    "watch:prod": "sass --watch scss:public/css/minified --style compressed",
+    "watch": "npm run watch:dev && npm run watch:prod"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "node-sass": "^9.0.0"
+  "dependencies": {
+    "sass": "^1.81.0"
   }
 }

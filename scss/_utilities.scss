@@ -1,8 +1,10 @@
+@use "sass:map";
+@use "variables";
 @layer utilities {    
-    @each $variant, $colors in $variants {
+    @each $variant, $colors in variables.$variants {
         .bg-#{$variant} {
-            background-color: #{map-get($colors, 'color')};
-            color: #{map-get($colors, 'contrast-color')};
+            background-color: #{map.get($colors, 'color')};
+            color: #{map.get($colors, 'contrast-color')};
         }
     }
     
@@ -50,81 +52,81 @@
     
     
     
-    @each $scale, $value in $scales {
-        @if map-has-key($value, 'size') {
+    @each $scale, $value in variables.$scales {
+        @if map.has-key($value, 'size') {
             /* Margin */
             .m-#{$scale}-mod {
-                --margin: #{map-get($value, 'size')};
+                --margin: #{map.get($value, 'size')};
             }
             .m-#{$scale} {
-                margin: #{map-get($value, 'size')};
+                margin: #{map.get($value, 'size')};
             }
     
             .mi-#{$scale} {
-                margin-inline-start: #{map-get($value, 'size')};
-                margin-inline-end: #{map-get($value, 'size')};
+                margin-inline-start: #{map.get($value, 'size')};
+                margin-inline-end: #{map.get($value, 'size')};
             }
             .mis-#{$scale} {
-                margin-inline-start: #{map-get($value, 'size')};
+                margin-inline-start: #{map.get($value, 'size')};
             }
             .mie-#{$scale} {
-                margin-inline-end: #{map-get($value, 'size')};
+                margin-inline-end: #{map.get($value, 'size')};
             }
     
             .mb-#{$scale} {
-                margin-block-start: #{map-get($value, 'size')};
-                margin-block-end: #{map-get($value, 'size')};
+                margin-block-start: #{map.get($value, 'size')};
+                margin-block-end: #{map.get($value, 'size')};
             }
             .mbs-#{$scale} {
-                margin-block-start: #{map-get($value, 'size')};
+                margin-block-start: #{map.get($value, 'size')};
             }
             .mbe-#{$scale} {
-                margin-block-end: #{map-get($value, 'size')};
+                margin-block-end: #{map.get($value, 'size')};
             }
     
             /* Padding */
             .p-#{$scale}-mod {
-                --padding: #{map-get($value, 'size')};
+                --padding: #{map.get($value, 'size')};
             }
             .p-#{$scale} {
-                padding: #{map-get($value, 'size')};
+                padding: #{map.get($value, 'size')};
             }
     
             .pi-#{$scale} {
-                padding-inline-start: #{map-get($value, 'size')};
-                padding-inline-end: #{map-get($value, 'size')};
+                padding-inline-start: #{map.get($value, 'size')};
+                padding-inline-end: #{map.get($value, 'size')};
             }
             .pis-#{$scale} {
-                padding-inline-start: #{map-get($value, 'size')};
+                padding-inline-start: #{map.get($value, 'size')};
             }
             .pie-#{$scale} {
-                padding-inline-end: #{map-get($value, 'size')};
+                padding-inline-end: #{map.get($value, 'size')};
             }
             .pb-#{$scale} {
-                padding-block-start: #{map-get($value, 'size')};
-                padding-block-end: #{map-get($value, 'size')};
+                padding-block-start: #{map.get($value, 'size')};
+                padding-block-end: #{map.get($value, 'size')};
             }
             .pbs-#{$scale} {
-                padding-block-start: #{map-get($value, 'size')};
+                padding-block-start: #{map.get($value, 'size')};
             }
             .pbe-#{$scale} {
-                padding-block-end: #{map-get($value, 'size')};
+                padding-block-end: #{map.get($value, 'size')};
             }
     
             /* Border radius */
             .br-#{$scale} {
-                border-radius: #{map-get($value, 'size')};
+                border-radius: #{map.get($value, 'size')};
             }
             /* Additional space */
             .as-#{$scale} {
-                --additional-space: #{map-get($value, 'size')};
+                --additional-space: #{map.get($value, 'size')};
             }
     
         }
     
-        @if map-has-key($value, 'font-size') {
+        @if map.has-key($value, 'font-size') {
             .fs-#{$scale} {
-                font-size: #{map-get($value, 'font-size')};
+                font-size: #{map.get($value, 'font-size')};
             }
         }
     }
@@ -200,9 +202,9 @@
     }
     
     
-    @each $scale, $value in $scales {
-        @if map-has-key($value, 'size') {
-            $size: map-get($value, 'size');
+    @each $scale, $value in variables.$scales {
+        @if map.has-key($value, 'size') {
+            $size: map.get($value, 'size');
     
             @if $size > 0 {
                 .grid-auto-fill-#{$scale} {

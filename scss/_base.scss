@@ -1,23 +1,26 @@
+@use "sass:map";
+@use "variables";
+
 @layer base {
     :root {
         /* Color variables */
-        @each $variant, $colors in $variants {
-            --variant-#{$variant}-color: #{map-get($colors, 'color')};
-            --variant-#{$variant}-mutted-color: #{map-get($colors, 'mutted-color')};
-            --variant-#{$variant}-contrast-color: #{map-get($colors, 'contrast-color')};
-            --variant-#{$variant}-darker-color: #{map-get($colors, 'darker-color')};
+        @each $variant, $colors in variables.$variants {
+            --variant-#{$variant}-color: #{map.get($colors, 'color')};
+            --variant-#{$variant}-mutted-color: #{map.get($colors, 'mutted-color')};
+            --variant-#{$variant}-contrast-color: #{map.get($colors, 'contrast-color')};
+            --variant-#{$variant}-darker-color: #{map.get($colors, 'darker-color')};
     
         }
         /* Global variables */
-        --darker-color: #{map-get(map-get($variants, 'primary'), 'darker-color')};
-        --variant-color: #{map-get(map-get($variants,'primary'), 'color')};
-        --mutted-color: #{map-get(map-get($variants, 'primary'), 'mutted-color')};
-        --contrast-color: #{map-get(map-get($variants, 'primary'), 'contrast-color')};
-        --additional-space: #{map-get((map-get($scales, '7')), 'size')};
+        --darker-color: #{map.get(map.get(variables.$variants, 'primary'), 'darker-color')};
+        --variant-color: #{map.get(map.get(variables.$variants,'primary'), 'color')};
+        --mutted-color: #{map.get(map.get(variables.$variants, 'primary'), 'mutted-color')};
+        --contrast-color: #{map.get(map.get(variables.$variants, 'primary'), 'contrast-color')};
+        --additional-space: #{map.get((map.get(variables.$scales, '7')), 'size')};
     
         /* Main configuration */
-        font-family: #{$font-family};
-        font-size: #{map-get((map-get($scales, '3')), 'font-size')};
+        font-family: #{variables.$font-family};
+        font-size: #{map.get((map.get(variables.$scales, '3')), 'font-size')};
     }
     
     *, *::before, *::after {

@@ -1,0 +1,11 @@
+@use "sass:map";
+@use "variables";
+
+:root {
+    @each $scale-number, $scale in variables.$scales {
+        @each $name, $size in $scale {
+            --#{$name}-#{$scale-number}: #{$size};
+        }
+    }
+
+}

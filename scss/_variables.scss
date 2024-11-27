@@ -1,102 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@use "sass:map";
 $font-family: 'Duplicate', 'Noto Sans', 'Roboto', sans-serif !default;
 
+$pantone-colors: (
+    /*********** Pantone ***********/
+    /* Naranja */
+    'pantone-7599': hsl(9, 66%, 46%),  // oscuro
+    'pantone-7578': hsl(24, 75%, 49%),  // neutral
+    'pantone-144-50': hsl(30, 88%, 73%),  // brillante 50%
+    /* Magenta */
+    'pantone-222': hsl(330, 58%, 19%),  // oscuro
+    'pantone-220': hsl(330, 100%, 32%),  // neutral
+    'pantone-219': hsl(327, 80%, 47%),  // brillante
+    'pantone-219-50': hsl(330, 70%, 74%),  // brillante 50%
+    /* Verde */
+    'pantone-7483': hsl(147, 41%, 26%),  // oscuro
+    'pantone-7741': hsl(123, 47%, 40%),  // neutral
+    'pantone-362': hsl(112, 53%, 40%),  // brillante
+    'pantone-362-50': hsl(108, 41%, 70%),  // brillante 50%
+    /* PRO */
+    'pantone-199': hsl(347, 100%, 42%),  // pro
+    'pantone-black': hsl(0, 0%, 0%),  // oscuro
+    'pantone-black-50': hsl(0, 0%, 50%),  // brillante 50%
+    /* MU */
+    'pantone-316': hsl(187, 100%, 16%),  // oscuro
+    'pantone-7467': hsl(183, 100%, 34%),  // neutral
+    'pantone-7467-60': hsl(183, 64%, 60%),  // brillante
+    'pantone-7467-35': hsl(183, 64%, 77%),  // brillante 50
 
-$white:    hsl(0, 0%, 100%) !default;
-$gray-100: hsl(210, 17%, 98%) !default;
-$gray-200: hsl(210, 25%, 93%) !default;
-$gray-300: hsl(210, 16%, 87%) !default;
-$gray-400: hsl(210, 14%, 80%) !default;
-$gray-500: hsl(210, 10%, 69%) !default;
-$gray-600: hsl(210, 7%, 46%) !default;
-$gray-700: hsl(210, 9%, 32%) !default;
-$gray-800: hsl(210, 10%, 20%) !default;
-$gray-900: hsl(210, 15%, 13%) !default;
-$black:    hsl(210, 0%, 0%) !default;
+    /* CTA */
+    'pantone-123': hsl(45, 100%, 53%),  // neutral
+) !default;
 
-/*********** Pantone ***********/
-/* Naranja */
-$pantone-7599: hsl(9, 66%, 46%);  // oscuro
-$pantone-7578: hsl(24, 75%, 49%);  // neutral
-$pantone-7578: hsl(33, 91%, 47%);  // brillante
-$pantone-144-50: hsl(30, 88%, 73%);  // brillante 50%
-$naranja-oscuro: #{$pantone-7599};
-$naranja-neutral: #{$pantone-7578};
-$naranja-brillante: #{$pantone-7578};
-$naranja-brillante-50: #{$pantone-144-50};
+$colors: (
+    'white': hsl(0, 0%, 100%),
+    'gray-100': hsl(210, 17%, 98%),
+    'gray-200': hsl(210, 25%, 93%),
+    'gray-300': hsl(210, 16%, 87%),
+    'gray-400': hsl(210, 14%, 80%),
+    'gray-500': hsl(210, 10%, 69%),
+    'gray-600': hsl(210, 7%, 46%),
+    'gray-700': hsl(210, 9%, 32%),
+    'gray-800': hsl(210, 10%, 20%),
+    'gray-900': hsl(210, 15%, 13%),
 
-/* Magenta */
-$pantone-222: hsl(330, 58%, 19%);  // oscuro
-$pantone-220: hsl(330, 100%, 32%);  // neutral
-$pantone-219: hsl(327, 80%, 47%);  // brillante
-$pantone-219-50: hsl(330, 70%, 74%);  // brillante 50%
-$magenta-oscuro: #{$pantone-222};
-$magenta-neutral: #{$pantone-220};
-$magenta-brillante: #{$pantone-219};
-$magenta-brillante-50: #{$pantone-219-50};
+    'black': hsl(210, 0%, 0%),
 
-/* Verde */
-$pantone-7483: hsl(147, 41%, 26%);  // oscuro
-$pantone-7741: hsl(123, 47%, 40%);  // neutral
-$pantone-362: hsl(112, 53%, 40%);  // brillante
-$pantone-362-50: hsl(108, 41%, 70%);  // brillante 50%
-$verde-oscuro: #{$pantone-7483};
-$verde-neutral: #{$pantone-7741};
-$verde-brillante: #{$pantone-362};
-$verde-brillante-50: #{$pantone-362-50};
+    'azul-oscuro': hsl(200, 100%, 20%),
+    'azul-neutral': hsl(200, 100%, 41%),
+    'azul-brillante': hsl(200, 100%, 60%),
+    'azul-brillante-50': hsl(200, 100%, 80%),
 
-/* Dark */
-$dark-oscuro: hsl(0, 0%, 10%);
-$dark-neutral: hsl(0, 0%, 0%);
-$dark-brillante-50: hsl(0, 0%, 50%);
+    'naranja-oscuro': map.get($pantone-colors, 'pantone-7599'),
+    'naranja-neutral': map.get($pantone-colors, 'pantone-7578'),
+    'naranja-brillante': hsl(33, 91%, 47%),
+    'naranja-brillante-50': map.get($pantone-colors, 'pantone-144-50'),
 
-/* Light */
-$light-oscuro: hsl(0, 0%, 90%);
-$light-neutral: hsl(0, 0%, 100%);
-$light-brillante-50: hsl(0, 0%, 50%);
+    'magenta-oscuro': map.get($pantone-colors, 'pantone-222'),
+    'magenta-neutral': map.get($pantone-colors, 'pantone-220'),
+    'magenta-brillante': map.get($pantone-colors, 'pantone-219'),
+    'magenta-brillante-50': map.get($pantone-colors, 'pantone-219-50'),
 
+    'verde-oscuro': map.get($pantone-colors, 'pantone-7483'),
+    'verde-neutral': map.get($pantone-colors, 'pantone-7741'),
+    'verde-brillante': map.get($pantone-colors, 'pantone-362'),
+    'verde-brillante-50': map.get($pantone-colors, 'pantone-362-50'),
 
-/* Pro */
-$pantone-199: hsl(347, 100%, 42%);  // pro
-$pantone-black: hsl(0, 0%, 0%);  // oscuro
-$pantone-black-50: hsl(0, 0%, 50%);  // brillante 50%
-$pro-oscuro: hsl(347, 100%, 15%);
-$pro-neutral: $pantone-199;
-$pro-brillante-50: hsl(347, 100%, 80%);
+    /* Dark */
+    'dark-oscuro': hsl(0, 0%, 10%),
+    'dark-neutral': map.get($pantone-colors, 'pantone-black'),
+    'dark-brillante-50': map.get($pantone-colors, 'pantone-black-50'),
 
-/* MU */
-$pantone-316: hsl(187, 100%, 16%);  // oscuro
-$pantone-7467: hsl(183, 100%, 34%);  // neutral
-$pantone-7467-60: hsl(183, 64%, 60%);  // brillante
-$pantone-7467-35: hsl(183, 64%, 77%);  // brillante 50
-$mu-oscuro: $pantone-316;
-$mu-neutral: $pantone-7467;
-$mu-brillante: $pantone-7467-60;
-$mu-brillante-50: $pantone-7467-35;
+    /* Light */
+    'light-oscuro': hsl(0, 0%, 90%),
+    'light-neutral': hsl(0, 0%, 100%),
+    'light-brillante': hsl(0, 0%, 75%),
+    'light-brillante-50': hsl(0, 0%, 50%),
 
-/* MU Secondary */
-$mu-secondary-oscuro: hsl(187, 100%, 5%);
-$mu-secondary-neutral: $pantone-316;
-$mu-secondary-brillante-50: hsl(187, 100%, 80%);
+    /* Pro */
+    'pro-oscuro': hsl(347, 100%, 15%),
+    'pro-neutral': map.get($pantone-colors, 'pantone-199'),
+    'pro-brillante': hsl(347, 100%, 60%),
+    'pro-brillante-50': hsl(347, 100%, 80%),
 
-/* CTA */
-$pantone-123: hsl(45, 100%, 53%);  // neutral
-$cta-oscuro: hsl(45, 100%, 20%);
-$cta-neutral: $pantone-123;
-$cta-brillante-50: hsl(45, 100%, 85%);
+    /* MU */
+    'mu-oscuro': map.get($pantone-colors, 'pantone-316'),
+    'mu-neutral': map.get($pantone-colors, 'pantone-7467'),
+    'mu-brillante': map.get($pantone-colors, 'pantone-7467-60'),
+    'mu-brillante-50': map.get($pantone-colors, 'pantone-7467-35'),
+
+    /* MU Secondary */
+    'mu-secondary-oscuro': hsl(187, 100%, 5%),
+    'mu-secondary-neutral': hsl(187, 100%, 16%),
+    'mu-secondary-brillante': hsl(187, 100%, 48%),
+    'mu-secondary-brillante-50': hsl(187, 100%, 80%),
+
+    /* CTA */
+    'cta-oscuro': hsl(45, 100%, 20%),
+    'cta-neutral': map.get($pantone-colors, 'pantone-123'),
+    'cta-brillante': hsl(45, 100%, 69%),
+    'cta-brillante-50': hsl(45, 100%, 85%),
+) !default;
+
+//$colors: map.merge($base-colors, $additional-colors) !default;
+
 
 $variants: (
     'primary': (
-        'color': $mu-neutral,
-        'mutted-color': $mu-brillante-50,
-        'darker-color': $mu-oscuro,
-        'contrast-color': $white,
+        'color': map.get($colors, 'mu-neutral'),
+        'mutted-color': map.get($colors, 'mu-brillante-50'),
+        'darker-color': map.get($colors, 'mu-oscuro'),
+        'contrast-color': map.get($colors, 'white'),
     ),
     'secondary': (
-        'color': $mu-secondary-neutral,
-        'mutted-color': $mu-secondary-brillante-50,
-        'darker-color': $mu-secondary-oscuro,
-        'contrast-color': $white,
+        'color': map.get($colors, 'mu-secondary-neutral'),
+        'mutted-color': map.get($colors, 'mu-secondary-brillante-50'),
+        'darker-color': map.get($colors, 'mu-secondary-oscuro'),
+        'contrast-color': map.get($colors, 'white'),
     ),
     /*'mgep': (
         'color': $white,
@@ -114,59 +133,57 @@ $variants: (
         'contrast-color': #004085,
     ),*/ 
     'pro': (
-        'color': $pro-neutral,
-        'mutted-color': $pro-brillante-50,
-        'darker-color': $pro-oscuro,
-        'contrast-color': $white,
+        'color': map.get($colors, 'pro-neutral'),
+        'mutted-color': map.get($colors, 'pro-brillante-50'),
+        'darker-color': map.get($colors, 'pro-oscuro'),
+        'contrast-color': map.get($colors, 'white'),
     ),
     'cta': (
-        'color': $cta-neutral,
-        'mutted-color': $cta-brillante-50,
-        'darker-color': $cta-oscuro,
-        'contrast-color': $white,
-    ), 
+        'color': map.get($colors, 'cta-neutral'),
+        'mutted-color': map.get($colors, 'cta-brillante-50'),
+        'darker-color': map.get($colors, 'cta-oscuro'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
     'success': (
-        'color': $verde-neutral,
-        'mutted-color': $verde-brillante-50,
-        'darker-color': $verde-oscuro,
-        'contrast-color': $white,
-    ), 
+        'color': map.get($colors, 'verde-neutral'),
+        'mutted-color': map.get($colors, 'verde-brillante-50'),
+        'darker-color': map.get($colors, 'verde-oscuro'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
     'danger': (
-        'color': $magenta-neutral,
-        'mutted-color': $magenta-brillante-50,
-        'darker-color': $magenta-oscuro,
-        'contrast-color': $white,
-    ), 
+        'color': map.get($colors, 'magenta-neutral'),
+        'mutted-color': map.get($colors, 'magenta-brillante-50'),
+        'darker-color': map.get($colors, 'magenta-oscuro'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
     'warning': (
-        'color': $naranja-neutral,
-        'mutted-color': $naranja-brillante-50,
-        'darker-color': $naranja-oscuro,
-        'contrast-color': $white,
-    ), 
+        'color': map.get($colors, 'naranja-neutral'),
+        'mutted-color': map.get($colors, 'naranja-brillante-50'),
+        'darker-color': map.get($colors, 'naranja-oscuro'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
     'info': (
-        'color': hsl(200, 100%, 41%),
-        'mutted-color': hsl(200, 100%, 80%),
-        'darker-color': hsl(200, 100%, 20%),
-        'contrast-color': $white,
-    ), 
+        'color': map.get($colors, 'azul-neutral'),
+        'mutted-color': map.get($colors, 'azul-brillante-50'),
+        'darker-color': map.get($colors, 'azul-oscuro'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
     'light': (
-        'color': $light-neutral,
-        'mutted-color': $light-brillante-50,
-        'darker-color': $light-oscuro,
-        'contrast-color': $black,
-    ), 
+        'color': map.get($colors, 'light-neutral'),
+        'mutted-color': map.get($colors, 'light-brillante-50'),
+        'darker-color': map.get($colors, 'light-oscuro'),
+        'contrast-color': map.get($colors, 'black'),
+    ),
     'dark': (
-        'color': $dark-neutral,
-        'mutted-color': $dark-brillante-50,
-        'darker-color': $dark-oscuro,
-        'contrast-color': $white,
-    ), 
+        'color': map.get($colors, 'dark-neutral'),
+        'mutted-color': map.get($colors, 'dark-brillante-50'),
+        'darker-color': map.get($colors, 'dark-oscuro'),
+        'contrast-color': map.get($colors, 'white'),
+    ),
 ) !default;
 
-
-/*********** Scales ***********/
-
 $scales: (
+    /*********** Scales ***********/
     '0': (
         'size': 0,
         'font-size': 0,

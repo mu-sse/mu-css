@@ -1,11 +1,13 @@
-/**** Variant colors ****/
-/* Get value from variant */
+@use "sass:map";
+@use "variables";
+// **** Variant colors ****
+// Get value from variant
 @function get-value-from-variant($variant, $value) {
-    @return map-get(map-get($variants, $variant), $value);
+    @return map.get(map.get(variables.$variants, $variant), $value);
 }
 
-/**** Scales ****/
-/* Get value from scale */
+// **** Scales ****
+// Get value from scale
 @function get-value-from-scale($scale, $value) {
-    @return map-get(map-get($scales, $scale), $value);
+    @return map.get(map.get(variables.$scales, $scale), $value);
 }

@@ -1,0 +1,18 @@
+@use "sass:map";
+@use "sass:string";
+@use "variables";
+
+:root {
+    @each $name, $variant in variables.$variants {
+        @each $type, $color in $variant {
+            $variable-name: --color-#{$name}-#{$type};
+
+            // Remove '-color' from the end of the variable name
+            $cleaned-variable-name: string.slice($variable-name, 1, -7);
+
+            // Create the variable
+            #{$cleaned-variable-name}: #{$color};
+        }
+    }
+
+}
