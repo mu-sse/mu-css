@@ -9,7 +9,7 @@ class MULoader extends LitElement {
     static DEFAULT_VARIANT = 'mu';
     static DEFAULT_EMPTY_SPACE = 30;
     static DEFAULT_DURATION = '1500ms';
-    static DEFAULT_TIMING = 'ease';
+    static DEFAULT_TIMING = 'ease-in';
     static DEFAULT_INFINITE = true;
     static DEFAULT_ALTERNATE = true;
 
