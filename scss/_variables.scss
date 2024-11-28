@@ -1,4 +1,5 @@
 @use "sass:map";
+@use "sass:list";
 $font-family: 'Duplicate', 'Noto Sans', 'Roboto', sans-serif !default;
 
 $pantone-colors: (
@@ -326,10 +327,12 @@ $scales: (
 )!default;
 
 
-
-$size-0: 0 !default;
-$size-1: 1px !default;
-$size-2: 2px !default;
-$size-3: 4px !default;
-$size-4: 6px !default;
-$size-5: 8px !default;
+$scale-names: ();
+@each $scale-number, $scale in $scales {
+    @each $name, $size in $scale {
+        // if not $name in $scale-names
+        @if not list.index($scale-names, $name) {
+            $scale-names: list.append($scale-names, $name, comma);
+        }
+    }
+}

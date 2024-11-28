@@ -12,50 +12,40 @@
 </head>
 
 <body>
-    <h1 class="header variant-primary">MU CSS</h1>
-    <section id="links" class="page">
-        <header class="header variant-primary">
+    <h1 class="header mb-4 fs-11 pie-10">MU CSS</h1>
+    <section id="links" class="page m-5">
+        <header class="header variant-secondary">
             <h2>Links</h2>
         </header>
         <ul>
-            <li><b>Minified:</b><a
-                    href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-css.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-css.css</a>
-            </li>
-            <li><b>Uncompressed:</b><a
-                    href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-css.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-css.css</a>
+            <li>MU CSS
+                <a  href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-css.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-css.css</a>
+                [<a href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-css.css">uncompressed</a>]
             </li>
 
             <li>
+                Smaller parts:
                 <ul>
-                    <li><b>Minified (just colors)</b><a
-                            href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-colors.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-colors.css</a>
+                    <li>Just variant colors:
+                        <a  href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-variant-colors.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-variant-colors.css</a>
+                        [<a href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-variant-colors.css">uncompressed</a>]
                     </li>
-                    <li><b>Uncompressed (just colors)</b><a
-                            href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-colors.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-colors.css</a>
-                    </li>
-                    <li><b>Minified (just variant colors)</b><a
-                        href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-variant-colors.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-variant-colors.css</a>
-                    </li>
-                    <li><b>Uncompressed (just variant colors)</b><a
-                            href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-variant-colors.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-variant-colors.css</a>
+                    <li>Just colors:
+                        <a  href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-colors.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-colors.css</a>
+                        [<a href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-colors.css">uncompressed</a>]
                     </li>
         
-                    <li><b>Minified (just sizes)</b><a
-                        href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-sizes.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-sizes.css</a>
-                    </li>
-                    <li><b>Uncompressed (just sizes)</b><a
-                            href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-sizes.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-sizes.css</a>
+                    <li>Just sizes:
+                        <a  href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-sizes.css">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/minified/mu-sizes.css</a>
+                        [<a href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/css/uncompressed/mu-sizes.css">uncompressed</a>]
                     </li>
                 </ul>
             </li>
 
-            <li>
-                <b>Web Components</b>
+            <li>Web Components:
                 <ul>
-                    <li>
-                        <mu-loader empty-space="10"></mu-loader><br>
-                        <a href="#mu-loaders"><b>&lt;mu-loader&gt;&lt;/mu-loader&gt;</b></a><br />
-                        <code>&lt;script type="module" src="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/components/mu-loader-lit.js" defer&gt;&lt;/script&gt;</code>
+                    <li><a href="#mu-loader-section">MU Loader</a> <mu-loader  empty-space="4" style="height: 1em;"></mu-loader></span>:
+                        <a href="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/components/mu-loader-lit.js">https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/components/mu-loader-lit.js</a>
                     </li>
                 </ul>
             </li>
@@ -64,143 +54,195 @@
             Thanks to jsdelivr CDN
         </footer>
     </section>
-    <h2 class="header variant-secondary">Pages</h2>
-    <section id="playground" class="p-3 d-grid grid-auto-fit-15 align-items-start gap-5">
-        <article class="page page-animated pb-4">
-            <header class="header variant-primary">
-                <h1 class="m-0">Playground</h1>
-                <h2 class="m-0">Froga</h2>
-            </header>
-            <main class="p-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus iusto, maiores fugiat libero
-                    impedit
-                    officiis mollitia itaque autem, fugit enim unde natus quod ullam. Obcaecati aut eos, dolore est
-                    labore
-                    ratione, voluptas suscipit debitis natus atque, commodi officiis. Vero harum, sint et excepturi quis
-                    qui
-                    tenetur, non doloremque distinctio libero ipsam vitae tempore numquam delectus ratione eum
-                    repellendus
-                    cum nobis dolorum asperiores, ut quaerat. Adipisci eligendi, sapiente quaerat fugit magnam
-                    voluptatem
-                    esse dicta reiciendis iusto beatae? Cupiditate sunt voluptatem odit qui dolores et provident
-                    corporis
-                    ipsam doloribus quam, repudiandae quaerat blanditiis natus maiores quasi possimus repellat sapiente
-                    minus illum sed consectetur. Sunt, aspernatur voluptate deserunt officia consequuntur repellendus,
-                    sit
-                    quo temporibus ratione, eligendi non aliquam nemo blanditiis incidunt labore error. Molestiae vero
-                    quis
-                    illum incidunt! Magni, sequi tenetur.</p>
-                <button class="btn variant-cta p-6-mod">Call to action button with mod padding</button>
-            </main>
-            <footer class="footer variant-secondary">
-                Footer
-            </footer>
-        </article>
-
-        <article id="playground" class="page">
-            <header class="header-vertical variant-pro">
-                <h1 class="m-0">Vertical<br>(no animated page)</h1>
-                <h2 class="m-0 mutted">Froga</h2>
-            </header>
-            <main class="p-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus iusto, maiores fugiat libero
-                    impedit
-                    officiis mollitia itaque autem, fugit enim unde natus quod ullam. Obcaecati aut eos, dolore est
-                    labore
-                    ratione, voluptas suscipit debitis natus atque, commodi officiis. Vero harum, sint et excepturi quis
-                    qui
-                    tenetur, non doloremque distinctio libero ipsam vitae tempore numquam delectus ratione eum
-                    repellendus
-                    cum nobis dolorum asperiores, ut quaerat. Adipisci eligendi, sapiente quaerat fugit magnam
-                    voluptatem
-                    esse dicta reiciendis iusto beatae? Cupiditate sunt voluptatem odit qui dolores et provident
-                    corporis
-                    ipsam doloribus quam, repudiandae quaerat blanditiis natus maiores quasi possimus repellat sapiente
-                    minus illum sed consectetur. Sunt, aspernatur voluptate deserunt officia consequuntur repellendus,
-                    sit
-                    quo temporibus ratione, eligendi non aliquam nemo blanditiis incidunt labore error. Molestiae vero
-                    quis
-                    illum incidunt! Magni, sequi tenetur.</p>
-                <button class="btn variant-primary p-10-mod">Primary button with mod padding</button>
-            </main>
-            <footer class="footer-vertical variant-dark">
-                Footer
-            </footer>
-        </article>
+    <section id="sizes" class="page m-5">
+        <header class="header">
+            <h2>Sizes</h2>
+        </header>
+        <div class="m-5">
+            <p>Sizes are used for things like padding, margin, font-size, etc.</p>
+            <p>Examples:</p>
+            <ul>
+                <li><code>m-<b>7</b></code> (margin)</li>
+                <li><code>mi-<b>5</b></code></li>
+                <li><code>m-<b>7</b>, mi-<b>5</b>, mbe-<b>4</b></code></li>
+                <li><code>grid-auto-fit-<b>15</b></code></li>
+                <li><code>fs-<b>10</b></code></li>
+            </ul>
+            <p>You can see the sizes below:</p>
+        </div>
+        <div class="d-grid grid-columns-2 gap-5 p-5">
+        <pre>
+<code id="sizes-content"></code>
+        </pre>
+        <pre>
+<code id="font-sizes-content"></code>
+        </pre>
+        </div>
     </section>
-    <h2 class="header">Buttons (Click buttons to change background)</h2>
-    <section id="buttons" class="p-5 d-grid grid-auto-fit-12 gap-5"></section>
-    <h2 class="header outline">Outline Buttons</h2>
-    <section id="buttons-outline" class="p-5 d-grid grid-auto-fill-12 align-items-start  gap-5"></section>
+    <section id="pages">
+        <h2 class="header variant-secondary pie-10">Pages</h2>
+        <div class="p-3 d-grid grid-auto-fit-15 align-items-start gap-5">
+            <article class="page page-animated pb-4">
+                <header class="header variant-primary">
+                    <h1 class="m-0">Playground</h1>
+                    <h2 class="m-0">Froga</h2>
+                </header>
+                <main class="p-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus iusto, maiores fugiat libero
+                        impedit
+                        officiis mollitia itaque autem, fugit enim unde natus quod ullam. Obcaecati aut eos, dolore est
+                        labore
+                        ratione, voluptas suscipit debitis natus atque, commodi officiis. Vero harum, sint et excepturi quis
+                        qui
+                        tenetur, non doloremque distinctio libero ipsam vitae tempore numquam delectus ratione eum
+                        repellendus
+                        cum nobis dolorum asperiores, ut quaerat. Adipisci eligendi, sapiente quaerat fugit magnam
+                        voluptatem
+                        esse dicta reiciendis iusto beatae? Cupiditate sunt voluptatem odit qui dolores et provident
+                        corporis
+                        ipsam doloribus quam, repudiandae quaerat blanditiis natus maiores quasi possimus repellat sapiente
+                        minus illum sed consectetur. Sunt, aspernatur voluptate deserunt officia consequuntur repellendus,
+                        sit
+                        quo temporibus ratione, eligendi non aliquam nemo blanditiis incidunt labore error. Molestiae vero
+                        quis
+                        illum incidunt! Magni, sequi tenetur.</p>
+                    <button class="btn variant-cta p-6-mod">Call to action button with mod padding</button>
+                </main>
+                <footer class="footer variant-secondary">
+                    Footer
+                </footer>
+            </article>
 
-    <h2 class="header outline">Headers</h2>
+            <article id="playground" class="page">
+                <header class="header-vertical variant-pro">
+                    <h1 class="m-0">Vertical<br>(no animated page)</h1>
+                    <h2 class="m-0 mutted">Froga</h2>
+                </header>
+                <main class="p-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus iusto, maiores fugiat libero
+                        impedit
+                        officiis mollitia itaque autem, fugit enim unde natus quod ullam. Obcaecati aut eos, dolore est
+                        labore
+                        ratione, voluptas suscipit debitis natus atque, commodi officiis. Vero harum, sint et excepturi quis
+                        qui
+                        tenetur, non doloremque distinctio libero ipsam vitae tempore numquam delectus ratione eum
+                        repellendus
+                        cum nobis dolorum asperiores, ut quaerat. Adipisci eligendi, sapiente quaerat fugit magnam
+                        voluptatem
+                        esse dicta reiciendis iusto beatae? Cupiditate sunt voluptatem odit qui dolores et provident
+                        corporis
+                        ipsam doloribus quam, repudiandae quaerat blanditiis natus maiores quasi possimus repellat sapiente
+                        minus illum sed consectetur. Sunt, aspernatur voluptate deserunt officia consequuntur repellendus,
+                        sit
+                        quo temporibus ratione, eligendi non aliquam nemo blanditiis incidunt labore error. Molestiae vero
+                        quis
+                        illum incidunt! Magni, sequi tenetur.</p>
+                    <button class="btn variant-primary p-10-mod">Primary button with mod padding</button>
+                </main>
+                <footer class="footer-vertical variant-dark">
+                    Footer
+                </footer>
+            </article>
+        </div>
+    </section>
+    <section id="buttons">
+        <div class="page variant-warning p-2 m-5">
+            <p>These buttons are inside a grid container using auto fit:</p>
+            <code>class="d-grid grid-auto-fit-12 gap-5"</code>
+        </div>
+
+        <h2 class="header">Buttons (Click buttons to change background)</h2>
+        <div id="button-grid" class="p-5 d-grid grid-auto-fit-12 gap-5"></div>
+        <h2 class="header header-outline">Outline Buttons</h2>
+        <div id="button-grid-outline" class="p-5 d-grid grid-auto-fill-12 gap-5"></div>
+    </section>
+
+    <h2 class="header header-outline">Headers</h2>
     <section id="headers" class="m-5 pb-5 d-grid  grid-auto-fit-16 align-items-start  gap-5"></section>
 
 
-    <h2 class="header">
-        MU Loader Component
-    </h2>
-    <section id="mu-loaders" class="m-5 pb-5 d-grid grid-columns-9 gap-5">
-        <b class="center-all text-center">Variants</b>
-        <i class="center-all text-center">Default</i>
-        <i class="center-all text-center">Light</i>
-        <i class="center-all text-center">Dark</i>
-        <i class="center-all text-center">Mgep</i>
-        <i class="center-all text-center">Huezi</i>
-        <i class="center-all text-center">Eteo</i>
-        <i class="center-all text-center">Pro</i>
-        <i class="center-all text-center">Cta</i>
+    <section id="mu-loader-section" class="page m-5">
+        <header class="header variant-secondary">
+        <h2>
+            MU Loader Web Component
+        </h2>
+        </header>
+        <div class="p-5">
 
-        <b class="center-all text-center">Default</b>
-        <mu-loader></mu-loader>
-        <mu-loader variant="light" class="bg-dark"></mu-loader>
-        <mu-loader variant="dark"></mu-loader>
-        <mu-loader variant="mgep"></mu-loader>
-        <mu-loader variant="huezi"></mu-loader>
-        <mu-loader variant="eteo"></mu-loader>
-        <mu-loader variant="pro"></mu-loader>
-        <mu-loader variant="cta"></mu-loader>
+            <p>JavaScript must be loaded first:</p>
+            <code>&lt;script type="module" src="https://cdn.jsdelivr.net/gh/mu-sse/mu-css@main/public/components/mu-loader-lit.js" defer&gt;&lt;/script&gt;</code>
+            
+            <p>Then you can use the component:</p>
+            <code>&lt;mu-loader&gt;&lt;/mu-loader&gt;</code><br />
 
-        <b class="center-all text-center">Duration (500-4000ms)</b>
-        <mu-loader duration="500ms"></mu-loader>
-        <mu-loader duration="1000ms" variant="light" class="bg-dark"></mu-loader>
-        <mu-loader duration="1500ms" variant="dark"></mu-loader>
-        <mu-loader duration="2000ms" variant="mgep"></mu-loader>
-        <mu-loader duration="2500ms" variant="huezi"></mu-loader>
-        <mu-loader duration="3000ms" variant="eteo"></mu-loader>
-        <mu-loader duration="3500ms" variant="pro"></mu-loader>
-        <mu-loader duration="4000ms" variant="cta"></mu-loader>
+            <p>The result will be:</p>
+            <div>
+                <mu-loader></mu-loader><br>
+            </div>
+            <p>More examples:</p>
+        </div>
+        <div class="m-5 pb-5 d-grid grid-columns-9 gap-5 fs-1" style="grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr">
+            <b class="center-all text-center"></b>
+            <s class="center-all text-center rotate-290 mb-8"> variant </s>
+            <i class="center-all text-center rotate-290 mb-8"><code>variant="light"</code></i>
+            <i class="center-all text-center rotate-290 mb-8"><code>variant="dark"</code></i>
+            <i class="center-all text-center rotate-290 mb-8"><code>variant="mgep"</code></i>
+            <i class="center-all text-center rotate-290 mb-8"><code>variant="huezi"</code></i>
+            <i class="center-all text-center rotate-290 mb-8"><code>variant="eteo"</code></i>
+            <i class="center-all text-center rotate-290 mb-8"><code>variant="pro"</code></i>
+            <i class="center-all text-center rotate-290 mb-8"><code>variant="cta"</code></i>
 
-        <b class="center-all text-center">Alternate false</b>
-        <mu-loader alternate="false"></mu-loader>
-        <mu-loader alternate="false" variant="light" class="bg-dark"></mu-loader>
-        <mu-loader alternate="false" variant="dark"></mu-loader>
-        <mu-loader alternate="false" variant="mgep"></mu-loader>
-        <mu-loader alternate="false" variant="huezi"></mu-loader>
-        <mu-loader alternate="false" variant="eteo"></mu-loader>
-        <mu-loader alternate="false" variant="pro"></mu-loader>
-        <mu-loader alternate="false" variant="cta"></mu-loader>
+            <b class="center-all text-center">Default</b>
+            <mu-loader variant="txomin"></mu-loader>
+            <mu-loader variant="light" class="bg variant-dark"></mu-loader>
+            <mu-loader variant="dark"></mu-loader>
+            <mu-loader variant="mgep"></mu-loader>
+            <mu-loader variant="huezi"></mu-loader>
+            <mu-loader variant="eteo"></mu-loader>
+            <mu-loader variant="pro"></mu-loader>
+            <mu-loader variant="cta"></mu-loader>
 
-        <b class="center-all text-center">Infinite false</b>
-        <mu-loader infinite="false"></mu-loader>
-        <mu-loader infinite="false" variant="light" class="bg-dark"></mu-loader>
-        <mu-loader infinite="false" variant="dark"></mu-loader>
-        <mu-loader infinite="false" variant="mgep"></mu-loader>
-        <mu-loader infinite="false" variant="huezi"></mu-loader>
-        <mu-loader infinite="false" variant="eteo"></mu-loader>
-        <mu-loader infinite="false" variant="pro"></mu-loader>
-        <mu-loader infinite="false" variant="cta"></mu-loader>
+            <b class="center-all text-center"><code>duration="(500-4000ms)"</code></b>
+            <mu-loader duration="500ms"></mu-loader>
+            <mu-loader duration="1000ms" variant="light" class="bg variant-dark"></mu-loader>
+            <mu-loader duration="1500ms" variant="dark"></mu-loader>
+            <mu-loader duration="2000ms" variant="mgep"></mu-loader>
+            <mu-loader duration="2500ms" variant="huezi"></mu-loader>
+            <mu-loader duration="3000ms" variant="eteo"></mu-loader>
+            <mu-loader duration="3500ms" variant="pro"></mu-loader>
+            <mu-loader duration="4000ms" variant="cta"></mu-loader>
+
+            <b class="center-all text-center"><code>alternate="false"</code></b>
+            <mu-loader alternate="false"></mu-loader>
+            <mu-loader alternate="false" variant="light" class="bg variant-dark"></mu-loader>
+            <mu-loader alternate="false" variant="dark"></mu-loader>
+            <mu-loader alternate="false" variant="mgep"></mu-loader>
+            <mu-loader alternate="false" variant="huezi"></mu-loader>
+            <mu-loader alternate="false" variant="eteo"></mu-loader>
+            <mu-loader alternate="false" variant="pro"></mu-loader>
+            <mu-loader alternate="false" variant="cta"></mu-loader>
+
+            <b class="center-all text-center"><code>inflate="false"</code></b>
+            <mu-loader infinite="false"></mu-loader>
+            <mu-loader infinite="false" variant="light" class="bg variant-dark"></mu-loader>
+            <mu-loader infinite="false" variant="dark"></mu-loader>
+            <mu-loader infinite="false" variant="mgep"></mu-loader>
+            <mu-loader infinite="false" variant="huezi"></mu-loader>
+            <mu-loader infinite="false" variant="eteo"></mu-loader>
+            <mu-loader infinite="false" variant="pro"></mu-loader>
+            <mu-loader infinite="false" variant="cta"></mu-loader>
 
 
-        <b class="center-all text-center">Empty Space (0-70)</b>
-        <mu-loader empty-space="0"></mu-loader>
-        <mu-loader empty-space="10" variant="light" class="bg-dark"></mu-loader>
-        <mu-loader empty-space="20" variant="dark"></mu-loader>
-        <mu-loader empty-space="30" variant="mgep"></mu-loader>
-        <mu-loader empty-space="40" variant="huezi"></mu-loader>
-        <mu-loader empty-space="50" variant="eteo"></mu-loader>
-        <mu-loader empty-space="60" variant="pro"></mu-loader>
-        <mu-loader empty-space="70" variant="cta"></mu-loader>
+            <b class="center-all text-center"><code>empty-space="(0-70)"</code></b>
+            <mu-loader empty-space="0"></mu-loader>
+            <mu-loader empty-space="10" variant="light" class="bg variant-dark"></mu-loader>
+            <mu-loader empty-space="20" variant="dark"></mu-loader>
+            <mu-loader empty-space="30" variant="mgep"></mu-loader>
+            <mu-loader empty-space="40" variant="huezi"></mu-loader>
+            <mu-loader empty-space="50" variant="eteo"></mu-loader>
+            <mu-loader empty-space="60" variant="pro"></mu-loader>
+            <mu-loader empty-space="70" variant="cta"></mu-loader>
+        </div>
     </section>
 </body>
 

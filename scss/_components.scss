@@ -7,8 +7,8 @@
         padding: #{functions.get-value-from-scale('0', 'size')};
         
     
-        --variant-color: get-value-from-variant('light', 'color');
-        --contrast-color: get-value-from-variant('light', 'contrast-color');
+        --variant-color: #{functions.get-value-from-variant('light', 'color')};
+        --contrast-color: #{functions.get-value-from-variant('light', 'contrast-color')};
     
         background-color: var(--variant-color);
         color: var(--contrast-color);
@@ -16,11 +16,11 @@
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
         &:has(> .header) {
-            padding-block-start: functions.get-value-from-scale('5', 'size');
+            padding-block-start: #{functions.get-value-from-scale('5', 'size')};
         }
 
         &:has(> .footer) {
-            padding-block-end: functions.get-value-from-scale('5', 'size');
+            padding-block-end: #{functions.get-value-from-scale('5', 'size')};
         }
 
     }
@@ -38,7 +38,9 @@
         --padding-inline-end: calc(var(--padding) / 2);
         --margin: #{functions.get-value-from-scale('0', 'size')};
     
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
     
         border-radius: #{functions.get-value-from-scale('3', 'size')};
         margin: var(--margin);
@@ -61,152 +63,131 @@
         color: var(--contrast-color);
     
         transition: background-color 0.2s;
-    
         &:hover {
-            background-color: var(--darker-color);
+            background-color: var(--mutted-color);
             text-decoration: none;
         }
     }
+
+    .btn-outline {
+        background-color: transparent;
+        border: 1px solid var(--variant-color);
+        color: var(--variant-color);
     
-    .pill {
-        border-radius: 1000em;
+        &:hover {
+            background-color: var(--variant-color);
+            color: var(--contrast-color);
+        }
     }
     
-    .header, .header-inline {
+    .pill, .btn-pill {
+        border-radius: 1000em;
+    }
+
+    .header, .header-inline, .footer, .footer-inline {
+        position: relative;
+        --additional-space: #{functions.get-value-from-scale('3', 'size')};
+
         --padding: #{functions.get-value-from-scale('3', 'size')};
         --border-radius: #{functions.get-value-from-scale('3', 'size')};
-    
+        --margin: #{functions.get-value-from-scale('0', 'size')};
         padding: var(--padding);
-        padding-inline-end: calc(var(--padding) + var(--additional-space));
-        margin-inline-end: var(--additional-space);
-    
-        border-radius: 0 1000em 1000em 0;
+        margin: var(--margin);
         background-color: var(--variant-color);
         color: var(--contrast-color);
     
         width: fit-content;
-        max-width: 90%;
-        &.outline {
+        max-width: 80%;
+    }
+    
+    .header, .header-inline {
+        padding-inline-end: calc(5 * var(--additional-space));
+        margin-inline-start: 0;
+        border-radius: 0 1000em 1000em 0;
+
+        &.header-outline {
             border-inline-start-width: 0;
         }
     }
     
-    .header-vertical, .header-block {
+    .header-vertical, .header-block, .footer-vertical, .footer-block {
         --additional-space: #{functions.get-value-from-scale('9', 'size')};
         --padding: #{functions.get-value-from-scale('3', 'size')};
         --margin: #{functions.get-value-from-scale('0', 'size')};
-        padding: var(--padding);
-        padding-block-end: var(--additional-space);
-        --a: 5em;
     
+        padding: var(--padding);
         margin: var(--margin);
+
+        color: var(--contrast-color);
+
+        width: fit-content;
+        text-align: center;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & * {
+            text-align: center;
+            width: fit-content;
+        }
+    }
+    .header-vertical, .header-block {
+        padding-block-end: var(--additional-space);
+        //--a: 5em;
+    
         margin-inline-start: calc(var(--additional-space) / 2);
         margin-inline-end: auto;
         margin-block-end: calc(var(--additional-space) / 2);
         
         border-radius: 0 0 1000em 1000em;
         background-color: var(--variant-color);
-        color: var(--contrast-color);
     
-        width: fit-content;
-        text-align: center;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-        & * {
-            text-align: center;
-            width: fit-content;
-        }
-        &.outline{
+        &.header-outline{
             border-block-start-width: 0;
         }
     
     }
+
+    .header-outline {
+        // It is not an utility, but a modification of a component
+        background-color: transparent;
+        border: 1px solid var(--variant-color);
+        color: var(--variant-color);
+    }
     
     .footer, .footer-inline {
-        --additional-space: #{functions.get-value-from-scale('3', 'size')};
-        --padding: #{functions.get-value-from-scale('3', 'size')};
-        --margin: #{functions.get-value-from-scale('0', 'size')};
-        --border-radius: #{functions.get-value-from-scale('3', 'size')};
-    
-        padding: var(--padding);
-        padding-inline-start: calc(var(--padding) + var(--additional-space));
-    
-        margin: calc(var(--margin));
+        padding-inline-start: calc(5 * var(--additional-space));
         margin-inline-start: auto;
         margin-inline-end: 0;
-    
         border-radius: 1000em 0 0 1000em;
-        background-color: var(--variant-color);
-        color: var(--contrast-color);
-        width: fit-content;
-        max-width: 90%;
+    
         text-align: right;
 
-        &.outline {
+        &.footer-outline {
             border-inline-end-width: 0;
         }
     }
     
     
     .footer-vertical, .footer-block {
-        --additional-space: #{functions.get-value-from-scale('9', 'size')};
-        --padding: #{functions.get-value-from-scale('3', 'size')};
-        --margin: #{functions.get-value-from-scale('0', 'size')};
-    
-        padding: var(--padding);
+
         padding-block-start: var(--additional-space);
-    
-        margin-block: var(--margin);
         margin-inline-start: auto;
         margin-inline-end: calc(var(--additional-space) / 2);;
     
         border-radius: 1000em 1000em 0 0;
         background-color: var(--variant-color);
-        color: var(--contrast-color);
-        
-        width: fit-content;
-        text-align: center;
     
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-        & * {
-            text-align: center;
-            width: fit-content;
-        }
-        &.outline{
+        &.footer-outline{
             border-block-end-width: 0;
         }
     }
 
-    @each $variant, $colors in variables.$variants {
-        .variant-#{$variant} {
-            --variant-color: #{map.get($colors, 'color')};
-            --mutted-color: #{map.get($colors, 'mutted-color')};
-            --contrast-color: #{map.get($colors, 'contrast-color')};
-            --darker-color: #{map.get($colors, 'darker-color')};
-            &.outline {
-                --darker-color: var(--mutted-color);
-            }
-        }
-    
-        .btn:hover.type-#{$variant} {
-            background-color: #{map.get($colors, 'color-mutted')};
-        }
-    }
-    
-    .outline {
+    .footer-outline {
+        // It is not an utility, but a modification of a component
         background-color: transparent;
         border: 1px solid var(--variant-color);
         color: var(--variant-color);
-    }
-    
-    .mutted {
-        color: var(--mutted-color);
-        border-color: var(--mutted-color);
     }
 }

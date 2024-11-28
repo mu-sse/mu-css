@@ -2,9 +2,13 @@
 @use "variables";
 
 :root {
-    @each $scale-number, $scale in variables.$scales {
-        @each $name, $size in $scale {
-            --#{$name}-#{$scale-number}: #{$size};
+    @each $scale-name in variables.$scale-names {
+        /* #{$scale-name} */
+        @each $scale-number, $scale in variables.$scales {
+            $value: map.get($scale, $scale-name);
+            @if $value != null {
+                --#{$scale-name}-#{$scale-number}: #{$value};
+            }
         }
     }
 
