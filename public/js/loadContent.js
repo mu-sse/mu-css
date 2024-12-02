@@ -158,6 +158,7 @@ const addVariantPages = ($variant) => {
     headerSection.appendChild(pageVerticalOutline);
 }
 
+
 createSizes();
 
 for (let variant of variants) {
@@ -201,3 +202,10 @@ for (let variant of variants) {
     // headerSection.appendChild(pageVerticalOutline);
 
 }
+
+// Add class to title
+everyElement = document.querySelectorAll('*').forEach((element) => {
+    if (!element.title && element.className) {
+        element.title = element.className;
+    }
+});
