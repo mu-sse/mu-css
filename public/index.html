@@ -114,7 +114,7 @@
             </article>
 
             <article id="playground" class="page">
-                <header class="header-vertical variant-pro">
+                <header class="header--vertical variant-pro">
                     <h1 class="m-0">Vertical<br>(no animated page)</h1>
                     <h2 class="m-0 mutted">Froga</h2>
                 </header>
@@ -139,7 +139,7 @@
                         illum incidunt! Magni, sequi tenetur.</p>
                     <button class="btn variant-primary p-10-mod">Primary button with mod padding</button>
                 </main>
-                <footer class="footer-vertical variant-dark">
+                <footer class="footer--vertical variant-dark">
                     Footer
                 </footer>
             </article>
@@ -153,18 +153,21 @@
 
         <h2 class="header">Buttons (Click buttons to change background)</h2>
         <div id="button-grid" class="p-5 d-grid grid-auto-fit-12 gap-5"></div>
-        <h2 class="header header-outline">Outline Buttons</h2>
+        <h2 class="header header--outline">Outline Buttons</h2>
         <div id="button-grid-outline" class="p-5 d-grid grid-auto-fill-12 gap-5"></div>
     </section>
 
-    <h2 class="header header-outline">Headers</h2>
+    <h2 class="header header--outline">Headers</h2>
     <section id="headers" class="m-5 pb-5 d-grid  grid-auto-fit-16 align-items-start  gap-5"></section>
 
 
     <section id="mu-loader-section" class="page m-5">
-        <header class="header variant-secondary">
+        <header class="header header--vertical">
         <h2>
-            MU Loader Web Component
+            MU Loader<br>Web Component
+            <div class="w-12">
+                <mu-loader variant="light"></mu-loader>
+            </div>
         </h2>
         </header>
         <div class="p-5">
@@ -175,11 +178,7 @@
             <p>Then you can use the component:</p>
             <code>&lt;mu-loader&gt;&lt;/mu-loader&gt;</code><br />
 
-            <p>The result will be:</p>
-            <div>
-                <mu-loader></mu-loader><br>
-            </div>
-            <p>More examples:</p>
+            <p>Examples:</p>
         </div>
         <div class="m-5 pb-5 d-grid grid-columns-9 gap-5 fs-1" style="grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr">
             <b class="center-all text-center"></b>
@@ -243,7 +242,18 @@
             <mu-loader empty-space="60" variant="pro"></mu-loader>
             <mu-loader empty-space="70" variant="cta"></mu-loader>
         </div>
+        <footer class="footer footer--vertical pbs-12">
+            <div class="w-12">
+                <mu-loader empty-space="10" variant="light"></mu-loader>
+            </div>
+            
+        </footer>
     </section>
+    <div>
+        <div style="height: 450; width: 450px;" class="bg variant-dark">
+            <mu-loader empty-space="0" variant="light" style="width: 100%"></mu-loader>
+        </div>
+    </div>
 </body>
 
 </html>

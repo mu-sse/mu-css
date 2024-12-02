@@ -1,30 +1,23 @@
-@use "sass:map";
-@use "variables";
-@layer utilities {    
-    @each $variant, $colors in variables.$variants {
-        .bg-#{$variant} {
-            background-color: #{map.get($colors, 'color')};
-            color: #{map.get($colors, 'contrast-color')};
-        }
+@use "colors";
+@use "sizes";
+@use "functions";
+@use "mixins";
 
+@layer utilities {    
+    @each $variant in colors.$variant-keys {
         .variant-#{$variant} {
-            --variant-color: #{map.get($colors, 'color')};
-            --mutted-color: #{map.get($colors, 'mutted-color')};
-            --contrast-color: #{map.get($colors, 'contrast-color')};
-            --darker-color: #{map.get($colors, 'darker-color')};
-            &.outline {
-                --darker-color: var(--mutted-color);
-            }
+            --variant-color: #{functions.get_variant_color($variant, 'color')};
+            --mutted-color: #{functions.get_variant_color($variant, 'mutted-color')};
+            --contrast-color: #{functions.get_variant_color($variant, 'contrast-color')};
+            --darker-color: #{functions.get_variant_color($variant, 'darker-color')};
         }
     }
     .bg {
         background-color: var(--variant-color);
         color: var(--contrast-color);
     }
-    .bg-outline {
-        background-color: transparent;
-        border: 1px solid var(--variant-color);
-        color: var(--variant-color);
+    .bg--outline {
+        @include mixins.outline-style;
     }
     
     .mutted {
@@ -76,83 +69,89 @@
     
     
     
-    @each $scale, $value in variables.$scales {
-        @if map.has-key($value, 'size') {
-            $size: map.get($value, 'size');
+    @each $scale-key in sizes.$scale-keys {
+        $size: functions.get_scale_value($scale-key, 'size');
+        @if $size != null {
             // Margin
-            .m-#{$scale}-mod {
+            .m-#{$scale-key}-mod {
                 --margin: #{$size};
             }
-            .m-#{$scale} {
+            .m-#{$scale-key} {
                 margin: #{$size};
             }
     
-            .mi-#{$scale} {
+            .mi-#{$scale-key} {
                 margin-inline-start: #{$size};
                 margin-inline-end: #{$size};
             }
-            .mis-#{$scale} {
+            .mis-#{$scale-key} {
                 margin-inline-start: #{$size};
             }
-            .mie-#{$scale} {
+            .mie-#{$scale-key} {
                 margin-inline-end: #{$size};
             }
     
-            .mb-#{$scale} {
+            .mb-#{$scale-key} {
                 margin-block-start: #{$size};
                 margin-block-end: #{$size};
             }
-            .mbs-#{$scale} {
+            .mbs-#{$scale-key} {
                 margin-block-start: #{$size};
             }
-            .mbe-#{$scale} {
+            .mbe-#{$scale-key} {
                 margin-block-end: #{$size};
             }
     
             // Padding
-            .p-#{$scale}-mod {
+            .p-#{$scale-key}-mod {
                 --padding: #{$size};
             }
-            .p-#{$scale} {
+            .p-#{$scale-key} {
                 padding: #{$size};
             }
     
-            .pi-#{$scale} {
+            .pi-#{$scale-key} {
                 padding-inline-start: #{$size};
                 padding-inline-end: #{$size};
             }
-            .pis-#{$scale} {
+            .pis-#{$scale-key} {
                 padding-inline-start: #{$size};
             }
-            .pie-#{$scale} {
+            .pie-#{$scale-key} {
                 padding-inline-end: #{$size};
             }
-            .pb-#{$scale} {
+            .pb-#{$scale-key} {
                 padding-block-start: #{$size};
                 padding-block-end: #{$size};
             }
-            .pbs-#{$scale} {
+            .pbs-#{$scale-key} {
                 padding-block-start: #{$size};
             }
-            .pbe-#{$scale} {
+            .pbe-#{$scale-key} {
                 padding-block-end: #{$size};
             }
     
-            .br-#{$scale} {
+            .br-#{$scale-key} {
                 /* Border radius of #{$size} */
                 border-radius: #{size};
             }
 
+            // Width
+            .w-#{$scale-key} {
+                width: #{$size};
+            }
+
             // Additional space
-            .as-#{$scale} {
+            .as-#{$scale-key} {
                 --additional-space: #{$size};
             }
     
         }
     
-        @if map.has-key($value, 'font-size') {
-            .fs-#{$scale} {
-                font-size: #{map.get($value, 'font-size')};
+        $font-size: functions.get_scale_value($scale-key, 'font-size');
+        @if $font-size != null {
+            .fs-#{$scale-key} {
+                font-size: #{$font-size};
             }
         }
     }
@@ -226,29 +225,28 @@
         align-items: stretch;
     }
     
-    @each $scale, $value in variables.$scales {
-        @if map.has-key($value, 'size') {
-            $size: map.get($value, 'size');
-    
+    @each $scale-key in sizes.$scale-keys {
+        $size: functions.get_scale_value($scale-key, 'size');
+        @if $size != null and $size > 0 {    
             @if $size > 0 {
-                .grid-auto-fill-#{$scale} {
+                .grid-auto-fill-#{$scale-key} {
                     /* Create as many columns as possible with a minimum size of #{$size} */
                     grid-template-columns: repeat(auto-fill, minmax(Min(100%, #{$size}), 1fr));
                 }
     
-                .grid-auto-fit-#{$scale} {
+                .grid-auto-fit-#{$scale-key} {
                     /* Create as many columns as possible with a minimum size of #{$size} */
                     grid-template-columns: repeat(auto-fit, minmax(Min(100%, #{$size}), 1fr));
                 }
             }
     
-            .gap-#{$scale} {
+            .gap-#{$scale-key} {
                 gap: #{$size};
             }
         }
     }
 
-    @for $number from 1 through 256 {
+    @for $number from 1 through 360 {
         .grid-columns-#{$number} {
             /* Create #{$number} columns of the same size */
             grid-template-columns: repeat(#{$number}, 1fr);
@@ -258,8 +256,6 @@
             /* Create #{$number} rows of the same size */
             grid-template-rows: repeat(#{$number}, 1fr);
         }
-    }
-    @for $number from 1 through 360 {
         .rotate-#{$number} {
             display: inline-block;
             transform: rotate(#{$number}deg);

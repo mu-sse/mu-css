@@ -1,9 +1,9 @@
 @use "sass:map";
 @use "sass:string";
-@use "variables";
+@use "colors";
 
 :root {
-    @each $name, $variant in variables.$variants {
+    @each $name, $variant in colors.$variants {
         @each $type, $color in $variant {
             $variable-name: --color-#{$name}-#{$type};
 

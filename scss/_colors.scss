@@ -1,7 +1,5 @@
 @use "sass:map";
 @use "sass:list";
-$font-family: 'Duplicate', 'Noto Sans', 'Roboto', sans-serif !default;
-
 $pantone-colors: (
     /*********** Pantone ***********/
     /* Naranja */
@@ -247,92 +245,13 @@ $variants: (
     ),
 ) !default;
 
-$scales: (
-    /*********** Scales ***********/
-    '0': (
-        'size': 0,
-        'font-size': 0,
-    ),
-    '1': (
-        'size': 1px,
-        'font-size': 12px,
-    ),
-    '2': (
-        'size': 4px,
-        'font-size': 14px,
-    ),
-    '3': (
-        'size': 8px,
-        'font-size': 16px,
-    ),
-    '4': (
-        'size': 12px,
-        'font-size': 18px,
-    ),
-    '5': (
-        'size': 16px,
-        'font-size': 20px,
-    ),
-    '6': (
-        'size': 24px,
-        'font-size': 24px,
-    ),
-    '7': (
-        'size': 32px,
-        'font-size': 30px,
-    ),
-    '8': (
-        'size': 48px,
-        'font-size': 36px,
-    ),
-    '9': (
-        'size': 64px,
-        'font-size': 48px,
-    ),
-    '10': (
-        'size': 96px,
-        'font-size': 60px,
-    ),
-    '11': (
-        'size': 128px,
-        'font-size': 72px,
-    ),
-    '12': (
-        'size': 192px,
-    ),
-    '13': (
-        'size': 256px,
-    ),
-    '14': (
-        'size': 384px,
-    ),
-    '15': (
-        'size': 512px,
-    ),
-    '16': (
-        'size': 640px,
-    ),
-    '17': (
-        'size': 768px,
-    ),
-    '18': (
-        'size': 896px,
-    ),
-    '19': (
-        'size': 1024px,
-    ),
-    '20': (
-        'size': 1280px,
-    ),
-)!default;
+$variant-keys: map.keys($variants);
 
-
-$scale-names: ();
-@each $scale-number, $scale in $scales {
-    @each $name, $size in $scale {
-        // if not $name in $scale-names
-        @if not list.index($scale-names, $name) {
-            $scale-names: list.append($scale-names, $name, comma);
+$variant-color-types: ();
+@each $variant, $colors in $variants {
+    @each $color-type in map.keys($colors) {
+        @if not list.index($variant-color-types, $color-type) {
+            $variant-color-types: list.append($variant-color-types, $color-type);
         }
     }
 }

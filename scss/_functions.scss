@@ -1,13 +1,33 @@
 @use "sass:map";
-@use "variables";
-// **** Variant colors ****
+@use "colors";
+@use "sizes";
+
 // Get value from variant
-@function get-value-from-variant($variant, $value) {
-    @return map.get(map.get(variables.$variants, $variant), $value);
+// @param $variant-key - The variant name
+// @param $color-name - The color of the variant to retrieve
+// @return - The value from the variant map or null if not found
+@function get_variant_color($variant-key, $color-name) {
+    @if not map.has-key(colors.$variants, $variant-key) {
+        @return null;
+    }
+    $variant: map.get(colors.$variants, $variant-key);
+    @if not map.has-key($variant, $color-name) {
+        @return null;
+    }
+    @return map.get($variant, $color-name);
 }
 
-// **** Scales ****
 // Get value from scale
-@function get-value-from-scale($scale, $value) {
-    @return map.get(map.get(variables.$scales, $scale), $value);
+// @param $scale-key - The scale number
+// @param $value-name - The value to retrieve
+// @return - The value from the scale map or null if not found
+@function get_scale_value($scale-key, $value-name) {
+    @if not map.has_key(sizes.$scales, $scale-key) {
+        @return null;
+    }
+    $scale: map.get(sizes.$scales, $scale-key);
+    @if not map.has_key($scale, $value-name) {
+        @return null;
+    }
+    @return map.get($scale, $value-name);
 }

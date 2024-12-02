@@ -1,48 +1,61 @@
-@use "sass:map";
-@use "variables";
 @use "functions";
+@use "mixins";
+
+$default-padding-size: #{functions.get_scale_value('3', 'size')};
+$default-margin-size: #{functions.get_scale_value('0', 'size')};
+$default-border-radius-size: #{functions.get_scale_value('3', 'size')};
+$default-additional-space-size: #{functions.get_scale_value('3', 'size')};
 
 @layer components {
+
+    // Blocks
+    .header, .footer, .btn, .pill {
+        @include mixins.color-variables('primary');
+    }
+
     .page {
-        padding: #{functions.get-value-from-scale('0', 'size')};
-        
-    
-        --variant-color: #{functions.get-value-from-variant('light', 'color')};
-        --contrast-color: #{functions.get-value-from-variant('light', 'contrast-color')};
-    
+        @include mixins.color-variables('light');
+        padding: #{functions.get_scale_value('0', 'size')};
         background-color: var(--variant-color);
         color: var(--contrast-color);
     
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
-        &:has(> .header) {
-            padding-block-start: #{functions.get-value-from-scale('5', 'size')};
+        &:has(> .header:first-child) {
+            padding-block-start: #{functions.get_scale_value('5', 'size')};
+        }
+        &:has(> .header--vertical:first-child), &:has(> .header--block:first-child) {
+            padding-block-start: #{functions.get_scale_value('0', 'size')};
+            padding-inline-start: #{functions.get_scale_value('5', 'size')};
         }
 
-        &:has(> .footer) {
-            padding-block-end: #{functions.get-value-from-scale('5', 'size')};
+        &:has(> .footer:last-child){
+            padding-block-end: #{functions.get_scale_value('5', 'size')};
         }
-
-    }
+        &:has(> .footer--vertical:last-child), &:has(> .footer--block:last-child) {
+            padding-block-end: #{functions.get_scale_value('0', 'size')};
+            padding-inline-end: #{functions.get_scale_value('5', 'size')};
+        }
     
-    .page-animated {
-        transition: box-shadow 0.1s;
-        &:hover {
-            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);;
+        &.page--animated {
+            transition: box-shadow 0.1s;
+            &:hover {
+                box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);;
+            }
         }
     }
     
     .btn {
-        --padding: #{functions.get-value-from-scale('3', 'size')};
+        --padding: #{functions.get_scale_value('3', 'size')};
         --padding-inline-start: var(--padding);
         --padding-inline-end: calc(var(--padding) / 2);
-        --margin: #{functions.get-value-from-scale('0', 'size')};
+        --margin: #{functions.get_scale_value('0', 'size')};
     
         display: inline-flex;
         align-items: center;
         justify-content: center;
     
-        border-radius: #{functions.get-value-from-scale('3', 'size')};
+        border-radius: #{functions.get_scale_value('3', 'size')};
         margin: var(--margin);
     
         padding-inline: var(--padding);
@@ -69,28 +82,18 @@
         }
     }
 
-    .btn-outline {
-        background-color: transparent;
-        border: 1px solid var(--variant-color);
-        color: var(--variant-color);
-    
-        &:hover {
-            background-color: var(--variant-color);
-            color: var(--contrast-color);
-        }
-    }
-    
-    .pill, .btn-pill {
+    .pill {
         border-radius: 1000em;
     }
 
-    .header, .header-inline, .footer, .footer-inline {
+    .header, .footer {
+        
         position: relative;
-        --additional-space: #{functions.get-value-from-scale('3', 'size')};
+        --additional-space: #{functions.get_scale_value('3', 'size')};
 
-        --padding: #{functions.get-value-from-scale('3', 'size')};
-        --border-radius: #{functions.get-value-from-scale('3', 'size')};
-        --margin: #{functions.get-value-from-scale('0', 'size')};
+        --padding: #{functions.get_scale_value('3', 'size')};
+        --border-radius: #{functions.get_scale_value('3', 'size')};
+        --margin: #{functions.get_scale_value('0', 'size')};
         padding: var(--padding);
         margin: var(--margin);
         background-color: var(--variant-color);
@@ -100,20 +103,50 @@
         max-width: 80%;
     }
     
-    .header, .header-inline {
+    .header {
+        --border-width: 0;
         padding-inline-end: calc(5 * var(--additional-space));
         margin-inline-start: 0;
         border-radius: 0 1000em 1000em 0;
 
-        &.header-outline {
+        &.header--outline {
             border-inline-start-width: 0;
         }
     }
+
+    .footer {
+        padding-inline-start: calc(5 * var(--additional-space));
+        margin-inline-start: auto;  // No needed in header
+        margin-inline-end: 0;
+        border-radius: 1000em 0 0 1000em;
     
-    .header-vertical, .header-block, .footer-vertical, .footer-block {
-        --additional-space: #{functions.get-value-from-scale('9', 'size')};
-        --padding: #{functions.get-value-from-scale('3', 'size')};
-        --margin: #{functions.get-value-from-scale('0', 'size')};
+        text-align: right;  // No needed in header
+
+        &.footer--outline {
+            border-inline-end-width: 0;
+        }
+    }
+
+    // Modifiers
+    
+    .btn--pill {
+        border-radius: 1000em;
+    }
+
+    // Modifiers: outlines
+    .btn--outline, .header--outline, .footer--outline {
+        @include mixins.outline-style();
+    }
+    .btn--outline:hover {
+        background-color: var(--variant-color);
+        color: var(--contrast-color);
+    }
+    
+    // Modifiers: verticals
+    .header--vertical, .header--block, .footer--vertical, .footer--block {
+        --additional-space: #{functions.get_scale_value('9', 'size')};
+        --padding: #{functions.get_scale_value('3', 'size')};
+        --margin: #{functions.get_scale_value('0', 'size')};
     
         padding: var(--padding);
         margin: var(--margin);
@@ -132,45 +165,27 @@
             width: fit-content;
         }
     }
-    .header-vertical, .header-block {
+
+    // Modifiers: vertical headers
+    .header--vertical, .header--block {
         padding-block-end: var(--additional-space);
-        //--a: 5em;
     
         margin-inline-start: calc(var(--additional-space) / 2);
         margin-inline-end: auto;
+        margin-inline-start: 0;
         margin-block-end: calc(var(--additional-space) / 2);
         
         border-radius: 0 0 1000em 1000em;
         background-color: var(--variant-color);
     
-        &.header-outline{
-            border-block-start-width: 0;
+        &.header--outline {
+            border-width: 0 var(--border-width) var(--border-width) var(--border-width);
         }
     
     }
-
-    .header-outline {
-        // It is not an utility, but a modification of a component
-        background-color: transparent;
-        border: 1px solid var(--variant-color);
-        color: var(--variant-color);
-    }
     
-    .footer, .footer-inline {
-        padding-inline-start: calc(5 * var(--additional-space));
-        margin-inline-start: auto;
-        margin-inline-end: 0;
-        border-radius: 1000em 0 0 1000em;
-    
-        text-align: right;
-
-        &.footer-outline {
-            border-inline-end-width: 0;
-        }
-    }
-    
-    
-    .footer-vertical, .footer-block {
+    // Modifiers: vertical footers
+    .footer--vertical, .footer--block {
 
         padding-block-start: var(--additional-space);
         margin-inline-start: auto;
@@ -179,15 +194,17 @@
         border-radius: 1000em 1000em 0 0;
         background-color: var(--variant-color);
     
-        &.footer-outline{
-            border-block-end-width: 0;
+        &.footer--outline{
+            border-width: var(--border-width) var(--border-width) 0 var(--border-width);
         }
     }
 
-    .footer-outline {
-        // It is not an utility, but a modification of a component
-        background-color: transparent;
-        border: 1px solid var(--variant-color);
-        color: var(--variant-color);
+    .header--outline {
+        @include mixins.outline-style();
     }
+
+    .footer--outline {
+        @include mixins.outline-style();
+    }
+
 }

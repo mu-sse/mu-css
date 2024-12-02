@@ -1,8 +1,8 @@
 @use "sass:map";
-@use "variables";
+@use "colors";
 
 :root {
-    @each $name, $color in variables.$colors {
+    @each $name, $color in colors.$colors {
         --color-#{$name}: #{$color};
     }
 

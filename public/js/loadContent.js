@@ -8,6 +8,7 @@ let sizesContent = document.getElementById('sizes-content');
 let fontSizesContent = document.getElementById('font-sizes-content');
 
 const variants = [
+    '',
     'primary',
     'secondary',
     'gray',
@@ -31,18 +32,20 @@ const variants = [
 
 const createHeader = (variant, vertical=false, outline=false) => {
     let header = document.createElement('header');
-    if(vertical) header.classList.add('header-vertical');
-    else header.classList.add('header');
-    
-    header.classList.add('variant-' + variant);
-    if(outline) header.classList.add('header-outline');
+    header.classList.add('header');
+
+    if(vertical) header.classList.add('header--vertical');
+    if(outline) header.classList.add('header--outline');
+    if(variant != '') header.classList.add('variant-' + variant);
     let headerH1 = document.createElement('h1');
 
     if(vertical) {
-        headerH1.textContent = variant;
-        header.classList.add('pbe-10');
+        Array.from(header.classList).forEach((className) => {
+            headerH1.appendChild(document.createTextNode(className));
+            headerH1.appendChild(document.createElement('br'));
+        });
     } else {
-        headerH1.textContent = 'Header ' + variant + ' outline' + "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam accusamus laudantium voluptatibus maiores molestiae, quasi asperiores ducimus ullam commodi quaerat totam eum dicta laborum quidem fugiat, unde accusantium atque culpa dolor iure?";
+        headerH1.textContent = header.className + ' outline' + "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam accusamus laudantium voluptatibus maiores molestiae, quasi asperiores ducimus ullam commodi quaerat totam eum dicta laborum quidem fugiat, unde accusantium atque culpa dolor iure?";
     }
 
     let mutted = document.createElement('h2');
@@ -57,17 +60,20 @@ const createHeader = (variant, vertical=false, outline=false) => {
 
 const createFooter = (variant, vertical=false, outline=false) => {
     let footer = document.createElement('footer');
-    if(vertical) footer.classList.add('footer-vertical');
-    else footer.classList.add('footer');
-    
-    footer.classList.add('variant-' + variant);
-    if(outline) footer.classList.add('footer-outline');
+    footer.classList.add('footer');
+    if(vertical) footer.classList.add('footer--vertical');
+    if(outline) footer.classList.add('footer--outline');
+    if(variant != '') footer.classList.add('variant-' + variant);
+
     let footerSpan = document.createElement('span');
 
     if(vertical) {
-        footerSpan.textContent = variant;
+        Array.from(footer.classList).forEach((className) => {
+            footerSpan.appendChild(document.createTextNode(className));
+            footerSpan.appendChild(document.createElement('br'));
+        });
     } else {
-        footerSpan.textContent = 'Footer ' + variant + ' outline' + "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam accusamus laudantium voluptatibus maiores molestiae, quasi asperiores ducimus ullam commodi quaerat totam eum dicta laborum quidem fugiat, unde accusantium atque culpa dolor iure?";
+        footerSpan.textContent = footer.className + " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam accusamus laudantium voluptatibus maiores molestiae, quasi asperiores ducimus ullam commodi quaerat totam eum dicta laborum quidem fugiat, unde accusantium atque culpa dolor iure?";
     }
 
     footer.appendChild(footerSpan);
@@ -105,81 +111,93 @@ const createSizes = () => {
     });
 }
 
-createSizes();
-
-for (let variant of variants) {
-    /******************** Buttons ********************/
-    // Button
+const createVariantButton = (variant='', outline=false, pill=false) => {
     let btn = document.createElement('button');
-    btn.classList.add('btn', 'variant-' + variant);
-    btn.textContent = 'Button ' + variant;
+    btn.classList.add('btn');
+    if(variant != '') btn.classList.add('variant-' + variant);
+    if(outline) btn.classList.add('btn--outline');
+    if(pill) btn.classList.add('btn--pill');
+    btn.textContent = btn.className;
     btn.addEventListener('click', () => {
         bodyElement.className = 'bg variant-' + variant;
     });
+    return btn;
+}
 
-    // Button outline
-    let btnOutline = document.createElement('button');
-    btnOutline.classList.add('btn', 'variant-' + variant, 'btn-outline');
-    btnOutline.textContent = 'Button ' + variant + ' outline';
-    btnOutline.addEventListener('click', () => {
-        bodyElement.className = 'bg variant-' + variant;
-    });
+const createVariantPage = (variant='', outline=false, vertical=false) => {
+    let page = document.createElement('article');
+    page.classList.add('page');
+    if(variant === 'light') page.classList.add('bg','variant-dark');
+    page.appendChild(createHeader(variant, vertical, outline));
+    page.appendChild(createContent());
+    page.appendChild(createFooter(variant, vertical, outline));
+    return page;
+}
 
-    // Button pill
-    let btnPill = document.createElement('button');
-    btnPill.classList.add('btn', 'variant-' + variant, 'btn-pill');
-    btnPill.textContent = 'Button ' + variant + ' pill';
-    btnPill.addEventListener('click', () => {
-        bodyElement.className = 'bg variant-' + variant;
-    });
+const addVariantButtons = ($variant) => {
+    btn = createVariantButton($variant, false, false);
+    btnOutline = createVariantButton($variant, true, false);
+    btnPill = createVariantButton($variant, false, true);
+    btnOutlinePill = createVariantButton($variant, true, true);
 
-    // Button outline
-    let btnOutlinePill = document.createElement('button');
-    btnOutlinePill.classList.add('btn', 'variant-' + variant, 'btn-outline', 'btn-pill');
-    btnOutlinePill.textContent = 'Button ' + variant + ' outline pill';
-    btnOutlinePill.addEventListener('click', () => {
-        bodyElement.className = 'bg variant-' + variant;
-    });
-
-    // Append
     btnGrid.appendChild(btn);
     btnGrid.appendChild(btnPill);
     btnGridOutline.appendChild(btnOutline);
     btnGridOutline.appendChild(btnOutlinePill);
+}
+
+const addVariantPages = ($variant) => {
+    page = createVariantPage($variant, false, false);
+    pageOutline = createVariantPage($variant, true, false);
+    pageVertical = createVariantPage($variant, false, true);
+    pageVerticalOutline = createVariantPage($variant, true, true);
+
+    headerSection.appendChild(page);
+    headerSection.appendChild(pageOutline);
+    headerSection.appendChild(pageVertical);
+    headerSection.appendChild(pageVerticalOutline);
+}
+
+createSizes();
+
+for (let variant of variants) {
+    /******************** Buttons ********************/
+    addVariantButtons(variant);
 
     /******************** Headers ********************/
+    addVariantPages(variant);
     // Page
-    let page = document.createElement('article');
-    page.classList.add('page', 'pb-5');
-    if(variant === 'light') page.classList.add('bg','variant-dark');
-    page.appendChild(createHeader(variant));
-    page.appendChild(createContent());
-    page.appendChild(createFooter(variant));
-    headerSection.appendChild(page);
+    // let page = document.createElement('article');
+    // page.classList.add('page', 'pb-5');
+    // if(variant === 'light') page.classList.add('bg','variant-dark');
+    // page.appendChild(createHeader(variant));
+    // page.appendChild(createContent());
+    // page.appendChild(createFooter(variant));
+    // headerSection.appendChild(page);
 
 
-    let pageOutline = document.createElement('article');
-    pageOutline.classList.add('page');
-    if(variant === 'light') pageOutline.classList.add('bg','variant-dark');
-    pageOutline.appendChild(createHeader(variant, false, true));
-    pageOutline.appendChild(createContent());
-    pageOutline.appendChild(createFooter(variant, false, true));
-    headerSection.appendChild(pageOutline);
+    // let pageOutline = document.createElement('article');
+    // pageOutline.classList.add('page');
+    // if(variant === 'light') pageOutline.classList.add('bg','variant-dark');
+    // pageOutline.appendChild(createHeader(variant, false, true));
+    // pageOutline.appendChild(createContent());
+    // pageOutline.appendChild(createFooter(variant, false, true));
+    // headerSection.appendChild(pageOutline);
 
-    let pageVertical = document.createElement('article');
-    pageVertical.classList.add('page');
-    if(variant === 'light') pageVertical.classList.add('bg','variant-dark');
-    pageVertical.appendChild(createHeader(variant, true));
-    pageVertical.appendChild(createContent());
-    pageVertical.appendChild(createFooter(variant, true));
-    headerSection.appendChild(pageVertical);
+    // let pageVertical = document.createElement('article');
+    // pageVertical.classList.add('page');
+    // if(variant === 'light') pageVertical.classList.add('bg','variant-dark');
+    // pageVertical.appendChild(createHeader(variant, true));
+    // pageVertical.appendChild(createContent());
+    // pageVertical.appendChild(createFooter(variant, true));
+    // headerSection.appendChild(pageVertical);
 
-    let pageVerticalOutline = document.createElement('article');
-    pageVerticalOutline.classList.add('page');
-    if(variant === 'light') pageVerticalOutline.classList.add('bg','variant-dark');
-    pageVerticalOutline.appendChild(createHeader(variant, true, true));
-    pageVerticalOutline.appendChild(createContent());
-    pageVerticalOutline.appendChild(createFooter(variant, true, true));
-    headerSection.appendChild(pageVerticalOutline);
+    // let pageVerticalOutline = document.createElement('article');
+    // pageVerticalOutline.classList.add('page');
+    // if(variant === 'light') pageVerticalOutline.classList.add('bg','variant-dark');
+    // pageVerticalOutline.appendChild(createHeader(variant, true, true));
+    // pageVerticalOutline.appendChild(createContent());
+    // pageVerticalOutline.appendChild(createFooter(variant, true, true));
+    // headerSection.appendChild(pageVerticalOutline);
 
 }

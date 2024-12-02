@@ -1,10 +1,10 @@
 @use "sass:map";
-@use "variables";
+@use "sizes";
 
 :root {
-    @each $scale-name in variables.$scale-names {
+    @each $scale-name in sizes.$scale-names {
         /* #{$scale-name} */
-        @each $scale-number, $scale in variables.$scales {
+        @each $scale-number, $scale in sizes.$scales {
             $value: map.get($scale, $scale-name);
             @if $value != null {
                 --#{$scale-name}-#{$scale-number}: #{$value};

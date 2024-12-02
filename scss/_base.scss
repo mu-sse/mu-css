@@ -1,26 +1,24 @@
-@use "sass:map";
-@use "variables";
+@use "colors";
+@use "sizes";
+@use "fonts";
+@use "functions";
+@use "mixins";
 
 @layer base {
     :root {
         /* Color variables */
-        @each $variant, $colors in variables.$variants {
-            --variant-#{$variant}-color: #{map.get($colors, 'color')};
-            --variant-#{$variant}-mutted-color: #{map.get($colors, 'mutted-color')};
-            --variant-#{$variant}-contrast-color: #{map.get($colors, 'contrast-color')};
-            --variant-#{$variant}-darker-color: #{map.get($colors, 'darker-color')};
-    
+        @each $variant-key, $variant in colors.$variants {
+            @each $color-key, $color in $variant {
+                --variant-#{$variant-key}-#{$color-key}: #{$color};
+            }
         }
         /* Global variables */
-        --darker-color: #{map.get(map.get(variables.$variants, 'primary'), 'darker-color')};
-        --variant-color: #{map.get(map.get(variables.$variants,'primary'), 'color')};
-        --mutted-color: #{map.get(map.get(variables.$variants, 'primary'), 'mutted-color')};
-        --contrast-color: #{map.get(map.get(variables.$variants, 'primary'), 'contrast-color')};
-        --additional-space: #{map.get((map.get(variables.$scales, '7')), 'size')};
+        @include mixins.color-variables();
+        --additional-space: #{functions.get_scale_value('7', 'size')};
     
         /* Main configuration */
-        font-family: #{variables.$font-family};
-        font-size: #{map.get((map.get(variables.$scales, '3')), 'font-size')};
+        font-family: fonts.$font-family;
+        font-size: #{functions.get_scale_value('3', 'font-size')};
     }
     
     *, *::before, *::after {
@@ -80,4 +78,4 @@
         */
         text-wrap: pretty;
     }
-    }
+}

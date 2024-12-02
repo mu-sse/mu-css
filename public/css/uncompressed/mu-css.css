@@ -4,72 +4,72 @@
     /* Color variables */
     --variant-primary-color: hsl(183, 100%, 34%);
     --variant-primary-mutted-color: hsl(183, 64%, 77%);
-    --variant-primary-contrast-color: hsl(0, 0%, 100%);
     --variant-primary-darker-color: hsl(187, 100%, 16%);
+    --variant-primary-contrast-color: hsl(0, 0%, 100%);
     --variant-secondary-color: hsl(187, 100%, 16%);
     --variant-secondary-mutted-color: hsl(187, 100%, 80%);
-    --variant-secondary-contrast-color: hsl(0, 0%, 100%);
     --variant-secondary-darker-color: hsl(187, 100%, 5%);
+    --variant-secondary-contrast-color: hsl(0, 0%, 100%);
     --variant-gray-color: hsl(210, 17%, 50%);
     --variant-gray-mutted-color: hsl(210, 17%, 90%);
-    --variant-gray-contrast-color: hsl(0, 0%, 100%);
     --variant-gray-darker-color: hsl(210, 17%, 10%);
+    --variant-gray-contrast-color: hsl(0, 0%, 100%);
     --variant-mu-color: hsl(183, 100%, 34%);
     --variant-mu-mutted-color: hsl(183, 64%, 77%);
-    --variant-mu-contrast-color: hsl(0, 0%, 100%);
     --variant-mu-darker-color: hsl(187, 100%, 16%);
+    --variant-mu-contrast-color: hsl(0, 0%, 100%);
     --variant-mgep-color: hsl(21, 71%, 52%);
     --variant-mgep-mutted-color: hsl(35, 87%, 73%);
-    --variant-mgep-contrast-color: hsl(0, 0%, 100%);
     --variant-mgep-darker-color: hsl(10, 65%, 43%);
+    --variant-mgep-contrast-color: hsl(0, 0%, 100%);
     --variant-huezi-color: hsl(331, 100%, 32%);
     --variant-huezi-mutted-color: hsl(327, 73%, 74%);
-    --variant-huezi-contrast-color: hsl(0, 0%, 100%);
     --variant-huezi-darker-color: hsl(330, 58%, 27%);
+    --variant-huezi-contrast-color: hsl(0, 0%, 100%);
     --variant-eteo-color: hsl(115, 37%, 39%);
     --variant-eteo-mutted-color: hsl(102, 37%, 70%);
-    --variant-eteo-contrast-color: hsl(0, 0%, 100%);
     --variant-eteo-darker-color: hsl(139, 41%, 26%);
+    --variant-eteo-contrast-color: hsl(0, 0%, 100%);
     --variant-asfabrik-color: hsl(6, 100%, 55%);
     --variant-asfabrik-mutted-color: hsl(6, 100%, 85%);
-    --variant-asfabrik-contrast-color: hsl(0, 0%, 100%);
     --variant-asfabrik-darker-color: hsl(6, 100%, 30%);
+    --variant-asfabrik-contrast-color: hsl(0, 0%, 100%);
     --variant-bbf-color: hsl(4, 67%, 51%);
     --variant-bbf-mutted-color: hsl(4, 67%, 81%);
-    --variant-bbf-contrast-color: hsl(0, 0%, 100%);
     --variant-bbf-darker-color: hsl(4, 67%, 31%);
+    --variant-bbf-contrast-color: hsl(0, 0%, 100%);
     --variant-cta-color: hsl(45, 100%, 53%);
     --variant-cta-mutted-color: hsl(45, 100%, 85%);
-    --variant-cta-contrast-color: hsl(0, 0%, 100%);
     --variant-cta-darker-color: hsl(45, 100%, 20%);
+    --variant-cta-contrast-color: hsl(0, 0%, 100%);
     --variant-pro-color: hsl(347, 100%, 42%);
     --variant-pro-mutted-color: hsl(347, 100%, 80%);
-    --variant-pro-contrast-color: hsl(0, 0%, 100%);
     --variant-pro-darker-color: hsl(347, 100%, 15%);
+    --variant-pro-contrast-color: hsl(0, 0%, 100%);
     --variant-success-color: hsl(123, 47%, 40%);
     --variant-success-mutted-color: hsl(108, 41%, 70%);
-    --variant-success-contrast-color: hsl(0, 0%, 100%);
     --variant-success-darker-color: hsl(147, 41%, 26%);
+    --variant-success-contrast-color: hsl(0, 0%, 100%);
     --variant-danger-color: hsl(330, 100%, 32%);
     --variant-danger-mutted-color: hsl(330, 70%, 74%);
-    --variant-danger-contrast-color: hsl(0, 0%, 100%);
     --variant-danger-darker-color: hsl(330, 58%, 19%);
+    --variant-danger-contrast-color: hsl(0, 0%, 100%);
     --variant-warning-color: hsl(24, 75%, 49%);
     --variant-warning-mutted-color: hsl(30, 88%, 73%);
-    --variant-warning-contrast-color: hsl(0, 0%, 100%);
     --variant-warning-darker-color: hsl(9, 66%, 46%);
+    --variant-warning-contrast-color: hsl(0, 0%, 100%);
     --variant-info-color: hsl(200, 100%, 41%);
     --variant-info-mutted-color: hsl(200, 100%, 80%);
-    --variant-info-contrast-color: hsl(0, 0%, 100%);
     --variant-info-darker-color: hsl(200, 100%, 20%);
+    --variant-info-contrast-color: hsl(0, 0%, 100%);
     --variant-light-color: hsl(0, 0%, 100%);
     --variant-light-mutted-color: hsl(0, 0%, 50%);
-    --variant-light-contrast-color: hsl(210, 0%, 0%);
     --variant-light-darker-color: hsl(0, 0%, 90%);
+    --variant-light-contrast-color: hsl(210, 0%, 0%);
     --variant-dark-color: hsl(0, 0%, 0%);
     --variant-dark-mutted-color: hsl(0, 0%, 50%);
-    --variant-dark-contrast-color: hsl(0, 0%, 100%);
     --variant-dark-darker-color: hsl(0, 0%, 10%);
+    --variant-dark-contrast-color: hsl(0, 0%, 100%);
     /* Global variables */
     --darker-color: hsl(187, 100%, 16%);
     --variant-color: hsl(183, 100%, 34%);
@@ -77,7 +77,7 @@
     --contrast-color: hsl(0, 0%, 100%);
     --additional-space: 32px;
     /* Main configuration */
-    font-family: Duplicate, Noto Sans, Roboto, sans-serif;
+    font-family: "Duplicate", "Noto Sans", "Roboto", sans-serif;
     font-size: 16px;
   }
   *, *::before, *::after {
@@ -133,24 +133,40 @@
   }
 }
 @layer components {
+  .header, .footer, .btn, .pill {
+    --darker-color: hsl(187, 100%, 16%);
+    --variant-color: hsl(183, 100%, 34%);
+    --mutted-color: hsl(183, 64%, 77%);
+    --contrast-color: hsl(0, 0%, 100%);
+  }
   .page {
-    padding: 0;
+    --darker-color: hsl(0, 0%, 90%);
     --variant-color: hsl(0, 0%, 100%);
+    --mutted-color: hsl(0, 0%, 50%);
     --contrast-color: hsl(210, 0%, 0%);
+    padding: 0;
     background-color: var(--variant-color);
     color: var(--contrast-color);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
-  .page:has(> .header) {
+  .page:has(> .header:first-child) {
     padding-block-start: 16px;
   }
-  .page:has(> .footer) {
+  .page:has(> .header--vertical:first-child), .page:has(> .header--block:first-child) {
+    padding-block-start: 0;
+    padding-inline-start: 16px;
+  }
+  .page:has(> .footer:last-child) {
     padding-block-end: 16px;
   }
-  .page-animated {
+  .page:has(> .footer--vertical:last-child), .page:has(> .footer--block:last-child) {
+    padding-block-end: 0;
+    padding-inline-end: 16px;
+  }
+  .page.page--animated {
     transition: box-shadow 0.1s;
   }
-  .page-animated:hover {
+  .page.page--animated:hover {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   }
   .btn {
@@ -181,19 +197,10 @@
     background-color: var(--mutted-color);
     text-decoration: none;
   }
-  .btn-outline {
-    background-color: transparent;
-    border: 1px solid var(--variant-color);
-    color: var(--variant-color);
-  }
-  .btn-outline:hover {
-    background-color: var(--variant-color);
-    color: var(--contrast-color);
-  }
-  .pill, .btn-pill {
+  .pill {
     border-radius: 1000em;
   }
-  .header, .header-inline, .footer, .footer-inline {
+  .header, .footer {
     position: relative;
     --additional-space: 8px;
     --padding: 8px;
@@ -206,15 +213,40 @@
     width: fit-content;
     max-width: 80%;
   }
-  .header, .header-inline {
+  .header {
+    --border-width: 0;
     padding-inline-end: calc(5 * var(--additional-space));
     margin-inline-start: 0;
     border-radius: 0 1000em 1000em 0;
   }
-  .header.header-outline, .header-inline.header-outline {
+  .header.header--outline {
     border-inline-start-width: 0;
   }
-  .header-vertical, .header-block, .footer-vertical, .footer-block {
+  .footer {
+    padding-inline-start: calc(5 * var(--additional-space));
+    margin-inline-start: auto;
+    margin-inline-end: 0;
+    border-radius: 1000em 0 0 1000em;
+    text-align: right;
+  }
+  .footer.footer--outline {
+    border-inline-end-width: 0;
+  }
+  .btn--pill {
+    border-radius: 1000em;
+  }
+  .btn--outline, .header--outline, .footer--outline {
+    --border-width: 1px;
+    --darker-color: var(--mutted-color);
+    background-color: transparent;
+    border: var(--border-width) solid var(--variant-color);
+    color: var(--variant-color);
+  }
+  .btn--outline:hover {
+    background-color: var(--variant-color);
+    color: var(--contrast-color);
+  }
+  .header--vertical, .header--block, .footer--vertical, .footer--block {
     --additional-space: 64px;
     --padding: 8px;
     --margin: 0;
@@ -227,69 +259,53 @@
     flex-direction: column;
     align-items: center;
   }
-  .header-vertical *, .header-block *, .footer-vertical *, .footer-block * {
+  .header--vertical *, .header--block *, .footer--vertical *, .footer--block * {
     text-align: center;
     width: fit-content;
   }
-  .header-vertical, .header-block {
+  .header--vertical, .header--block {
     padding-block-end: var(--additional-space);
     margin-inline-start: calc(var(--additional-space) / 2);
     margin-inline-end: auto;
+    margin-inline-start: 0;
     margin-block-end: calc(var(--additional-space) / 2);
     border-radius: 0 0 1000em 1000em;
     background-color: var(--variant-color);
   }
-  .header-vertical.header-outline, .header-block.header-outline {
-    border-block-start-width: 0;
+  .header--vertical.header--outline, .header--block.header--outline {
+    border-width: 0 var(--border-width) var(--border-width) var(--border-width);
   }
-  .header-outline {
-    background-color: transparent;
-    border: 1px solid var(--variant-color);
-    color: var(--variant-color);
-  }
-  .footer, .footer-inline {
-    padding-inline-start: calc(5 * var(--additional-space));
-    margin-inline-start: auto;
-    margin-inline-end: 0;
-    border-radius: 1000em 0 0 1000em;
-    text-align: right;
-  }
-  .footer.footer-outline, .footer-inline.footer-outline {
-    border-inline-end-width: 0;
-  }
-  .footer-vertical, .footer-block {
+  .footer--vertical, .footer--block {
     padding-block-start: var(--additional-space);
     margin-inline-start: auto;
     margin-inline-end: calc(var(--additional-space) / 2);
     border-radius: 1000em 1000em 0 0;
     background-color: var(--variant-color);
   }
-  .footer-vertical.footer-outline, .footer-block.footer-outline {
-    border-block-end-width: 0;
+  .footer--vertical.footer--outline, .footer--block.footer--outline {
+    border-width: var(--border-width) var(--border-width) 0 var(--border-width);
   }
-  .footer-outline {
+  .header--outline {
+    --border-width: 1px;
+    --darker-color: var(--mutted-color);
     background-color: transparent;
-    border: 1px solid var(--variant-color);
+    border: var(--border-width) solid var(--variant-color);
+    color: var(--variant-color);
+  }
+  .footer--outline {
+    --border-width: 1px;
+    --darker-color: var(--mutted-color);
+    background-color: transparent;
+    border: var(--border-width) solid var(--variant-color);
     color: var(--variant-color);
   }
 }
 @layer utilities {
-  .bg-primary {
-    background-color: hsl(183, 100%, 34%);
-    color: hsl(0, 0%, 100%);
-  }
   .variant-primary {
     --variant-color: hsl(183, 100%, 34%);
     --mutted-color: hsl(183, 64%, 77%);
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(187, 100%, 16%);
-  }
-  .variant-primary.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-secondary {
-    background-color: hsl(187, 100%, 16%);
-    color: hsl(0, 0%, 100%);
   }
   .variant-secondary {
     --variant-color: hsl(187, 100%, 16%);
@@ -297,25 +313,11 @@
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(187, 100%, 5%);
   }
-  .variant-secondary.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-gray {
-    background-color: hsl(210, 17%, 50%);
-    color: hsl(0, 0%, 100%);
-  }
   .variant-gray {
     --variant-color: hsl(210, 17%, 50%);
     --mutted-color: hsl(210, 17%, 90%);
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(210, 17%, 10%);
-  }
-  .variant-gray.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-mu {
-    background-color: hsl(183, 100%, 34%);
-    color: hsl(0, 0%, 100%);
   }
   .variant-mu {
     --variant-color: hsl(183, 100%, 34%);
@@ -323,25 +325,11 @@
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(187, 100%, 16%);
   }
-  .variant-mu.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-mgep {
-    background-color: hsl(21, 71%, 52%);
-    color: hsl(0, 0%, 100%);
-  }
   .variant-mgep {
     --variant-color: hsl(21, 71%, 52%);
     --mutted-color: hsl(35, 87%, 73%);
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(10, 65%, 43%);
-  }
-  .variant-mgep.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-huezi {
-    background-color: hsl(331, 100%, 32%);
-    color: hsl(0, 0%, 100%);
   }
   .variant-huezi {
     --variant-color: hsl(331, 100%, 32%);
@@ -349,25 +337,11 @@
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(330, 58%, 27%);
   }
-  .variant-huezi.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-eteo {
-    background-color: hsl(115, 37%, 39%);
-    color: hsl(0, 0%, 100%);
-  }
   .variant-eteo {
     --variant-color: hsl(115, 37%, 39%);
     --mutted-color: hsl(102, 37%, 70%);
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(139, 41%, 26%);
-  }
-  .variant-eteo.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-asfabrik {
-    background-color: hsl(6, 100%, 55%);
-    color: hsl(0, 0%, 100%);
   }
   .variant-asfabrik {
     --variant-color: hsl(6, 100%, 55%);
@@ -375,25 +349,11 @@
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(6, 100%, 30%);
   }
-  .variant-asfabrik.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-bbf {
-    background-color: hsl(4, 67%, 51%);
-    color: hsl(0, 0%, 100%);
-  }
   .variant-bbf {
     --variant-color: hsl(4, 67%, 51%);
     --mutted-color: hsl(4, 67%, 81%);
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(4, 67%, 31%);
-  }
-  .variant-bbf.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-cta {
-    background-color: hsl(45, 100%, 53%);
-    color: hsl(0, 0%, 100%);
   }
   .variant-cta {
     --variant-color: hsl(45, 100%, 53%);
@@ -401,25 +361,11 @@
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(45, 100%, 20%);
   }
-  .variant-cta.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-pro {
-    background-color: hsl(347, 100%, 42%);
-    color: hsl(0, 0%, 100%);
-  }
   .variant-pro {
     --variant-color: hsl(347, 100%, 42%);
     --mutted-color: hsl(347, 100%, 80%);
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(347, 100%, 15%);
-  }
-  .variant-pro.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-success {
-    background-color: hsl(123, 47%, 40%);
-    color: hsl(0, 0%, 100%);
   }
   .variant-success {
     --variant-color: hsl(123, 47%, 40%);
@@ -427,25 +373,11 @@
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(147, 41%, 26%);
   }
-  .variant-success.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-danger {
-    background-color: hsl(330, 100%, 32%);
-    color: hsl(0, 0%, 100%);
-  }
   .variant-danger {
     --variant-color: hsl(330, 100%, 32%);
     --mutted-color: hsl(330, 70%, 74%);
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(330, 58%, 19%);
-  }
-  .variant-danger.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-warning {
-    background-color: hsl(24, 75%, 49%);
-    color: hsl(0, 0%, 100%);
   }
   .variant-warning {
     --variant-color: hsl(24, 75%, 49%);
@@ -453,25 +385,11 @@
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(9, 66%, 46%);
   }
-  .variant-warning.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-info {
-    background-color: hsl(200, 100%, 41%);
-    color: hsl(0, 0%, 100%);
-  }
   .variant-info {
     --variant-color: hsl(200, 100%, 41%);
     --mutted-color: hsl(200, 100%, 80%);
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(200, 100%, 20%);
-  }
-  .variant-info.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-light {
-    background-color: hsl(0, 0%, 100%);
-    color: hsl(210, 0%, 0%);
   }
   .variant-light {
     --variant-color: hsl(0, 0%, 100%);
@@ -479,29 +397,21 @@
     --contrast-color: hsl(210, 0%, 0%);
     --darker-color: hsl(0, 0%, 90%);
   }
-  .variant-light.outline {
-    --darker-color: var(--mutted-color);
-  }
-  .bg-dark {
-    background-color: hsl(0, 0%, 0%);
-    color: hsl(0, 0%, 100%);
-  }
   .variant-dark {
     --variant-color: hsl(0, 0%, 0%);
     --mutted-color: hsl(0, 0%, 50%);
     --contrast-color: hsl(0, 0%, 100%);
     --darker-color: hsl(0, 0%, 10%);
   }
-  .variant-dark.outline {
-    --darker-color: var(--mutted-color);
-  }
   .bg {
     background-color: var(--variant-color);
     color: var(--contrast-color);
   }
-  .bg-outline {
+  .bg--outline {
+    --border-width: 1px;
+    --darker-color: var(--mutted-color);
     background-color: transparent;
-    border: 1px solid var(--variant-color);
+    border: var(--border-width) solid var(--variant-color);
     color: var(--variant-color);
   }
   .mutted {
@@ -596,6 +506,9 @@
     /* Border radius of 0 */
     border-radius: size;
   }
+  .w-0 {
+    width: 0;
+  }
   .as-0 {
     --additional-space: 0;
   }
@@ -657,6 +570,9 @@
   .br-1 {
     /* Border radius of 1px */
     border-radius: size;
+  }
+  .w-1 {
+    width: 1px;
   }
   .as-1 {
     --additional-space: 1px;
@@ -720,6 +636,9 @@
     /* Border radius of 4px */
     border-radius: size;
   }
+  .w-2 {
+    width: 4px;
+  }
   .as-2 {
     --additional-space: 4px;
   }
@@ -781,6 +700,9 @@
   .br-3 {
     /* Border radius of 8px */
     border-radius: size;
+  }
+  .w-3 {
+    width: 8px;
   }
   .as-3 {
     --additional-space: 8px;
@@ -844,6 +766,9 @@
     /* Border radius of 12px */
     border-radius: size;
   }
+  .w-4 {
+    width: 12px;
+  }
   .as-4 {
     --additional-space: 12px;
   }
@@ -905,6 +830,9 @@
   .br-5 {
     /* Border radius of 16px */
     border-radius: size;
+  }
+  .w-5 {
+    width: 16px;
   }
   .as-5 {
     --additional-space: 16px;
@@ -968,6 +896,9 @@
     /* Border radius of 24px */
     border-radius: size;
   }
+  .w-6 {
+    width: 24px;
+  }
   .as-6 {
     --additional-space: 24px;
   }
@@ -1029,6 +960,9 @@
   .br-7 {
     /* Border radius of 32px */
     border-radius: size;
+  }
+  .w-7 {
+    width: 32px;
   }
   .as-7 {
     --additional-space: 32px;
@@ -1092,6 +1026,9 @@
     /* Border radius of 48px */
     border-radius: size;
   }
+  .w-8 {
+    width: 48px;
+  }
   .as-8 {
     --additional-space: 48px;
   }
@@ -1153,6 +1090,9 @@
   .br-9 {
     /* Border radius of 64px */
     border-radius: size;
+  }
+  .w-9 {
+    width: 64px;
   }
   .as-9 {
     --additional-space: 64px;
@@ -1216,6 +1156,9 @@
     /* Border radius of 96px */
     border-radius: size;
   }
+  .w-10 {
+    width: 96px;
+  }
   .as-10 {
     --additional-space: 96px;
   }
@@ -1277,6 +1220,9 @@
   .br-11 {
     /* Border radius of 128px */
     border-radius: size;
+  }
+  .w-11 {
+    width: 128px;
   }
   .as-11 {
     --additional-space: 128px;
@@ -1340,6 +1286,9 @@
     /* Border radius of 192px */
     border-radius: size;
   }
+  .w-12 {
+    width: 192px;
+  }
   .as-12 {
     --additional-space: 192px;
   }
@@ -1398,6 +1347,9 @@
   .br-13 {
     /* Border radius of 256px */
     border-radius: size;
+  }
+  .w-13 {
+    width: 256px;
   }
   .as-13 {
     --additional-space: 256px;
@@ -1458,6 +1410,9 @@
     /* Border radius of 384px */
     border-radius: size;
   }
+  .w-14 {
+    width: 384px;
+  }
   .as-14 {
     --additional-space: 384px;
   }
@@ -1516,6 +1471,9 @@
   .br-15 {
     /* Border radius of 512px */
     border-radius: size;
+  }
+  .w-15 {
+    width: 512px;
   }
   .as-15 {
     --additional-space: 512px;
@@ -1576,6 +1534,9 @@
     /* Border radius of 640px */
     border-radius: size;
   }
+  .w-16 {
+    width: 640px;
+  }
   .as-16 {
     --additional-space: 640px;
   }
@@ -1634,6 +1595,9 @@
   .br-17 {
     /* Border radius of 768px */
     border-radius: size;
+  }
+  .w-17 {
+    width: 768px;
   }
   .as-17 {
     --additional-space: 768px;
@@ -1694,6 +1658,9 @@
     /* Border radius of 896px */
     border-radius: size;
   }
+  .w-18 {
+    width: 896px;
+  }
   .as-18 {
     --additional-space: 896px;
   }
@@ -1752,6 +1719,9 @@
   .br-19 {
     /* Border radius of 1024px */
     border-radius: size;
+  }
+  .w-19 {
+    width: 1024px;
   }
   .as-19 {
     --additional-space: 1024px;
@@ -1812,6 +1782,9 @@
     /* Border radius of 1280px */
     border-radius: size;
   }
+  .w-20 {
+    width: 1280px;
+  }
   .as-20 {
     --additional-space: 1280px;
   }
@@ -1865,9 +1838,6 @@
   }
   .align-items-stretch {
     align-items: stretch;
-  }
-  .gap-0 {
-    gap: 0;
   }
   .grid-auto-fill-1 {
     /* Create as many columns as possible with a minimum size of 1px */
@@ -2097,6 +2067,11 @@
     /* Create 1 rows of the same size */
     grid-template-rows: repeat(1, 1fr);
   }
+  .rotate-1 {
+    display: inline-block;
+    transform: rotate(1deg);
+    transform-origin: center;
+  }
   .grid-columns-2 {
     /* Create 2 columns of the same size */
     grid-template-columns: repeat(2, 1fr);
@@ -2104,6 +2079,11 @@
   .grid-rows-2 {
     /* Create 2 rows of the same size */
     grid-template-rows: repeat(2, 1fr);
+  }
+  .rotate-2 {
+    display: inline-block;
+    transform: rotate(2deg);
+    transform-origin: center;
   }
   .grid-columns-3 {
     /* Create 3 columns of the same size */
@@ -2113,6 +2093,11 @@
     /* Create 3 rows of the same size */
     grid-template-rows: repeat(3, 1fr);
   }
+  .rotate-3 {
+    display: inline-block;
+    transform: rotate(3deg);
+    transform-origin: center;
+  }
   .grid-columns-4 {
     /* Create 4 columns of the same size */
     grid-template-columns: repeat(4, 1fr);
@@ -2120,6 +2105,11 @@
   .grid-rows-4 {
     /* Create 4 rows of the same size */
     grid-template-rows: repeat(4, 1fr);
+  }
+  .rotate-4 {
+    display: inline-block;
+    transform: rotate(4deg);
+    transform-origin: center;
   }
   .grid-columns-5 {
     /* Create 5 columns of the same size */
@@ -2129,6 +2119,11 @@
     /* Create 5 rows of the same size */
     grid-template-rows: repeat(5, 1fr);
   }
+  .rotate-5 {
+    display: inline-block;
+    transform: rotate(5deg);
+    transform-origin: center;
+  }
   .grid-columns-6 {
     /* Create 6 columns of the same size */
     grid-template-columns: repeat(6, 1fr);
@@ -2136,6 +2131,11 @@
   .grid-rows-6 {
     /* Create 6 rows of the same size */
     grid-template-rows: repeat(6, 1fr);
+  }
+  .rotate-6 {
+    display: inline-block;
+    transform: rotate(6deg);
+    transform-origin: center;
   }
   .grid-columns-7 {
     /* Create 7 columns of the same size */
@@ -2145,6 +2145,11 @@
     /* Create 7 rows of the same size */
     grid-template-rows: repeat(7, 1fr);
   }
+  .rotate-7 {
+    display: inline-block;
+    transform: rotate(7deg);
+    transform-origin: center;
+  }
   .grid-columns-8 {
     /* Create 8 columns of the same size */
     grid-template-columns: repeat(8, 1fr);
@@ -2152,6 +2157,11 @@
   .grid-rows-8 {
     /* Create 8 rows of the same size */
     grid-template-rows: repeat(8, 1fr);
+  }
+  .rotate-8 {
+    display: inline-block;
+    transform: rotate(8deg);
+    transform-origin: center;
   }
   .grid-columns-9 {
     /* Create 9 columns of the same size */
@@ -2161,6 +2171,11 @@
     /* Create 9 rows of the same size */
     grid-template-rows: repeat(9, 1fr);
   }
+  .rotate-9 {
+    display: inline-block;
+    transform: rotate(9deg);
+    transform-origin: center;
+  }
   .grid-columns-10 {
     /* Create 10 columns of the same size */
     grid-template-columns: repeat(10, 1fr);
@@ -2168,6 +2183,11 @@
   .grid-rows-10 {
     /* Create 10 rows of the same size */
     grid-template-rows: repeat(10, 1fr);
+  }
+  .rotate-10 {
+    display: inline-block;
+    transform: rotate(10deg);
+    transform-origin: center;
   }
   .grid-columns-11 {
     /* Create 11 columns of the same size */
@@ -2177,6 +2197,11 @@
     /* Create 11 rows of the same size */
     grid-template-rows: repeat(11, 1fr);
   }
+  .rotate-11 {
+    display: inline-block;
+    transform: rotate(11deg);
+    transform-origin: center;
+  }
   .grid-columns-12 {
     /* Create 12 columns of the same size */
     grid-template-columns: repeat(12, 1fr);
@@ -2184,6 +2209,11 @@
   .grid-rows-12 {
     /* Create 12 rows of the same size */
     grid-template-rows: repeat(12, 1fr);
+  }
+  .rotate-12 {
+    display: inline-block;
+    transform: rotate(12deg);
+    transform-origin: center;
   }
   .grid-columns-13 {
     /* Create 13 columns of the same size */
@@ -2193,6 +2223,11 @@
     /* Create 13 rows of the same size */
     grid-template-rows: repeat(13, 1fr);
   }
+  .rotate-13 {
+    display: inline-block;
+    transform: rotate(13deg);
+    transform-origin: center;
+  }
   .grid-columns-14 {
     /* Create 14 columns of the same size */
     grid-template-columns: repeat(14, 1fr);
@@ -2200,6 +2235,11 @@
   .grid-rows-14 {
     /* Create 14 rows of the same size */
     grid-template-rows: repeat(14, 1fr);
+  }
+  .rotate-14 {
+    display: inline-block;
+    transform: rotate(14deg);
+    transform-origin: center;
   }
   .grid-columns-15 {
     /* Create 15 columns of the same size */
@@ -2209,6 +2249,11 @@
     /* Create 15 rows of the same size */
     grid-template-rows: repeat(15, 1fr);
   }
+  .rotate-15 {
+    display: inline-block;
+    transform: rotate(15deg);
+    transform-origin: center;
+  }
   .grid-columns-16 {
     /* Create 16 columns of the same size */
     grid-template-columns: repeat(16, 1fr);
@@ -2216,6 +2261,11 @@
   .grid-rows-16 {
     /* Create 16 rows of the same size */
     grid-template-rows: repeat(16, 1fr);
+  }
+  .rotate-16 {
+    display: inline-block;
+    transform: rotate(16deg);
+    transform-origin: center;
   }
   .grid-columns-17 {
     /* Create 17 columns of the same size */
@@ -2225,6 +2275,11 @@
     /* Create 17 rows of the same size */
     grid-template-rows: repeat(17, 1fr);
   }
+  .rotate-17 {
+    display: inline-block;
+    transform: rotate(17deg);
+    transform-origin: center;
+  }
   .grid-columns-18 {
     /* Create 18 columns of the same size */
     grid-template-columns: repeat(18, 1fr);
@@ -2232,6 +2287,11 @@
   .grid-rows-18 {
     /* Create 18 rows of the same size */
     grid-template-rows: repeat(18, 1fr);
+  }
+  .rotate-18 {
+    display: inline-block;
+    transform: rotate(18deg);
+    transform-origin: center;
   }
   .grid-columns-19 {
     /* Create 19 columns of the same size */
@@ -2241,6 +2301,11 @@
     /* Create 19 rows of the same size */
     grid-template-rows: repeat(19, 1fr);
   }
+  .rotate-19 {
+    display: inline-block;
+    transform: rotate(19deg);
+    transform-origin: center;
+  }
   .grid-columns-20 {
     /* Create 20 columns of the same size */
     grid-template-columns: repeat(20, 1fr);
@@ -2248,6 +2313,11 @@
   .grid-rows-20 {
     /* Create 20 rows of the same size */
     grid-template-rows: repeat(20, 1fr);
+  }
+  .rotate-20 {
+    display: inline-block;
+    transform: rotate(20deg);
+    transform-origin: center;
   }
   .grid-columns-21 {
     /* Create 21 columns of the same size */
@@ -2257,6 +2327,11 @@
     /* Create 21 rows of the same size */
     grid-template-rows: repeat(21, 1fr);
   }
+  .rotate-21 {
+    display: inline-block;
+    transform: rotate(21deg);
+    transform-origin: center;
+  }
   .grid-columns-22 {
     /* Create 22 columns of the same size */
     grid-template-columns: repeat(22, 1fr);
@@ -2264,6 +2339,11 @@
   .grid-rows-22 {
     /* Create 22 rows of the same size */
     grid-template-rows: repeat(22, 1fr);
+  }
+  .rotate-22 {
+    display: inline-block;
+    transform: rotate(22deg);
+    transform-origin: center;
   }
   .grid-columns-23 {
     /* Create 23 columns of the same size */
@@ -2273,6 +2353,11 @@
     /* Create 23 rows of the same size */
     grid-template-rows: repeat(23, 1fr);
   }
+  .rotate-23 {
+    display: inline-block;
+    transform: rotate(23deg);
+    transform-origin: center;
+  }
   .grid-columns-24 {
     /* Create 24 columns of the same size */
     grid-template-columns: repeat(24, 1fr);
@@ -2280,6 +2365,11 @@
   .grid-rows-24 {
     /* Create 24 rows of the same size */
     grid-template-rows: repeat(24, 1fr);
+  }
+  .rotate-24 {
+    display: inline-block;
+    transform: rotate(24deg);
+    transform-origin: center;
   }
   .grid-columns-25 {
     /* Create 25 columns of the same size */
@@ -2289,6 +2379,11 @@
     /* Create 25 rows of the same size */
     grid-template-rows: repeat(25, 1fr);
   }
+  .rotate-25 {
+    display: inline-block;
+    transform: rotate(25deg);
+    transform-origin: center;
+  }
   .grid-columns-26 {
     /* Create 26 columns of the same size */
     grid-template-columns: repeat(26, 1fr);
@@ -2296,6 +2391,11 @@
   .grid-rows-26 {
     /* Create 26 rows of the same size */
     grid-template-rows: repeat(26, 1fr);
+  }
+  .rotate-26 {
+    display: inline-block;
+    transform: rotate(26deg);
+    transform-origin: center;
   }
   .grid-columns-27 {
     /* Create 27 columns of the same size */
@@ -2305,6 +2405,11 @@
     /* Create 27 rows of the same size */
     grid-template-rows: repeat(27, 1fr);
   }
+  .rotate-27 {
+    display: inline-block;
+    transform: rotate(27deg);
+    transform-origin: center;
+  }
   .grid-columns-28 {
     /* Create 28 columns of the same size */
     grid-template-columns: repeat(28, 1fr);
@@ -2312,6 +2417,11 @@
   .grid-rows-28 {
     /* Create 28 rows of the same size */
     grid-template-rows: repeat(28, 1fr);
+  }
+  .rotate-28 {
+    display: inline-block;
+    transform: rotate(28deg);
+    transform-origin: center;
   }
   .grid-columns-29 {
     /* Create 29 columns of the same size */
@@ -2321,6 +2431,11 @@
     /* Create 29 rows of the same size */
     grid-template-rows: repeat(29, 1fr);
   }
+  .rotate-29 {
+    display: inline-block;
+    transform: rotate(29deg);
+    transform-origin: center;
+  }
   .grid-columns-30 {
     /* Create 30 columns of the same size */
     grid-template-columns: repeat(30, 1fr);
@@ -2328,6 +2443,11 @@
   .grid-rows-30 {
     /* Create 30 rows of the same size */
     grid-template-rows: repeat(30, 1fr);
+  }
+  .rotate-30 {
+    display: inline-block;
+    transform: rotate(30deg);
+    transform-origin: center;
   }
   .grid-columns-31 {
     /* Create 31 columns of the same size */
@@ -2337,6 +2457,11 @@
     /* Create 31 rows of the same size */
     grid-template-rows: repeat(31, 1fr);
   }
+  .rotate-31 {
+    display: inline-block;
+    transform: rotate(31deg);
+    transform-origin: center;
+  }
   .grid-columns-32 {
     /* Create 32 columns of the same size */
     grid-template-columns: repeat(32, 1fr);
@@ -2344,6 +2469,11 @@
   .grid-rows-32 {
     /* Create 32 rows of the same size */
     grid-template-rows: repeat(32, 1fr);
+  }
+  .rotate-32 {
+    display: inline-block;
+    transform: rotate(32deg);
+    transform-origin: center;
   }
   .grid-columns-33 {
     /* Create 33 columns of the same size */
@@ -2353,6 +2483,11 @@
     /* Create 33 rows of the same size */
     grid-template-rows: repeat(33, 1fr);
   }
+  .rotate-33 {
+    display: inline-block;
+    transform: rotate(33deg);
+    transform-origin: center;
+  }
   .grid-columns-34 {
     /* Create 34 columns of the same size */
     grid-template-columns: repeat(34, 1fr);
@@ -2360,6 +2495,11 @@
   .grid-rows-34 {
     /* Create 34 rows of the same size */
     grid-template-rows: repeat(34, 1fr);
+  }
+  .rotate-34 {
+    display: inline-block;
+    transform: rotate(34deg);
+    transform-origin: center;
   }
   .grid-columns-35 {
     /* Create 35 columns of the same size */
@@ -2369,6 +2509,11 @@
     /* Create 35 rows of the same size */
     grid-template-rows: repeat(35, 1fr);
   }
+  .rotate-35 {
+    display: inline-block;
+    transform: rotate(35deg);
+    transform-origin: center;
+  }
   .grid-columns-36 {
     /* Create 36 columns of the same size */
     grid-template-columns: repeat(36, 1fr);
@@ -2376,6 +2521,11 @@
   .grid-rows-36 {
     /* Create 36 rows of the same size */
     grid-template-rows: repeat(36, 1fr);
+  }
+  .rotate-36 {
+    display: inline-block;
+    transform: rotate(36deg);
+    transform-origin: center;
   }
   .grid-columns-37 {
     /* Create 37 columns of the same size */
@@ -2385,6 +2535,11 @@
     /* Create 37 rows of the same size */
     grid-template-rows: repeat(37, 1fr);
   }
+  .rotate-37 {
+    display: inline-block;
+    transform: rotate(37deg);
+    transform-origin: center;
+  }
   .grid-columns-38 {
     /* Create 38 columns of the same size */
     grid-template-columns: repeat(38, 1fr);
@@ -2392,6 +2547,11 @@
   .grid-rows-38 {
     /* Create 38 rows of the same size */
     grid-template-rows: repeat(38, 1fr);
+  }
+  .rotate-38 {
+    display: inline-block;
+    transform: rotate(38deg);
+    transform-origin: center;
   }
   .grid-columns-39 {
     /* Create 39 columns of the same size */
@@ -2401,6 +2561,11 @@
     /* Create 39 rows of the same size */
     grid-template-rows: repeat(39, 1fr);
   }
+  .rotate-39 {
+    display: inline-block;
+    transform: rotate(39deg);
+    transform-origin: center;
+  }
   .grid-columns-40 {
     /* Create 40 columns of the same size */
     grid-template-columns: repeat(40, 1fr);
@@ -2408,6 +2573,11 @@
   .grid-rows-40 {
     /* Create 40 rows of the same size */
     grid-template-rows: repeat(40, 1fr);
+  }
+  .rotate-40 {
+    display: inline-block;
+    transform: rotate(40deg);
+    transform-origin: center;
   }
   .grid-columns-41 {
     /* Create 41 columns of the same size */
@@ -2417,6 +2587,11 @@
     /* Create 41 rows of the same size */
     grid-template-rows: repeat(41, 1fr);
   }
+  .rotate-41 {
+    display: inline-block;
+    transform: rotate(41deg);
+    transform-origin: center;
+  }
   .grid-columns-42 {
     /* Create 42 columns of the same size */
     grid-template-columns: repeat(42, 1fr);
@@ -2424,6 +2599,11 @@
   .grid-rows-42 {
     /* Create 42 rows of the same size */
     grid-template-rows: repeat(42, 1fr);
+  }
+  .rotate-42 {
+    display: inline-block;
+    transform: rotate(42deg);
+    transform-origin: center;
   }
   .grid-columns-43 {
     /* Create 43 columns of the same size */
@@ -2433,6 +2613,11 @@
     /* Create 43 rows of the same size */
     grid-template-rows: repeat(43, 1fr);
   }
+  .rotate-43 {
+    display: inline-block;
+    transform: rotate(43deg);
+    transform-origin: center;
+  }
   .grid-columns-44 {
     /* Create 44 columns of the same size */
     grid-template-columns: repeat(44, 1fr);
@@ -2440,6 +2625,11 @@
   .grid-rows-44 {
     /* Create 44 rows of the same size */
     grid-template-rows: repeat(44, 1fr);
+  }
+  .rotate-44 {
+    display: inline-block;
+    transform: rotate(44deg);
+    transform-origin: center;
   }
   .grid-columns-45 {
     /* Create 45 columns of the same size */
@@ -2449,6 +2639,11 @@
     /* Create 45 rows of the same size */
     grid-template-rows: repeat(45, 1fr);
   }
+  .rotate-45 {
+    display: inline-block;
+    transform: rotate(45deg);
+    transform-origin: center;
+  }
   .grid-columns-46 {
     /* Create 46 columns of the same size */
     grid-template-columns: repeat(46, 1fr);
@@ -2456,6 +2651,11 @@
   .grid-rows-46 {
     /* Create 46 rows of the same size */
     grid-template-rows: repeat(46, 1fr);
+  }
+  .rotate-46 {
+    display: inline-block;
+    transform: rotate(46deg);
+    transform-origin: center;
   }
   .grid-columns-47 {
     /* Create 47 columns of the same size */
@@ -2465,6 +2665,11 @@
     /* Create 47 rows of the same size */
     grid-template-rows: repeat(47, 1fr);
   }
+  .rotate-47 {
+    display: inline-block;
+    transform: rotate(47deg);
+    transform-origin: center;
+  }
   .grid-columns-48 {
     /* Create 48 columns of the same size */
     grid-template-columns: repeat(48, 1fr);
@@ -2472,6 +2677,11 @@
   .grid-rows-48 {
     /* Create 48 rows of the same size */
     grid-template-rows: repeat(48, 1fr);
+  }
+  .rotate-48 {
+    display: inline-block;
+    transform: rotate(48deg);
+    transform-origin: center;
   }
   .grid-columns-49 {
     /* Create 49 columns of the same size */
@@ -2481,6 +2691,11 @@
     /* Create 49 rows of the same size */
     grid-template-rows: repeat(49, 1fr);
   }
+  .rotate-49 {
+    display: inline-block;
+    transform: rotate(49deg);
+    transform-origin: center;
+  }
   .grid-columns-50 {
     /* Create 50 columns of the same size */
     grid-template-columns: repeat(50, 1fr);
@@ -2488,6 +2703,11 @@
   .grid-rows-50 {
     /* Create 50 rows of the same size */
     grid-template-rows: repeat(50, 1fr);
+  }
+  .rotate-50 {
+    display: inline-block;
+    transform: rotate(50deg);
+    transform-origin: center;
   }
   .grid-columns-51 {
     /* Create 51 columns of the same size */
@@ -2497,6 +2717,11 @@
     /* Create 51 rows of the same size */
     grid-template-rows: repeat(51, 1fr);
   }
+  .rotate-51 {
+    display: inline-block;
+    transform: rotate(51deg);
+    transform-origin: center;
+  }
   .grid-columns-52 {
     /* Create 52 columns of the same size */
     grid-template-columns: repeat(52, 1fr);
@@ -2504,6 +2729,11 @@
   .grid-rows-52 {
     /* Create 52 rows of the same size */
     grid-template-rows: repeat(52, 1fr);
+  }
+  .rotate-52 {
+    display: inline-block;
+    transform: rotate(52deg);
+    transform-origin: center;
   }
   .grid-columns-53 {
     /* Create 53 columns of the same size */
@@ -2513,6 +2743,11 @@
     /* Create 53 rows of the same size */
     grid-template-rows: repeat(53, 1fr);
   }
+  .rotate-53 {
+    display: inline-block;
+    transform: rotate(53deg);
+    transform-origin: center;
+  }
   .grid-columns-54 {
     /* Create 54 columns of the same size */
     grid-template-columns: repeat(54, 1fr);
@@ -2520,6 +2755,11 @@
   .grid-rows-54 {
     /* Create 54 rows of the same size */
     grid-template-rows: repeat(54, 1fr);
+  }
+  .rotate-54 {
+    display: inline-block;
+    transform: rotate(54deg);
+    transform-origin: center;
   }
   .grid-columns-55 {
     /* Create 55 columns of the same size */
@@ -2529,6 +2769,11 @@
     /* Create 55 rows of the same size */
     grid-template-rows: repeat(55, 1fr);
   }
+  .rotate-55 {
+    display: inline-block;
+    transform: rotate(55deg);
+    transform-origin: center;
+  }
   .grid-columns-56 {
     /* Create 56 columns of the same size */
     grid-template-columns: repeat(56, 1fr);
@@ -2536,6 +2781,11 @@
   .grid-rows-56 {
     /* Create 56 rows of the same size */
     grid-template-rows: repeat(56, 1fr);
+  }
+  .rotate-56 {
+    display: inline-block;
+    transform: rotate(56deg);
+    transform-origin: center;
   }
   .grid-columns-57 {
     /* Create 57 columns of the same size */
@@ -2545,6 +2795,11 @@
     /* Create 57 rows of the same size */
     grid-template-rows: repeat(57, 1fr);
   }
+  .rotate-57 {
+    display: inline-block;
+    transform: rotate(57deg);
+    transform-origin: center;
+  }
   .grid-columns-58 {
     /* Create 58 columns of the same size */
     grid-template-columns: repeat(58, 1fr);
@@ -2552,6 +2807,11 @@
   .grid-rows-58 {
     /* Create 58 rows of the same size */
     grid-template-rows: repeat(58, 1fr);
+  }
+  .rotate-58 {
+    display: inline-block;
+    transform: rotate(58deg);
+    transform-origin: center;
   }
   .grid-columns-59 {
     /* Create 59 columns of the same size */
@@ -2561,6 +2821,11 @@
     /* Create 59 rows of the same size */
     grid-template-rows: repeat(59, 1fr);
   }
+  .rotate-59 {
+    display: inline-block;
+    transform: rotate(59deg);
+    transform-origin: center;
+  }
   .grid-columns-60 {
     /* Create 60 columns of the same size */
     grid-template-columns: repeat(60, 1fr);
@@ -2568,6 +2833,11 @@
   .grid-rows-60 {
     /* Create 60 rows of the same size */
     grid-template-rows: repeat(60, 1fr);
+  }
+  .rotate-60 {
+    display: inline-block;
+    transform: rotate(60deg);
+    transform-origin: center;
   }
   .grid-columns-61 {
     /* Create 61 columns of the same size */
@@ -2577,6 +2847,11 @@
     /* Create 61 rows of the same size */
     grid-template-rows: repeat(61, 1fr);
   }
+  .rotate-61 {
+    display: inline-block;
+    transform: rotate(61deg);
+    transform-origin: center;
+  }
   .grid-columns-62 {
     /* Create 62 columns of the same size */
     grid-template-columns: repeat(62, 1fr);
@@ -2584,6 +2859,11 @@
   .grid-rows-62 {
     /* Create 62 rows of the same size */
     grid-template-rows: repeat(62, 1fr);
+  }
+  .rotate-62 {
+    display: inline-block;
+    transform: rotate(62deg);
+    transform-origin: center;
   }
   .grid-columns-63 {
     /* Create 63 columns of the same size */
@@ -2593,6 +2873,11 @@
     /* Create 63 rows of the same size */
     grid-template-rows: repeat(63, 1fr);
   }
+  .rotate-63 {
+    display: inline-block;
+    transform: rotate(63deg);
+    transform-origin: center;
+  }
   .grid-columns-64 {
     /* Create 64 columns of the same size */
     grid-template-columns: repeat(64, 1fr);
@@ -2600,6 +2885,11 @@
   .grid-rows-64 {
     /* Create 64 rows of the same size */
     grid-template-rows: repeat(64, 1fr);
+  }
+  .rotate-64 {
+    display: inline-block;
+    transform: rotate(64deg);
+    transform-origin: center;
   }
   .grid-columns-65 {
     /* Create 65 columns of the same size */
@@ -2609,6 +2899,11 @@
     /* Create 65 rows of the same size */
     grid-template-rows: repeat(65, 1fr);
   }
+  .rotate-65 {
+    display: inline-block;
+    transform: rotate(65deg);
+    transform-origin: center;
+  }
   .grid-columns-66 {
     /* Create 66 columns of the same size */
     grid-template-columns: repeat(66, 1fr);
@@ -2616,6 +2911,11 @@
   .grid-rows-66 {
     /* Create 66 rows of the same size */
     grid-template-rows: repeat(66, 1fr);
+  }
+  .rotate-66 {
+    display: inline-block;
+    transform: rotate(66deg);
+    transform-origin: center;
   }
   .grid-columns-67 {
     /* Create 67 columns of the same size */
@@ -2625,6 +2925,11 @@
     /* Create 67 rows of the same size */
     grid-template-rows: repeat(67, 1fr);
   }
+  .rotate-67 {
+    display: inline-block;
+    transform: rotate(67deg);
+    transform-origin: center;
+  }
   .grid-columns-68 {
     /* Create 68 columns of the same size */
     grid-template-columns: repeat(68, 1fr);
@@ -2632,6 +2937,11 @@
   .grid-rows-68 {
     /* Create 68 rows of the same size */
     grid-template-rows: repeat(68, 1fr);
+  }
+  .rotate-68 {
+    display: inline-block;
+    transform: rotate(68deg);
+    transform-origin: center;
   }
   .grid-columns-69 {
     /* Create 69 columns of the same size */
@@ -2641,6 +2951,11 @@
     /* Create 69 rows of the same size */
     grid-template-rows: repeat(69, 1fr);
   }
+  .rotate-69 {
+    display: inline-block;
+    transform: rotate(69deg);
+    transform-origin: center;
+  }
   .grid-columns-70 {
     /* Create 70 columns of the same size */
     grid-template-columns: repeat(70, 1fr);
@@ -2648,6 +2963,11 @@
   .grid-rows-70 {
     /* Create 70 rows of the same size */
     grid-template-rows: repeat(70, 1fr);
+  }
+  .rotate-70 {
+    display: inline-block;
+    transform: rotate(70deg);
+    transform-origin: center;
   }
   .grid-columns-71 {
     /* Create 71 columns of the same size */
@@ -2657,6 +2977,11 @@
     /* Create 71 rows of the same size */
     grid-template-rows: repeat(71, 1fr);
   }
+  .rotate-71 {
+    display: inline-block;
+    transform: rotate(71deg);
+    transform-origin: center;
+  }
   .grid-columns-72 {
     /* Create 72 columns of the same size */
     grid-template-columns: repeat(72, 1fr);
@@ -2664,6 +2989,11 @@
   .grid-rows-72 {
     /* Create 72 rows of the same size */
     grid-template-rows: repeat(72, 1fr);
+  }
+  .rotate-72 {
+    display: inline-block;
+    transform: rotate(72deg);
+    transform-origin: center;
   }
   .grid-columns-73 {
     /* Create 73 columns of the same size */
@@ -2673,6 +3003,11 @@
     /* Create 73 rows of the same size */
     grid-template-rows: repeat(73, 1fr);
   }
+  .rotate-73 {
+    display: inline-block;
+    transform: rotate(73deg);
+    transform-origin: center;
+  }
   .grid-columns-74 {
     /* Create 74 columns of the same size */
     grid-template-columns: repeat(74, 1fr);
@@ -2680,6 +3015,11 @@
   .grid-rows-74 {
     /* Create 74 rows of the same size */
     grid-template-rows: repeat(74, 1fr);
+  }
+  .rotate-74 {
+    display: inline-block;
+    transform: rotate(74deg);
+    transform-origin: center;
   }
   .grid-columns-75 {
     /* Create 75 columns of the same size */
@@ -2689,6 +3029,11 @@
     /* Create 75 rows of the same size */
     grid-template-rows: repeat(75, 1fr);
   }
+  .rotate-75 {
+    display: inline-block;
+    transform: rotate(75deg);
+    transform-origin: center;
+  }
   .grid-columns-76 {
     /* Create 76 columns of the same size */
     grid-template-columns: repeat(76, 1fr);
@@ -2696,6 +3041,11 @@
   .grid-rows-76 {
     /* Create 76 rows of the same size */
     grid-template-rows: repeat(76, 1fr);
+  }
+  .rotate-76 {
+    display: inline-block;
+    transform: rotate(76deg);
+    transform-origin: center;
   }
   .grid-columns-77 {
     /* Create 77 columns of the same size */
@@ -2705,6 +3055,11 @@
     /* Create 77 rows of the same size */
     grid-template-rows: repeat(77, 1fr);
   }
+  .rotate-77 {
+    display: inline-block;
+    transform: rotate(77deg);
+    transform-origin: center;
+  }
   .grid-columns-78 {
     /* Create 78 columns of the same size */
     grid-template-columns: repeat(78, 1fr);
@@ -2712,6 +3067,11 @@
   .grid-rows-78 {
     /* Create 78 rows of the same size */
     grid-template-rows: repeat(78, 1fr);
+  }
+  .rotate-78 {
+    display: inline-block;
+    transform: rotate(78deg);
+    transform-origin: center;
   }
   .grid-columns-79 {
     /* Create 79 columns of the same size */
@@ -2721,6 +3081,11 @@
     /* Create 79 rows of the same size */
     grid-template-rows: repeat(79, 1fr);
   }
+  .rotate-79 {
+    display: inline-block;
+    transform: rotate(79deg);
+    transform-origin: center;
+  }
   .grid-columns-80 {
     /* Create 80 columns of the same size */
     grid-template-columns: repeat(80, 1fr);
@@ -2728,6 +3093,11 @@
   .grid-rows-80 {
     /* Create 80 rows of the same size */
     grid-template-rows: repeat(80, 1fr);
+  }
+  .rotate-80 {
+    display: inline-block;
+    transform: rotate(80deg);
+    transform-origin: center;
   }
   .grid-columns-81 {
     /* Create 81 columns of the same size */
@@ -2737,6 +3107,11 @@
     /* Create 81 rows of the same size */
     grid-template-rows: repeat(81, 1fr);
   }
+  .rotate-81 {
+    display: inline-block;
+    transform: rotate(81deg);
+    transform-origin: center;
+  }
   .grid-columns-82 {
     /* Create 82 columns of the same size */
     grid-template-columns: repeat(82, 1fr);
@@ -2744,6 +3119,11 @@
   .grid-rows-82 {
     /* Create 82 rows of the same size */
     grid-template-rows: repeat(82, 1fr);
+  }
+  .rotate-82 {
+    display: inline-block;
+    transform: rotate(82deg);
+    transform-origin: center;
   }
   .grid-columns-83 {
     /* Create 83 columns of the same size */
@@ -2753,6 +3133,11 @@
     /* Create 83 rows of the same size */
     grid-template-rows: repeat(83, 1fr);
   }
+  .rotate-83 {
+    display: inline-block;
+    transform: rotate(83deg);
+    transform-origin: center;
+  }
   .grid-columns-84 {
     /* Create 84 columns of the same size */
     grid-template-columns: repeat(84, 1fr);
@@ -2760,6 +3145,11 @@
   .grid-rows-84 {
     /* Create 84 rows of the same size */
     grid-template-rows: repeat(84, 1fr);
+  }
+  .rotate-84 {
+    display: inline-block;
+    transform: rotate(84deg);
+    transform-origin: center;
   }
   .grid-columns-85 {
     /* Create 85 columns of the same size */
@@ -2769,6 +3159,11 @@
     /* Create 85 rows of the same size */
     grid-template-rows: repeat(85, 1fr);
   }
+  .rotate-85 {
+    display: inline-block;
+    transform: rotate(85deg);
+    transform-origin: center;
+  }
   .grid-columns-86 {
     /* Create 86 columns of the same size */
     grid-template-columns: repeat(86, 1fr);
@@ -2776,6 +3171,11 @@
   .grid-rows-86 {
     /* Create 86 rows of the same size */
     grid-template-rows: repeat(86, 1fr);
+  }
+  .rotate-86 {
+    display: inline-block;
+    transform: rotate(86deg);
+    transform-origin: center;
   }
   .grid-columns-87 {
     /* Create 87 columns of the same size */
@@ -2785,6 +3185,11 @@
     /* Create 87 rows of the same size */
     grid-template-rows: repeat(87, 1fr);
   }
+  .rotate-87 {
+    display: inline-block;
+    transform: rotate(87deg);
+    transform-origin: center;
+  }
   .grid-columns-88 {
     /* Create 88 columns of the same size */
     grid-template-columns: repeat(88, 1fr);
@@ -2792,6 +3197,11 @@
   .grid-rows-88 {
     /* Create 88 rows of the same size */
     grid-template-rows: repeat(88, 1fr);
+  }
+  .rotate-88 {
+    display: inline-block;
+    transform: rotate(88deg);
+    transform-origin: center;
   }
   .grid-columns-89 {
     /* Create 89 columns of the same size */
@@ -2801,6 +3211,11 @@
     /* Create 89 rows of the same size */
     grid-template-rows: repeat(89, 1fr);
   }
+  .rotate-89 {
+    display: inline-block;
+    transform: rotate(89deg);
+    transform-origin: center;
+  }
   .grid-columns-90 {
     /* Create 90 columns of the same size */
     grid-template-columns: repeat(90, 1fr);
@@ -2808,6 +3223,11 @@
   .grid-rows-90 {
     /* Create 90 rows of the same size */
     grid-template-rows: repeat(90, 1fr);
+  }
+  .rotate-90 {
+    display: inline-block;
+    transform: rotate(90deg);
+    transform-origin: center;
   }
   .grid-columns-91 {
     /* Create 91 columns of the same size */
@@ -2817,6 +3237,11 @@
     /* Create 91 rows of the same size */
     grid-template-rows: repeat(91, 1fr);
   }
+  .rotate-91 {
+    display: inline-block;
+    transform: rotate(91deg);
+    transform-origin: center;
+  }
   .grid-columns-92 {
     /* Create 92 columns of the same size */
     grid-template-columns: repeat(92, 1fr);
@@ -2824,6 +3249,11 @@
   .grid-rows-92 {
     /* Create 92 rows of the same size */
     grid-template-rows: repeat(92, 1fr);
+  }
+  .rotate-92 {
+    display: inline-block;
+    transform: rotate(92deg);
+    transform-origin: center;
   }
   .grid-columns-93 {
     /* Create 93 columns of the same size */
@@ -2833,6 +3263,11 @@
     /* Create 93 rows of the same size */
     grid-template-rows: repeat(93, 1fr);
   }
+  .rotate-93 {
+    display: inline-block;
+    transform: rotate(93deg);
+    transform-origin: center;
+  }
   .grid-columns-94 {
     /* Create 94 columns of the same size */
     grid-template-columns: repeat(94, 1fr);
@@ -2840,6 +3275,11 @@
   .grid-rows-94 {
     /* Create 94 rows of the same size */
     grid-template-rows: repeat(94, 1fr);
+  }
+  .rotate-94 {
+    display: inline-block;
+    transform: rotate(94deg);
+    transform-origin: center;
   }
   .grid-columns-95 {
     /* Create 95 columns of the same size */
@@ -2849,6 +3289,11 @@
     /* Create 95 rows of the same size */
     grid-template-rows: repeat(95, 1fr);
   }
+  .rotate-95 {
+    display: inline-block;
+    transform: rotate(95deg);
+    transform-origin: center;
+  }
   .grid-columns-96 {
     /* Create 96 columns of the same size */
     grid-template-columns: repeat(96, 1fr);
@@ -2856,6 +3301,11 @@
   .grid-rows-96 {
     /* Create 96 rows of the same size */
     grid-template-rows: repeat(96, 1fr);
+  }
+  .rotate-96 {
+    display: inline-block;
+    transform: rotate(96deg);
+    transform-origin: center;
   }
   .grid-columns-97 {
     /* Create 97 columns of the same size */
@@ -2865,6 +3315,11 @@
     /* Create 97 rows of the same size */
     grid-template-rows: repeat(97, 1fr);
   }
+  .rotate-97 {
+    display: inline-block;
+    transform: rotate(97deg);
+    transform-origin: center;
+  }
   .grid-columns-98 {
     /* Create 98 columns of the same size */
     grid-template-columns: repeat(98, 1fr);
@@ -2872,6 +3327,11 @@
   .grid-rows-98 {
     /* Create 98 rows of the same size */
     grid-template-rows: repeat(98, 1fr);
+  }
+  .rotate-98 {
+    display: inline-block;
+    transform: rotate(98deg);
+    transform-origin: center;
   }
   .grid-columns-99 {
     /* Create 99 columns of the same size */
@@ -2881,6 +3341,11 @@
     /* Create 99 rows of the same size */
     grid-template-rows: repeat(99, 1fr);
   }
+  .rotate-99 {
+    display: inline-block;
+    transform: rotate(99deg);
+    transform-origin: center;
+  }
   .grid-columns-100 {
     /* Create 100 columns of the same size */
     grid-template-columns: repeat(100, 1fr);
@@ -2888,6 +3353,11 @@
   .grid-rows-100 {
     /* Create 100 rows of the same size */
     grid-template-rows: repeat(100, 1fr);
+  }
+  .rotate-100 {
+    display: inline-block;
+    transform: rotate(100deg);
+    transform-origin: center;
   }
   .grid-columns-101 {
     /* Create 101 columns of the same size */
@@ -2897,6 +3367,11 @@
     /* Create 101 rows of the same size */
     grid-template-rows: repeat(101, 1fr);
   }
+  .rotate-101 {
+    display: inline-block;
+    transform: rotate(101deg);
+    transform-origin: center;
+  }
   .grid-columns-102 {
     /* Create 102 columns of the same size */
     grid-template-columns: repeat(102, 1fr);
@@ -2904,6 +3379,11 @@
   .grid-rows-102 {
     /* Create 102 rows of the same size */
     grid-template-rows: repeat(102, 1fr);
+  }
+  .rotate-102 {
+    display: inline-block;
+    transform: rotate(102deg);
+    transform-origin: center;
   }
   .grid-columns-103 {
     /* Create 103 columns of the same size */
@@ -2913,6 +3393,11 @@
     /* Create 103 rows of the same size */
     grid-template-rows: repeat(103, 1fr);
   }
+  .rotate-103 {
+    display: inline-block;
+    transform: rotate(103deg);
+    transform-origin: center;
+  }
   .grid-columns-104 {
     /* Create 104 columns of the same size */
     grid-template-columns: repeat(104, 1fr);
@@ -2920,6 +3405,11 @@
   .grid-rows-104 {
     /* Create 104 rows of the same size */
     grid-template-rows: repeat(104, 1fr);
+  }
+  .rotate-104 {
+    display: inline-block;
+    transform: rotate(104deg);
+    transform-origin: center;
   }
   .grid-columns-105 {
     /* Create 105 columns of the same size */
@@ -2929,6 +3419,11 @@
     /* Create 105 rows of the same size */
     grid-template-rows: repeat(105, 1fr);
   }
+  .rotate-105 {
+    display: inline-block;
+    transform: rotate(105deg);
+    transform-origin: center;
+  }
   .grid-columns-106 {
     /* Create 106 columns of the same size */
     grid-template-columns: repeat(106, 1fr);
@@ -2936,6 +3431,11 @@
   .grid-rows-106 {
     /* Create 106 rows of the same size */
     grid-template-rows: repeat(106, 1fr);
+  }
+  .rotate-106 {
+    display: inline-block;
+    transform: rotate(106deg);
+    transform-origin: center;
   }
   .grid-columns-107 {
     /* Create 107 columns of the same size */
@@ -2945,6 +3445,11 @@
     /* Create 107 rows of the same size */
     grid-template-rows: repeat(107, 1fr);
   }
+  .rotate-107 {
+    display: inline-block;
+    transform: rotate(107deg);
+    transform-origin: center;
+  }
   .grid-columns-108 {
     /* Create 108 columns of the same size */
     grid-template-columns: repeat(108, 1fr);
@@ -2952,6 +3457,11 @@
   .grid-rows-108 {
     /* Create 108 rows of the same size */
     grid-template-rows: repeat(108, 1fr);
+  }
+  .rotate-108 {
+    display: inline-block;
+    transform: rotate(108deg);
+    transform-origin: center;
   }
   .grid-columns-109 {
     /* Create 109 columns of the same size */
@@ -2961,6 +3471,11 @@
     /* Create 109 rows of the same size */
     grid-template-rows: repeat(109, 1fr);
   }
+  .rotate-109 {
+    display: inline-block;
+    transform: rotate(109deg);
+    transform-origin: center;
+  }
   .grid-columns-110 {
     /* Create 110 columns of the same size */
     grid-template-columns: repeat(110, 1fr);
@@ -2968,6 +3483,11 @@
   .grid-rows-110 {
     /* Create 110 rows of the same size */
     grid-template-rows: repeat(110, 1fr);
+  }
+  .rotate-110 {
+    display: inline-block;
+    transform: rotate(110deg);
+    transform-origin: center;
   }
   .grid-columns-111 {
     /* Create 111 columns of the same size */
@@ -2977,6 +3497,11 @@
     /* Create 111 rows of the same size */
     grid-template-rows: repeat(111, 1fr);
   }
+  .rotate-111 {
+    display: inline-block;
+    transform: rotate(111deg);
+    transform-origin: center;
+  }
   .grid-columns-112 {
     /* Create 112 columns of the same size */
     grid-template-columns: repeat(112, 1fr);
@@ -2984,6 +3509,11 @@
   .grid-rows-112 {
     /* Create 112 rows of the same size */
     grid-template-rows: repeat(112, 1fr);
+  }
+  .rotate-112 {
+    display: inline-block;
+    transform: rotate(112deg);
+    transform-origin: center;
   }
   .grid-columns-113 {
     /* Create 113 columns of the same size */
@@ -2993,6 +3523,11 @@
     /* Create 113 rows of the same size */
     grid-template-rows: repeat(113, 1fr);
   }
+  .rotate-113 {
+    display: inline-block;
+    transform: rotate(113deg);
+    transform-origin: center;
+  }
   .grid-columns-114 {
     /* Create 114 columns of the same size */
     grid-template-columns: repeat(114, 1fr);
@@ -3000,6 +3535,11 @@
   .grid-rows-114 {
     /* Create 114 rows of the same size */
     grid-template-rows: repeat(114, 1fr);
+  }
+  .rotate-114 {
+    display: inline-block;
+    transform: rotate(114deg);
+    transform-origin: center;
   }
   .grid-columns-115 {
     /* Create 115 columns of the same size */
@@ -3009,6 +3549,11 @@
     /* Create 115 rows of the same size */
     grid-template-rows: repeat(115, 1fr);
   }
+  .rotate-115 {
+    display: inline-block;
+    transform: rotate(115deg);
+    transform-origin: center;
+  }
   .grid-columns-116 {
     /* Create 116 columns of the same size */
     grid-template-columns: repeat(116, 1fr);
@@ -3016,6 +3561,11 @@
   .grid-rows-116 {
     /* Create 116 rows of the same size */
     grid-template-rows: repeat(116, 1fr);
+  }
+  .rotate-116 {
+    display: inline-block;
+    transform: rotate(116deg);
+    transform-origin: center;
   }
   .grid-columns-117 {
     /* Create 117 columns of the same size */
@@ -3025,6 +3575,11 @@
     /* Create 117 rows of the same size */
     grid-template-rows: repeat(117, 1fr);
   }
+  .rotate-117 {
+    display: inline-block;
+    transform: rotate(117deg);
+    transform-origin: center;
+  }
   .grid-columns-118 {
     /* Create 118 columns of the same size */
     grid-template-columns: repeat(118, 1fr);
@@ -3032,6 +3587,11 @@
   .grid-rows-118 {
     /* Create 118 rows of the same size */
     grid-template-rows: repeat(118, 1fr);
+  }
+  .rotate-118 {
+    display: inline-block;
+    transform: rotate(118deg);
+    transform-origin: center;
   }
   .grid-columns-119 {
     /* Create 119 columns of the same size */
@@ -3041,6 +3601,11 @@
     /* Create 119 rows of the same size */
     grid-template-rows: repeat(119, 1fr);
   }
+  .rotate-119 {
+    display: inline-block;
+    transform: rotate(119deg);
+    transform-origin: center;
+  }
   .grid-columns-120 {
     /* Create 120 columns of the same size */
     grid-template-columns: repeat(120, 1fr);
@@ -3048,6 +3613,11 @@
   .grid-rows-120 {
     /* Create 120 rows of the same size */
     grid-template-rows: repeat(120, 1fr);
+  }
+  .rotate-120 {
+    display: inline-block;
+    transform: rotate(120deg);
+    transform-origin: center;
   }
   .grid-columns-121 {
     /* Create 121 columns of the same size */
@@ -3057,6 +3627,11 @@
     /* Create 121 rows of the same size */
     grid-template-rows: repeat(121, 1fr);
   }
+  .rotate-121 {
+    display: inline-block;
+    transform: rotate(121deg);
+    transform-origin: center;
+  }
   .grid-columns-122 {
     /* Create 122 columns of the same size */
     grid-template-columns: repeat(122, 1fr);
@@ -3064,6 +3639,11 @@
   .grid-rows-122 {
     /* Create 122 rows of the same size */
     grid-template-rows: repeat(122, 1fr);
+  }
+  .rotate-122 {
+    display: inline-block;
+    transform: rotate(122deg);
+    transform-origin: center;
   }
   .grid-columns-123 {
     /* Create 123 columns of the same size */
@@ -3073,6 +3653,11 @@
     /* Create 123 rows of the same size */
     grid-template-rows: repeat(123, 1fr);
   }
+  .rotate-123 {
+    display: inline-block;
+    transform: rotate(123deg);
+    transform-origin: center;
+  }
   .grid-columns-124 {
     /* Create 124 columns of the same size */
     grid-template-columns: repeat(124, 1fr);
@@ -3080,6 +3665,11 @@
   .grid-rows-124 {
     /* Create 124 rows of the same size */
     grid-template-rows: repeat(124, 1fr);
+  }
+  .rotate-124 {
+    display: inline-block;
+    transform: rotate(124deg);
+    transform-origin: center;
   }
   .grid-columns-125 {
     /* Create 125 columns of the same size */
@@ -3089,6 +3679,11 @@
     /* Create 125 rows of the same size */
     grid-template-rows: repeat(125, 1fr);
   }
+  .rotate-125 {
+    display: inline-block;
+    transform: rotate(125deg);
+    transform-origin: center;
+  }
   .grid-columns-126 {
     /* Create 126 columns of the same size */
     grid-template-columns: repeat(126, 1fr);
@@ -3096,6 +3691,11 @@
   .grid-rows-126 {
     /* Create 126 rows of the same size */
     grid-template-rows: repeat(126, 1fr);
+  }
+  .rotate-126 {
+    display: inline-block;
+    transform: rotate(126deg);
+    transform-origin: center;
   }
   .grid-columns-127 {
     /* Create 127 columns of the same size */
@@ -3105,6 +3705,11 @@
     /* Create 127 rows of the same size */
     grid-template-rows: repeat(127, 1fr);
   }
+  .rotate-127 {
+    display: inline-block;
+    transform: rotate(127deg);
+    transform-origin: center;
+  }
   .grid-columns-128 {
     /* Create 128 columns of the same size */
     grid-template-columns: repeat(128, 1fr);
@@ -3112,6 +3717,11 @@
   .grid-rows-128 {
     /* Create 128 rows of the same size */
     grid-template-rows: repeat(128, 1fr);
+  }
+  .rotate-128 {
+    display: inline-block;
+    transform: rotate(128deg);
+    transform-origin: center;
   }
   .grid-columns-129 {
     /* Create 129 columns of the same size */
@@ -3121,6 +3731,11 @@
     /* Create 129 rows of the same size */
     grid-template-rows: repeat(129, 1fr);
   }
+  .rotate-129 {
+    display: inline-block;
+    transform: rotate(129deg);
+    transform-origin: center;
+  }
   .grid-columns-130 {
     /* Create 130 columns of the same size */
     grid-template-columns: repeat(130, 1fr);
@@ -3128,6 +3743,11 @@
   .grid-rows-130 {
     /* Create 130 rows of the same size */
     grid-template-rows: repeat(130, 1fr);
+  }
+  .rotate-130 {
+    display: inline-block;
+    transform: rotate(130deg);
+    transform-origin: center;
   }
   .grid-columns-131 {
     /* Create 131 columns of the same size */
@@ -3137,6 +3757,11 @@
     /* Create 131 rows of the same size */
     grid-template-rows: repeat(131, 1fr);
   }
+  .rotate-131 {
+    display: inline-block;
+    transform: rotate(131deg);
+    transform-origin: center;
+  }
   .grid-columns-132 {
     /* Create 132 columns of the same size */
     grid-template-columns: repeat(132, 1fr);
@@ -3144,6 +3769,11 @@
   .grid-rows-132 {
     /* Create 132 rows of the same size */
     grid-template-rows: repeat(132, 1fr);
+  }
+  .rotate-132 {
+    display: inline-block;
+    transform: rotate(132deg);
+    transform-origin: center;
   }
   .grid-columns-133 {
     /* Create 133 columns of the same size */
@@ -3153,6 +3783,11 @@
     /* Create 133 rows of the same size */
     grid-template-rows: repeat(133, 1fr);
   }
+  .rotate-133 {
+    display: inline-block;
+    transform: rotate(133deg);
+    transform-origin: center;
+  }
   .grid-columns-134 {
     /* Create 134 columns of the same size */
     grid-template-columns: repeat(134, 1fr);
@@ -3160,6 +3795,11 @@
   .grid-rows-134 {
     /* Create 134 rows of the same size */
     grid-template-rows: repeat(134, 1fr);
+  }
+  .rotate-134 {
+    display: inline-block;
+    transform: rotate(134deg);
+    transform-origin: center;
   }
   .grid-columns-135 {
     /* Create 135 columns of the same size */
@@ -3169,6 +3809,11 @@
     /* Create 135 rows of the same size */
     grid-template-rows: repeat(135, 1fr);
   }
+  .rotate-135 {
+    display: inline-block;
+    transform: rotate(135deg);
+    transform-origin: center;
+  }
   .grid-columns-136 {
     /* Create 136 columns of the same size */
     grid-template-columns: repeat(136, 1fr);
@@ -3176,6 +3821,11 @@
   .grid-rows-136 {
     /* Create 136 rows of the same size */
     grid-template-rows: repeat(136, 1fr);
+  }
+  .rotate-136 {
+    display: inline-block;
+    transform: rotate(136deg);
+    transform-origin: center;
   }
   .grid-columns-137 {
     /* Create 137 columns of the same size */
@@ -3185,6 +3835,11 @@
     /* Create 137 rows of the same size */
     grid-template-rows: repeat(137, 1fr);
   }
+  .rotate-137 {
+    display: inline-block;
+    transform: rotate(137deg);
+    transform-origin: center;
+  }
   .grid-columns-138 {
     /* Create 138 columns of the same size */
     grid-template-columns: repeat(138, 1fr);
@@ -3192,6 +3847,11 @@
   .grid-rows-138 {
     /* Create 138 rows of the same size */
     grid-template-rows: repeat(138, 1fr);
+  }
+  .rotate-138 {
+    display: inline-block;
+    transform: rotate(138deg);
+    transform-origin: center;
   }
   .grid-columns-139 {
     /* Create 139 columns of the same size */
@@ -3201,6 +3861,11 @@
     /* Create 139 rows of the same size */
     grid-template-rows: repeat(139, 1fr);
   }
+  .rotate-139 {
+    display: inline-block;
+    transform: rotate(139deg);
+    transform-origin: center;
+  }
   .grid-columns-140 {
     /* Create 140 columns of the same size */
     grid-template-columns: repeat(140, 1fr);
@@ -3208,6 +3873,11 @@
   .grid-rows-140 {
     /* Create 140 rows of the same size */
     grid-template-rows: repeat(140, 1fr);
+  }
+  .rotate-140 {
+    display: inline-block;
+    transform: rotate(140deg);
+    transform-origin: center;
   }
   .grid-columns-141 {
     /* Create 141 columns of the same size */
@@ -3217,6 +3887,11 @@
     /* Create 141 rows of the same size */
     grid-template-rows: repeat(141, 1fr);
   }
+  .rotate-141 {
+    display: inline-block;
+    transform: rotate(141deg);
+    transform-origin: center;
+  }
   .grid-columns-142 {
     /* Create 142 columns of the same size */
     grid-template-columns: repeat(142, 1fr);
@@ -3224,6 +3899,11 @@
   .grid-rows-142 {
     /* Create 142 rows of the same size */
     grid-template-rows: repeat(142, 1fr);
+  }
+  .rotate-142 {
+    display: inline-block;
+    transform: rotate(142deg);
+    transform-origin: center;
   }
   .grid-columns-143 {
     /* Create 143 columns of the same size */
@@ -3233,6 +3913,11 @@
     /* Create 143 rows of the same size */
     grid-template-rows: repeat(143, 1fr);
   }
+  .rotate-143 {
+    display: inline-block;
+    transform: rotate(143deg);
+    transform-origin: center;
+  }
   .grid-columns-144 {
     /* Create 144 columns of the same size */
     grid-template-columns: repeat(144, 1fr);
@@ -3240,6 +3925,11 @@
   .grid-rows-144 {
     /* Create 144 rows of the same size */
     grid-template-rows: repeat(144, 1fr);
+  }
+  .rotate-144 {
+    display: inline-block;
+    transform: rotate(144deg);
+    transform-origin: center;
   }
   .grid-columns-145 {
     /* Create 145 columns of the same size */
@@ -3249,6 +3939,11 @@
     /* Create 145 rows of the same size */
     grid-template-rows: repeat(145, 1fr);
   }
+  .rotate-145 {
+    display: inline-block;
+    transform: rotate(145deg);
+    transform-origin: center;
+  }
   .grid-columns-146 {
     /* Create 146 columns of the same size */
     grid-template-columns: repeat(146, 1fr);
@@ -3256,6 +3951,11 @@
   .grid-rows-146 {
     /* Create 146 rows of the same size */
     grid-template-rows: repeat(146, 1fr);
+  }
+  .rotate-146 {
+    display: inline-block;
+    transform: rotate(146deg);
+    transform-origin: center;
   }
   .grid-columns-147 {
     /* Create 147 columns of the same size */
@@ -3265,6 +3965,11 @@
     /* Create 147 rows of the same size */
     grid-template-rows: repeat(147, 1fr);
   }
+  .rotate-147 {
+    display: inline-block;
+    transform: rotate(147deg);
+    transform-origin: center;
+  }
   .grid-columns-148 {
     /* Create 148 columns of the same size */
     grid-template-columns: repeat(148, 1fr);
@@ -3272,6 +3977,11 @@
   .grid-rows-148 {
     /* Create 148 rows of the same size */
     grid-template-rows: repeat(148, 1fr);
+  }
+  .rotate-148 {
+    display: inline-block;
+    transform: rotate(148deg);
+    transform-origin: center;
   }
   .grid-columns-149 {
     /* Create 149 columns of the same size */
@@ -3281,6 +3991,11 @@
     /* Create 149 rows of the same size */
     grid-template-rows: repeat(149, 1fr);
   }
+  .rotate-149 {
+    display: inline-block;
+    transform: rotate(149deg);
+    transform-origin: center;
+  }
   .grid-columns-150 {
     /* Create 150 columns of the same size */
     grid-template-columns: repeat(150, 1fr);
@@ -3288,6 +4003,11 @@
   .grid-rows-150 {
     /* Create 150 rows of the same size */
     grid-template-rows: repeat(150, 1fr);
+  }
+  .rotate-150 {
+    display: inline-block;
+    transform: rotate(150deg);
+    transform-origin: center;
   }
   .grid-columns-151 {
     /* Create 151 columns of the same size */
@@ -3297,6 +4017,11 @@
     /* Create 151 rows of the same size */
     grid-template-rows: repeat(151, 1fr);
   }
+  .rotate-151 {
+    display: inline-block;
+    transform: rotate(151deg);
+    transform-origin: center;
+  }
   .grid-columns-152 {
     /* Create 152 columns of the same size */
     grid-template-columns: repeat(152, 1fr);
@@ -3304,6 +4029,11 @@
   .grid-rows-152 {
     /* Create 152 rows of the same size */
     grid-template-rows: repeat(152, 1fr);
+  }
+  .rotate-152 {
+    display: inline-block;
+    transform: rotate(152deg);
+    transform-origin: center;
   }
   .grid-columns-153 {
     /* Create 153 columns of the same size */
@@ -3313,6 +4043,11 @@
     /* Create 153 rows of the same size */
     grid-template-rows: repeat(153, 1fr);
   }
+  .rotate-153 {
+    display: inline-block;
+    transform: rotate(153deg);
+    transform-origin: center;
+  }
   .grid-columns-154 {
     /* Create 154 columns of the same size */
     grid-template-columns: repeat(154, 1fr);
@@ -3320,6 +4055,11 @@
   .grid-rows-154 {
     /* Create 154 rows of the same size */
     grid-template-rows: repeat(154, 1fr);
+  }
+  .rotate-154 {
+    display: inline-block;
+    transform: rotate(154deg);
+    transform-origin: center;
   }
   .grid-columns-155 {
     /* Create 155 columns of the same size */
@@ -3329,6 +4069,11 @@
     /* Create 155 rows of the same size */
     grid-template-rows: repeat(155, 1fr);
   }
+  .rotate-155 {
+    display: inline-block;
+    transform: rotate(155deg);
+    transform-origin: center;
+  }
   .grid-columns-156 {
     /* Create 156 columns of the same size */
     grid-template-columns: repeat(156, 1fr);
@@ -3336,6 +4081,11 @@
   .grid-rows-156 {
     /* Create 156 rows of the same size */
     grid-template-rows: repeat(156, 1fr);
+  }
+  .rotate-156 {
+    display: inline-block;
+    transform: rotate(156deg);
+    transform-origin: center;
   }
   .grid-columns-157 {
     /* Create 157 columns of the same size */
@@ -3345,6 +4095,11 @@
     /* Create 157 rows of the same size */
     grid-template-rows: repeat(157, 1fr);
   }
+  .rotate-157 {
+    display: inline-block;
+    transform: rotate(157deg);
+    transform-origin: center;
+  }
   .grid-columns-158 {
     /* Create 158 columns of the same size */
     grid-template-columns: repeat(158, 1fr);
@@ -3352,6 +4107,11 @@
   .grid-rows-158 {
     /* Create 158 rows of the same size */
     grid-template-rows: repeat(158, 1fr);
+  }
+  .rotate-158 {
+    display: inline-block;
+    transform: rotate(158deg);
+    transform-origin: center;
   }
   .grid-columns-159 {
     /* Create 159 columns of the same size */
@@ -3361,6 +4121,11 @@
     /* Create 159 rows of the same size */
     grid-template-rows: repeat(159, 1fr);
   }
+  .rotate-159 {
+    display: inline-block;
+    transform: rotate(159deg);
+    transform-origin: center;
+  }
   .grid-columns-160 {
     /* Create 160 columns of the same size */
     grid-template-columns: repeat(160, 1fr);
@@ -3368,6 +4133,11 @@
   .grid-rows-160 {
     /* Create 160 rows of the same size */
     grid-template-rows: repeat(160, 1fr);
+  }
+  .rotate-160 {
+    display: inline-block;
+    transform: rotate(160deg);
+    transform-origin: center;
   }
   .grid-columns-161 {
     /* Create 161 columns of the same size */
@@ -3377,6 +4147,11 @@
     /* Create 161 rows of the same size */
     grid-template-rows: repeat(161, 1fr);
   }
+  .rotate-161 {
+    display: inline-block;
+    transform: rotate(161deg);
+    transform-origin: center;
+  }
   .grid-columns-162 {
     /* Create 162 columns of the same size */
     grid-template-columns: repeat(162, 1fr);
@@ -3384,6 +4159,11 @@
   .grid-rows-162 {
     /* Create 162 rows of the same size */
     grid-template-rows: repeat(162, 1fr);
+  }
+  .rotate-162 {
+    display: inline-block;
+    transform: rotate(162deg);
+    transform-origin: center;
   }
   .grid-columns-163 {
     /* Create 163 columns of the same size */
@@ -3393,6 +4173,11 @@
     /* Create 163 rows of the same size */
     grid-template-rows: repeat(163, 1fr);
   }
+  .rotate-163 {
+    display: inline-block;
+    transform: rotate(163deg);
+    transform-origin: center;
+  }
   .grid-columns-164 {
     /* Create 164 columns of the same size */
     grid-template-columns: repeat(164, 1fr);
@@ -3400,6 +4185,11 @@
   .grid-rows-164 {
     /* Create 164 rows of the same size */
     grid-template-rows: repeat(164, 1fr);
+  }
+  .rotate-164 {
+    display: inline-block;
+    transform: rotate(164deg);
+    transform-origin: center;
   }
   .grid-columns-165 {
     /* Create 165 columns of the same size */
@@ -3409,6 +4199,11 @@
     /* Create 165 rows of the same size */
     grid-template-rows: repeat(165, 1fr);
   }
+  .rotate-165 {
+    display: inline-block;
+    transform: rotate(165deg);
+    transform-origin: center;
+  }
   .grid-columns-166 {
     /* Create 166 columns of the same size */
     grid-template-columns: repeat(166, 1fr);
@@ -3416,6 +4211,11 @@
   .grid-rows-166 {
     /* Create 166 rows of the same size */
     grid-template-rows: repeat(166, 1fr);
+  }
+  .rotate-166 {
+    display: inline-block;
+    transform: rotate(166deg);
+    transform-origin: center;
   }
   .grid-columns-167 {
     /* Create 167 columns of the same size */
@@ -3425,6 +4225,11 @@
     /* Create 167 rows of the same size */
     grid-template-rows: repeat(167, 1fr);
   }
+  .rotate-167 {
+    display: inline-block;
+    transform: rotate(167deg);
+    transform-origin: center;
+  }
   .grid-columns-168 {
     /* Create 168 columns of the same size */
     grid-template-columns: repeat(168, 1fr);
@@ -3432,6 +4237,11 @@
   .grid-rows-168 {
     /* Create 168 rows of the same size */
     grid-template-rows: repeat(168, 1fr);
+  }
+  .rotate-168 {
+    display: inline-block;
+    transform: rotate(168deg);
+    transform-origin: center;
   }
   .grid-columns-169 {
     /* Create 169 columns of the same size */
@@ -3441,6 +4251,11 @@
     /* Create 169 rows of the same size */
     grid-template-rows: repeat(169, 1fr);
   }
+  .rotate-169 {
+    display: inline-block;
+    transform: rotate(169deg);
+    transform-origin: center;
+  }
   .grid-columns-170 {
     /* Create 170 columns of the same size */
     grid-template-columns: repeat(170, 1fr);
@@ -3448,6 +4263,11 @@
   .grid-rows-170 {
     /* Create 170 rows of the same size */
     grid-template-rows: repeat(170, 1fr);
+  }
+  .rotate-170 {
+    display: inline-block;
+    transform: rotate(170deg);
+    transform-origin: center;
   }
   .grid-columns-171 {
     /* Create 171 columns of the same size */
@@ -3457,6 +4277,11 @@
     /* Create 171 rows of the same size */
     grid-template-rows: repeat(171, 1fr);
   }
+  .rotate-171 {
+    display: inline-block;
+    transform: rotate(171deg);
+    transform-origin: center;
+  }
   .grid-columns-172 {
     /* Create 172 columns of the same size */
     grid-template-columns: repeat(172, 1fr);
@@ -3464,6 +4289,11 @@
   .grid-rows-172 {
     /* Create 172 rows of the same size */
     grid-template-rows: repeat(172, 1fr);
+  }
+  .rotate-172 {
+    display: inline-block;
+    transform: rotate(172deg);
+    transform-origin: center;
   }
   .grid-columns-173 {
     /* Create 173 columns of the same size */
@@ -3473,6 +4303,11 @@
     /* Create 173 rows of the same size */
     grid-template-rows: repeat(173, 1fr);
   }
+  .rotate-173 {
+    display: inline-block;
+    transform: rotate(173deg);
+    transform-origin: center;
+  }
   .grid-columns-174 {
     /* Create 174 columns of the same size */
     grid-template-columns: repeat(174, 1fr);
@@ -3480,6 +4315,11 @@
   .grid-rows-174 {
     /* Create 174 rows of the same size */
     grid-template-rows: repeat(174, 1fr);
+  }
+  .rotate-174 {
+    display: inline-block;
+    transform: rotate(174deg);
+    transform-origin: center;
   }
   .grid-columns-175 {
     /* Create 175 columns of the same size */
@@ -3489,6 +4329,11 @@
     /* Create 175 rows of the same size */
     grid-template-rows: repeat(175, 1fr);
   }
+  .rotate-175 {
+    display: inline-block;
+    transform: rotate(175deg);
+    transform-origin: center;
+  }
   .grid-columns-176 {
     /* Create 176 columns of the same size */
     grid-template-columns: repeat(176, 1fr);
@@ -3496,6 +4341,11 @@
   .grid-rows-176 {
     /* Create 176 rows of the same size */
     grid-template-rows: repeat(176, 1fr);
+  }
+  .rotate-176 {
+    display: inline-block;
+    transform: rotate(176deg);
+    transform-origin: center;
   }
   .grid-columns-177 {
     /* Create 177 columns of the same size */
@@ -3505,6 +4355,11 @@
     /* Create 177 rows of the same size */
     grid-template-rows: repeat(177, 1fr);
   }
+  .rotate-177 {
+    display: inline-block;
+    transform: rotate(177deg);
+    transform-origin: center;
+  }
   .grid-columns-178 {
     /* Create 178 columns of the same size */
     grid-template-columns: repeat(178, 1fr);
@@ -3512,6 +4367,11 @@
   .grid-rows-178 {
     /* Create 178 rows of the same size */
     grid-template-rows: repeat(178, 1fr);
+  }
+  .rotate-178 {
+    display: inline-block;
+    transform: rotate(178deg);
+    transform-origin: center;
   }
   .grid-columns-179 {
     /* Create 179 columns of the same size */
@@ -3521,6 +4381,11 @@
     /* Create 179 rows of the same size */
     grid-template-rows: repeat(179, 1fr);
   }
+  .rotate-179 {
+    display: inline-block;
+    transform: rotate(179deg);
+    transform-origin: center;
+  }
   .grid-columns-180 {
     /* Create 180 columns of the same size */
     grid-template-columns: repeat(180, 1fr);
@@ -3528,6 +4393,11 @@
   .grid-rows-180 {
     /* Create 180 rows of the same size */
     grid-template-rows: repeat(180, 1fr);
+  }
+  .rotate-180 {
+    display: inline-block;
+    transform: rotate(180deg);
+    transform-origin: center;
   }
   .grid-columns-181 {
     /* Create 181 columns of the same size */
@@ -3537,6 +4407,11 @@
     /* Create 181 rows of the same size */
     grid-template-rows: repeat(181, 1fr);
   }
+  .rotate-181 {
+    display: inline-block;
+    transform: rotate(181deg);
+    transform-origin: center;
+  }
   .grid-columns-182 {
     /* Create 182 columns of the same size */
     grid-template-columns: repeat(182, 1fr);
@@ -3544,6 +4419,11 @@
   .grid-rows-182 {
     /* Create 182 rows of the same size */
     grid-template-rows: repeat(182, 1fr);
+  }
+  .rotate-182 {
+    display: inline-block;
+    transform: rotate(182deg);
+    transform-origin: center;
   }
   .grid-columns-183 {
     /* Create 183 columns of the same size */
@@ -3553,6 +4433,11 @@
     /* Create 183 rows of the same size */
     grid-template-rows: repeat(183, 1fr);
   }
+  .rotate-183 {
+    display: inline-block;
+    transform: rotate(183deg);
+    transform-origin: center;
+  }
   .grid-columns-184 {
     /* Create 184 columns of the same size */
     grid-template-columns: repeat(184, 1fr);
@@ -3560,6 +4445,11 @@
   .grid-rows-184 {
     /* Create 184 rows of the same size */
     grid-template-rows: repeat(184, 1fr);
+  }
+  .rotate-184 {
+    display: inline-block;
+    transform: rotate(184deg);
+    transform-origin: center;
   }
   .grid-columns-185 {
     /* Create 185 columns of the same size */
@@ -3569,6 +4459,11 @@
     /* Create 185 rows of the same size */
     grid-template-rows: repeat(185, 1fr);
   }
+  .rotate-185 {
+    display: inline-block;
+    transform: rotate(185deg);
+    transform-origin: center;
+  }
   .grid-columns-186 {
     /* Create 186 columns of the same size */
     grid-template-columns: repeat(186, 1fr);
@@ -3576,6 +4471,11 @@
   .grid-rows-186 {
     /* Create 186 rows of the same size */
     grid-template-rows: repeat(186, 1fr);
+  }
+  .rotate-186 {
+    display: inline-block;
+    transform: rotate(186deg);
+    transform-origin: center;
   }
   .grid-columns-187 {
     /* Create 187 columns of the same size */
@@ -3585,6 +4485,11 @@
     /* Create 187 rows of the same size */
     grid-template-rows: repeat(187, 1fr);
   }
+  .rotate-187 {
+    display: inline-block;
+    transform: rotate(187deg);
+    transform-origin: center;
+  }
   .grid-columns-188 {
     /* Create 188 columns of the same size */
     grid-template-columns: repeat(188, 1fr);
@@ -3592,6 +4497,11 @@
   .grid-rows-188 {
     /* Create 188 rows of the same size */
     grid-template-rows: repeat(188, 1fr);
+  }
+  .rotate-188 {
+    display: inline-block;
+    transform: rotate(188deg);
+    transform-origin: center;
   }
   .grid-columns-189 {
     /* Create 189 columns of the same size */
@@ -3601,6 +4511,11 @@
     /* Create 189 rows of the same size */
     grid-template-rows: repeat(189, 1fr);
   }
+  .rotate-189 {
+    display: inline-block;
+    transform: rotate(189deg);
+    transform-origin: center;
+  }
   .grid-columns-190 {
     /* Create 190 columns of the same size */
     grid-template-columns: repeat(190, 1fr);
@@ -3608,6 +4523,11 @@
   .grid-rows-190 {
     /* Create 190 rows of the same size */
     grid-template-rows: repeat(190, 1fr);
+  }
+  .rotate-190 {
+    display: inline-block;
+    transform: rotate(190deg);
+    transform-origin: center;
   }
   .grid-columns-191 {
     /* Create 191 columns of the same size */
@@ -3617,6 +4537,11 @@
     /* Create 191 rows of the same size */
     grid-template-rows: repeat(191, 1fr);
   }
+  .rotate-191 {
+    display: inline-block;
+    transform: rotate(191deg);
+    transform-origin: center;
+  }
   .grid-columns-192 {
     /* Create 192 columns of the same size */
     grid-template-columns: repeat(192, 1fr);
@@ -3624,6 +4549,11 @@
   .grid-rows-192 {
     /* Create 192 rows of the same size */
     grid-template-rows: repeat(192, 1fr);
+  }
+  .rotate-192 {
+    display: inline-block;
+    transform: rotate(192deg);
+    transform-origin: center;
   }
   .grid-columns-193 {
     /* Create 193 columns of the same size */
@@ -3633,6 +4563,11 @@
     /* Create 193 rows of the same size */
     grid-template-rows: repeat(193, 1fr);
   }
+  .rotate-193 {
+    display: inline-block;
+    transform: rotate(193deg);
+    transform-origin: center;
+  }
   .grid-columns-194 {
     /* Create 194 columns of the same size */
     grid-template-columns: repeat(194, 1fr);
@@ -3640,6 +4575,11 @@
   .grid-rows-194 {
     /* Create 194 rows of the same size */
     grid-template-rows: repeat(194, 1fr);
+  }
+  .rotate-194 {
+    display: inline-block;
+    transform: rotate(194deg);
+    transform-origin: center;
   }
   .grid-columns-195 {
     /* Create 195 columns of the same size */
@@ -3649,6 +4589,11 @@
     /* Create 195 rows of the same size */
     grid-template-rows: repeat(195, 1fr);
   }
+  .rotate-195 {
+    display: inline-block;
+    transform: rotate(195deg);
+    transform-origin: center;
+  }
   .grid-columns-196 {
     /* Create 196 columns of the same size */
     grid-template-columns: repeat(196, 1fr);
@@ -3656,6 +4601,11 @@
   .grid-rows-196 {
     /* Create 196 rows of the same size */
     grid-template-rows: repeat(196, 1fr);
+  }
+  .rotate-196 {
+    display: inline-block;
+    transform: rotate(196deg);
+    transform-origin: center;
   }
   .grid-columns-197 {
     /* Create 197 columns of the same size */
@@ -3665,6 +4615,11 @@
     /* Create 197 rows of the same size */
     grid-template-rows: repeat(197, 1fr);
   }
+  .rotate-197 {
+    display: inline-block;
+    transform: rotate(197deg);
+    transform-origin: center;
+  }
   .grid-columns-198 {
     /* Create 198 columns of the same size */
     grid-template-columns: repeat(198, 1fr);
@@ -3672,6 +4627,11 @@
   .grid-rows-198 {
     /* Create 198 rows of the same size */
     grid-template-rows: repeat(198, 1fr);
+  }
+  .rotate-198 {
+    display: inline-block;
+    transform: rotate(198deg);
+    transform-origin: center;
   }
   .grid-columns-199 {
     /* Create 199 columns of the same size */
@@ -3681,6 +4641,11 @@
     /* Create 199 rows of the same size */
     grid-template-rows: repeat(199, 1fr);
   }
+  .rotate-199 {
+    display: inline-block;
+    transform: rotate(199deg);
+    transform-origin: center;
+  }
   .grid-columns-200 {
     /* Create 200 columns of the same size */
     grid-template-columns: repeat(200, 1fr);
@@ -3688,6 +4653,11 @@
   .grid-rows-200 {
     /* Create 200 rows of the same size */
     grid-template-rows: repeat(200, 1fr);
+  }
+  .rotate-200 {
+    display: inline-block;
+    transform: rotate(200deg);
+    transform-origin: center;
   }
   .grid-columns-201 {
     /* Create 201 columns of the same size */
@@ -3697,6 +4667,11 @@
     /* Create 201 rows of the same size */
     grid-template-rows: repeat(201, 1fr);
   }
+  .rotate-201 {
+    display: inline-block;
+    transform: rotate(201deg);
+    transform-origin: center;
+  }
   .grid-columns-202 {
     /* Create 202 columns of the same size */
     grid-template-columns: repeat(202, 1fr);
@@ -3704,6 +4679,11 @@
   .grid-rows-202 {
     /* Create 202 rows of the same size */
     grid-template-rows: repeat(202, 1fr);
+  }
+  .rotate-202 {
+    display: inline-block;
+    transform: rotate(202deg);
+    transform-origin: center;
   }
   .grid-columns-203 {
     /* Create 203 columns of the same size */
@@ -3713,6 +4693,11 @@
     /* Create 203 rows of the same size */
     grid-template-rows: repeat(203, 1fr);
   }
+  .rotate-203 {
+    display: inline-block;
+    transform: rotate(203deg);
+    transform-origin: center;
+  }
   .grid-columns-204 {
     /* Create 204 columns of the same size */
     grid-template-columns: repeat(204, 1fr);
@@ -3720,6 +4705,11 @@
   .grid-rows-204 {
     /* Create 204 rows of the same size */
     grid-template-rows: repeat(204, 1fr);
+  }
+  .rotate-204 {
+    display: inline-block;
+    transform: rotate(204deg);
+    transform-origin: center;
   }
   .grid-columns-205 {
     /* Create 205 columns of the same size */
@@ -3729,6 +4719,11 @@
     /* Create 205 rows of the same size */
     grid-template-rows: repeat(205, 1fr);
   }
+  .rotate-205 {
+    display: inline-block;
+    transform: rotate(205deg);
+    transform-origin: center;
+  }
   .grid-columns-206 {
     /* Create 206 columns of the same size */
     grid-template-columns: repeat(206, 1fr);
@@ -3736,6 +4731,11 @@
   .grid-rows-206 {
     /* Create 206 rows of the same size */
     grid-template-rows: repeat(206, 1fr);
+  }
+  .rotate-206 {
+    display: inline-block;
+    transform: rotate(206deg);
+    transform-origin: center;
   }
   .grid-columns-207 {
     /* Create 207 columns of the same size */
@@ -3745,6 +4745,11 @@
     /* Create 207 rows of the same size */
     grid-template-rows: repeat(207, 1fr);
   }
+  .rotate-207 {
+    display: inline-block;
+    transform: rotate(207deg);
+    transform-origin: center;
+  }
   .grid-columns-208 {
     /* Create 208 columns of the same size */
     grid-template-columns: repeat(208, 1fr);
@@ -3752,6 +4757,11 @@
   .grid-rows-208 {
     /* Create 208 rows of the same size */
     grid-template-rows: repeat(208, 1fr);
+  }
+  .rotate-208 {
+    display: inline-block;
+    transform: rotate(208deg);
+    transform-origin: center;
   }
   .grid-columns-209 {
     /* Create 209 columns of the same size */
@@ -3761,6 +4771,11 @@
     /* Create 209 rows of the same size */
     grid-template-rows: repeat(209, 1fr);
   }
+  .rotate-209 {
+    display: inline-block;
+    transform: rotate(209deg);
+    transform-origin: center;
+  }
   .grid-columns-210 {
     /* Create 210 columns of the same size */
     grid-template-columns: repeat(210, 1fr);
@@ -3768,6 +4783,11 @@
   .grid-rows-210 {
     /* Create 210 rows of the same size */
     grid-template-rows: repeat(210, 1fr);
+  }
+  .rotate-210 {
+    display: inline-block;
+    transform: rotate(210deg);
+    transform-origin: center;
   }
   .grid-columns-211 {
     /* Create 211 columns of the same size */
@@ -3777,6 +4797,11 @@
     /* Create 211 rows of the same size */
     grid-template-rows: repeat(211, 1fr);
   }
+  .rotate-211 {
+    display: inline-block;
+    transform: rotate(211deg);
+    transform-origin: center;
+  }
   .grid-columns-212 {
     /* Create 212 columns of the same size */
     grid-template-columns: repeat(212, 1fr);
@@ -3784,6 +4809,11 @@
   .grid-rows-212 {
     /* Create 212 rows of the same size */
     grid-template-rows: repeat(212, 1fr);
+  }
+  .rotate-212 {
+    display: inline-block;
+    transform: rotate(212deg);
+    transform-origin: center;
   }
   .grid-columns-213 {
     /* Create 213 columns of the same size */
@@ -3793,6 +4823,11 @@
     /* Create 213 rows of the same size */
     grid-template-rows: repeat(213, 1fr);
   }
+  .rotate-213 {
+    display: inline-block;
+    transform: rotate(213deg);
+    transform-origin: center;
+  }
   .grid-columns-214 {
     /* Create 214 columns of the same size */
     grid-template-columns: repeat(214, 1fr);
@@ -3800,6 +4835,11 @@
   .grid-rows-214 {
     /* Create 214 rows of the same size */
     grid-template-rows: repeat(214, 1fr);
+  }
+  .rotate-214 {
+    display: inline-block;
+    transform: rotate(214deg);
+    transform-origin: center;
   }
   .grid-columns-215 {
     /* Create 215 columns of the same size */
@@ -3809,6 +4849,11 @@
     /* Create 215 rows of the same size */
     grid-template-rows: repeat(215, 1fr);
   }
+  .rotate-215 {
+    display: inline-block;
+    transform: rotate(215deg);
+    transform-origin: center;
+  }
   .grid-columns-216 {
     /* Create 216 columns of the same size */
     grid-template-columns: repeat(216, 1fr);
@@ -3816,6 +4861,11 @@
   .grid-rows-216 {
     /* Create 216 rows of the same size */
     grid-template-rows: repeat(216, 1fr);
+  }
+  .rotate-216 {
+    display: inline-block;
+    transform: rotate(216deg);
+    transform-origin: center;
   }
   .grid-columns-217 {
     /* Create 217 columns of the same size */
@@ -3825,6 +4875,11 @@
     /* Create 217 rows of the same size */
     grid-template-rows: repeat(217, 1fr);
   }
+  .rotate-217 {
+    display: inline-block;
+    transform: rotate(217deg);
+    transform-origin: center;
+  }
   .grid-columns-218 {
     /* Create 218 columns of the same size */
     grid-template-columns: repeat(218, 1fr);
@@ -3832,6 +4887,11 @@
   .grid-rows-218 {
     /* Create 218 rows of the same size */
     grid-template-rows: repeat(218, 1fr);
+  }
+  .rotate-218 {
+    display: inline-block;
+    transform: rotate(218deg);
+    transform-origin: center;
   }
   .grid-columns-219 {
     /* Create 219 columns of the same size */
@@ -3841,6 +4901,11 @@
     /* Create 219 rows of the same size */
     grid-template-rows: repeat(219, 1fr);
   }
+  .rotate-219 {
+    display: inline-block;
+    transform: rotate(219deg);
+    transform-origin: center;
+  }
   .grid-columns-220 {
     /* Create 220 columns of the same size */
     grid-template-columns: repeat(220, 1fr);
@@ -3848,6 +4913,11 @@
   .grid-rows-220 {
     /* Create 220 rows of the same size */
     grid-template-rows: repeat(220, 1fr);
+  }
+  .rotate-220 {
+    display: inline-block;
+    transform: rotate(220deg);
+    transform-origin: center;
   }
   .grid-columns-221 {
     /* Create 221 columns of the same size */
@@ -3857,6 +4927,11 @@
     /* Create 221 rows of the same size */
     grid-template-rows: repeat(221, 1fr);
   }
+  .rotate-221 {
+    display: inline-block;
+    transform: rotate(221deg);
+    transform-origin: center;
+  }
   .grid-columns-222 {
     /* Create 222 columns of the same size */
     grid-template-columns: repeat(222, 1fr);
@@ -3864,6 +4939,11 @@
   .grid-rows-222 {
     /* Create 222 rows of the same size */
     grid-template-rows: repeat(222, 1fr);
+  }
+  .rotate-222 {
+    display: inline-block;
+    transform: rotate(222deg);
+    transform-origin: center;
   }
   .grid-columns-223 {
     /* Create 223 columns of the same size */
@@ -3873,6 +4953,11 @@
     /* Create 223 rows of the same size */
     grid-template-rows: repeat(223, 1fr);
   }
+  .rotate-223 {
+    display: inline-block;
+    transform: rotate(223deg);
+    transform-origin: center;
+  }
   .grid-columns-224 {
     /* Create 224 columns of the same size */
     grid-template-columns: repeat(224, 1fr);
@@ -3880,6 +4965,11 @@
   .grid-rows-224 {
     /* Create 224 rows of the same size */
     grid-template-rows: repeat(224, 1fr);
+  }
+  .rotate-224 {
+    display: inline-block;
+    transform: rotate(224deg);
+    transform-origin: center;
   }
   .grid-columns-225 {
     /* Create 225 columns of the same size */
@@ -3889,6 +4979,11 @@
     /* Create 225 rows of the same size */
     grid-template-rows: repeat(225, 1fr);
   }
+  .rotate-225 {
+    display: inline-block;
+    transform: rotate(225deg);
+    transform-origin: center;
+  }
   .grid-columns-226 {
     /* Create 226 columns of the same size */
     grid-template-columns: repeat(226, 1fr);
@@ -3896,6 +4991,11 @@
   .grid-rows-226 {
     /* Create 226 rows of the same size */
     grid-template-rows: repeat(226, 1fr);
+  }
+  .rotate-226 {
+    display: inline-block;
+    transform: rotate(226deg);
+    transform-origin: center;
   }
   .grid-columns-227 {
     /* Create 227 columns of the same size */
@@ -3905,6 +5005,11 @@
     /* Create 227 rows of the same size */
     grid-template-rows: repeat(227, 1fr);
   }
+  .rotate-227 {
+    display: inline-block;
+    transform: rotate(227deg);
+    transform-origin: center;
+  }
   .grid-columns-228 {
     /* Create 228 columns of the same size */
     grid-template-columns: repeat(228, 1fr);
@@ -3912,6 +5017,11 @@
   .grid-rows-228 {
     /* Create 228 rows of the same size */
     grid-template-rows: repeat(228, 1fr);
+  }
+  .rotate-228 {
+    display: inline-block;
+    transform: rotate(228deg);
+    transform-origin: center;
   }
   .grid-columns-229 {
     /* Create 229 columns of the same size */
@@ -3921,6 +5031,11 @@
     /* Create 229 rows of the same size */
     grid-template-rows: repeat(229, 1fr);
   }
+  .rotate-229 {
+    display: inline-block;
+    transform: rotate(229deg);
+    transform-origin: center;
+  }
   .grid-columns-230 {
     /* Create 230 columns of the same size */
     grid-template-columns: repeat(230, 1fr);
@@ -3928,6 +5043,11 @@
   .grid-rows-230 {
     /* Create 230 rows of the same size */
     grid-template-rows: repeat(230, 1fr);
+  }
+  .rotate-230 {
+    display: inline-block;
+    transform: rotate(230deg);
+    transform-origin: center;
   }
   .grid-columns-231 {
     /* Create 231 columns of the same size */
@@ -3937,6 +5057,11 @@
     /* Create 231 rows of the same size */
     grid-template-rows: repeat(231, 1fr);
   }
+  .rotate-231 {
+    display: inline-block;
+    transform: rotate(231deg);
+    transform-origin: center;
+  }
   .grid-columns-232 {
     /* Create 232 columns of the same size */
     grid-template-columns: repeat(232, 1fr);
@@ -3944,6 +5069,11 @@
   .grid-rows-232 {
     /* Create 232 rows of the same size */
     grid-template-rows: repeat(232, 1fr);
+  }
+  .rotate-232 {
+    display: inline-block;
+    transform: rotate(232deg);
+    transform-origin: center;
   }
   .grid-columns-233 {
     /* Create 233 columns of the same size */
@@ -3953,6 +5083,11 @@
     /* Create 233 rows of the same size */
     grid-template-rows: repeat(233, 1fr);
   }
+  .rotate-233 {
+    display: inline-block;
+    transform: rotate(233deg);
+    transform-origin: center;
+  }
   .grid-columns-234 {
     /* Create 234 columns of the same size */
     grid-template-columns: repeat(234, 1fr);
@@ -3960,6 +5095,11 @@
   .grid-rows-234 {
     /* Create 234 rows of the same size */
     grid-template-rows: repeat(234, 1fr);
+  }
+  .rotate-234 {
+    display: inline-block;
+    transform: rotate(234deg);
+    transform-origin: center;
   }
   .grid-columns-235 {
     /* Create 235 columns of the same size */
@@ -3969,6 +5109,11 @@
     /* Create 235 rows of the same size */
     grid-template-rows: repeat(235, 1fr);
   }
+  .rotate-235 {
+    display: inline-block;
+    transform: rotate(235deg);
+    transform-origin: center;
+  }
   .grid-columns-236 {
     /* Create 236 columns of the same size */
     grid-template-columns: repeat(236, 1fr);
@@ -3976,6 +5121,11 @@
   .grid-rows-236 {
     /* Create 236 rows of the same size */
     grid-template-rows: repeat(236, 1fr);
+  }
+  .rotate-236 {
+    display: inline-block;
+    transform: rotate(236deg);
+    transform-origin: center;
   }
   .grid-columns-237 {
     /* Create 237 columns of the same size */
@@ -3985,6 +5135,11 @@
     /* Create 237 rows of the same size */
     grid-template-rows: repeat(237, 1fr);
   }
+  .rotate-237 {
+    display: inline-block;
+    transform: rotate(237deg);
+    transform-origin: center;
+  }
   .grid-columns-238 {
     /* Create 238 columns of the same size */
     grid-template-columns: repeat(238, 1fr);
@@ -3992,6 +5147,11 @@
   .grid-rows-238 {
     /* Create 238 rows of the same size */
     grid-template-rows: repeat(238, 1fr);
+  }
+  .rotate-238 {
+    display: inline-block;
+    transform: rotate(238deg);
+    transform-origin: center;
   }
   .grid-columns-239 {
     /* Create 239 columns of the same size */
@@ -4001,6 +5161,11 @@
     /* Create 239 rows of the same size */
     grid-template-rows: repeat(239, 1fr);
   }
+  .rotate-239 {
+    display: inline-block;
+    transform: rotate(239deg);
+    transform-origin: center;
+  }
   .grid-columns-240 {
     /* Create 240 columns of the same size */
     grid-template-columns: repeat(240, 1fr);
@@ -4008,6 +5173,11 @@
   .grid-rows-240 {
     /* Create 240 rows of the same size */
     grid-template-rows: repeat(240, 1fr);
+  }
+  .rotate-240 {
+    display: inline-block;
+    transform: rotate(240deg);
+    transform-origin: center;
   }
   .grid-columns-241 {
     /* Create 241 columns of the same size */
@@ -4017,6 +5187,11 @@
     /* Create 241 rows of the same size */
     grid-template-rows: repeat(241, 1fr);
   }
+  .rotate-241 {
+    display: inline-block;
+    transform: rotate(241deg);
+    transform-origin: center;
+  }
   .grid-columns-242 {
     /* Create 242 columns of the same size */
     grid-template-columns: repeat(242, 1fr);
@@ -4024,6 +5199,11 @@
   .grid-rows-242 {
     /* Create 242 rows of the same size */
     grid-template-rows: repeat(242, 1fr);
+  }
+  .rotate-242 {
+    display: inline-block;
+    transform: rotate(242deg);
+    transform-origin: center;
   }
   .grid-columns-243 {
     /* Create 243 columns of the same size */
@@ -4033,6 +5213,11 @@
     /* Create 243 rows of the same size */
     grid-template-rows: repeat(243, 1fr);
   }
+  .rotate-243 {
+    display: inline-block;
+    transform: rotate(243deg);
+    transform-origin: center;
+  }
   .grid-columns-244 {
     /* Create 244 columns of the same size */
     grid-template-columns: repeat(244, 1fr);
@@ -4040,6 +5225,11 @@
   .grid-rows-244 {
     /* Create 244 rows of the same size */
     grid-template-rows: repeat(244, 1fr);
+  }
+  .rotate-244 {
+    display: inline-block;
+    transform: rotate(244deg);
+    transform-origin: center;
   }
   .grid-columns-245 {
     /* Create 245 columns of the same size */
@@ -4049,6 +5239,11 @@
     /* Create 245 rows of the same size */
     grid-template-rows: repeat(245, 1fr);
   }
+  .rotate-245 {
+    display: inline-block;
+    transform: rotate(245deg);
+    transform-origin: center;
+  }
   .grid-columns-246 {
     /* Create 246 columns of the same size */
     grid-template-columns: repeat(246, 1fr);
@@ -4056,6 +5251,11 @@
   .grid-rows-246 {
     /* Create 246 rows of the same size */
     grid-template-rows: repeat(246, 1fr);
+  }
+  .rotate-246 {
+    display: inline-block;
+    transform: rotate(246deg);
+    transform-origin: center;
   }
   .grid-columns-247 {
     /* Create 247 columns of the same size */
@@ -4065,6 +5265,11 @@
     /* Create 247 rows of the same size */
     grid-template-rows: repeat(247, 1fr);
   }
+  .rotate-247 {
+    display: inline-block;
+    transform: rotate(247deg);
+    transform-origin: center;
+  }
   .grid-columns-248 {
     /* Create 248 columns of the same size */
     grid-template-columns: repeat(248, 1fr);
@@ -4072,6 +5277,11 @@
   .grid-rows-248 {
     /* Create 248 rows of the same size */
     grid-template-rows: repeat(248, 1fr);
+  }
+  .rotate-248 {
+    display: inline-block;
+    transform: rotate(248deg);
+    transform-origin: center;
   }
   .grid-columns-249 {
     /* Create 249 columns of the same size */
@@ -4081,6 +5291,11 @@
     /* Create 249 rows of the same size */
     grid-template-rows: repeat(249, 1fr);
   }
+  .rotate-249 {
+    display: inline-block;
+    transform: rotate(249deg);
+    transform-origin: center;
+  }
   .grid-columns-250 {
     /* Create 250 columns of the same size */
     grid-template-columns: repeat(250, 1fr);
@@ -4088,6 +5303,11 @@
   .grid-rows-250 {
     /* Create 250 rows of the same size */
     grid-template-rows: repeat(250, 1fr);
+  }
+  .rotate-250 {
+    display: inline-block;
+    transform: rotate(250deg);
+    transform-origin: center;
   }
   .grid-columns-251 {
     /* Create 251 columns of the same size */
@@ -4097,6 +5317,11 @@
     /* Create 251 rows of the same size */
     grid-template-rows: repeat(251, 1fr);
   }
+  .rotate-251 {
+    display: inline-block;
+    transform: rotate(251deg);
+    transform-origin: center;
+  }
   .grid-columns-252 {
     /* Create 252 columns of the same size */
     grid-template-columns: repeat(252, 1fr);
@@ -4104,6 +5329,11 @@
   .grid-rows-252 {
     /* Create 252 rows of the same size */
     grid-template-rows: repeat(252, 1fr);
+  }
+  .rotate-252 {
+    display: inline-block;
+    transform: rotate(252deg);
+    transform-origin: center;
   }
   .grid-columns-253 {
     /* Create 253 columns of the same size */
@@ -4113,6 +5343,11 @@
     /* Create 253 rows of the same size */
     grid-template-rows: repeat(253, 1fr);
   }
+  .rotate-253 {
+    display: inline-block;
+    transform: rotate(253deg);
+    transform-origin: center;
+  }
   .grid-columns-254 {
     /* Create 254 columns of the same size */
     grid-template-columns: repeat(254, 1fr);
@@ -4120,6 +5355,11 @@
   .grid-rows-254 {
     /* Create 254 rows of the same size */
     grid-template-rows: repeat(254, 1fr);
+  }
+  .rotate-254 {
+    display: inline-block;
+    transform: rotate(254deg);
+    transform-origin: center;
   }
   .grid-columns-255 {
     /* Create 255 columns of the same size */
@@ -4129,6 +5369,11 @@
     /* Create 255 rows of the same size */
     grid-template-rows: repeat(255, 1fr);
   }
+  .rotate-255 {
+    display: inline-block;
+    transform: rotate(255deg);
+    transform-origin: center;
+  }
   .grid-columns-256 {
     /* Create 256 columns of the same size */
     grid-template-columns: repeat(256, 1fr);
@@ -4137,1800 +5382,1357 @@
     /* Create 256 rows of the same size */
     grid-template-rows: repeat(256, 1fr);
   }
-  .rotate-1 {
-    display: inline-block;
-    transform: rotate(1deg);
-    transform-origin: center;
-  }
-  .rotate-2 {
-    display: inline-block;
-    transform: rotate(2deg);
-    transform-origin: center;
-  }
-  .rotate-3 {
-    display: inline-block;
-    transform: rotate(3deg);
-    transform-origin: center;
-  }
-  .rotate-4 {
-    display: inline-block;
-    transform: rotate(4deg);
-    transform-origin: center;
-  }
-  .rotate-5 {
-    display: inline-block;
-    transform: rotate(5deg);
-    transform-origin: center;
-  }
-  .rotate-6 {
-    display: inline-block;
-    transform: rotate(6deg);
-    transform-origin: center;
-  }
-  .rotate-7 {
-    display: inline-block;
-    transform: rotate(7deg);
-    transform-origin: center;
-  }
-  .rotate-8 {
-    display: inline-block;
-    transform: rotate(8deg);
-    transform-origin: center;
-  }
-  .rotate-9 {
-    display: inline-block;
-    transform: rotate(9deg);
-    transform-origin: center;
-  }
-  .rotate-10 {
-    display: inline-block;
-    transform: rotate(10deg);
-    transform-origin: center;
-  }
-  .rotate-11 {
-    display: inline-block;
-    transform: rotate(11deg);
-    transform-origin: center;
-  }
-  .rotate-12 {
-    display: inline-block;
-    transform: rotate(12deg);
-    transform-origin: center;
-  }
-  .rotate-13 {
-    display: inline-block;
-    transform: rotate(13deg);
-    transform-origin: center;
-  }
-  .rotate-14 {
-    display: inline-block;
-    transform: rotate(14deg);
-    transform-origin: center;
-  }
-  .rotate-15 {
-    display: inline-block;
-    transform: rotate(15deg);
-    transform-origin: center;
-  }
-  .rotate-16 {
-    display: inline-block;
-    transform: rotate(16deg);
-    transform-origin: center;
-  }
-  .rotate-17 {
-    display: inline-block;
-    transform: rotate(17deg);
-    transform-origin: center;
-  }
-  .rotate-18 {
-    display: inline-block;
-    transform: rotate(18deg);
-    transform-origin: center;
-  }
-  .rotate-19 {
-    display: inline-block;
-    transform: rotate(19deg);
-    transform-origin: center;
-  }
-  .rotate-20 {
-    display: inline-block;
-    transform: rotate(20deg);
-    transform-origin: center;
-  }
-  .rotate-21 {
-    display: inline-block;
-    transform: rotate(21deg);
-    transform-origin: center;
-  }
-  .rotate-22 {
-    display: inline-block;
-    transform: rotate(22deg);
-    transform-origin: center;
-  }
-  .rotate-23 {
-    display: inline-block;
-    transform: rotate(23deg);
-    transform-origin: center;
-  }
-  .rotate-24 {
-    display: inline-block;
-    transform: rotate(24deg);
-    transform-origin: center;
-  }
-  .rotate-25 {
-    display: inline-block;
-    transform: rotate(25deg);
-    transform-origin: center;
-  }
-  .rotate-26 {
-    display: inline-block;
-    transform: rotate(26deg);
-    transform-origin: center;
-  }
-  .rotate-27 {
-    display: inline-block;
-    transform: rotate(27deg);
-    transform-origin: center;
-  }
-  .rotate-28 {
-    display: inline-block;
-    transform: rotate(28deg);
-    transform-origin: center;
-  }
-  .rotate-29 {
-    display: inline-block;
-    transform: rotate(29deg);
-    transform-origin: center;
-  }
-  .rotate-30 {
-    display: inline-block;
-    transform: rotate(30deg);
-    transform-origin: center;
-  }
-  .rotate-31 {
-    display: inline-block;
-    transform: rotate(31deg);
-    transform-origin: center;
-  }
-  .rotate-32 {
-    display: inline-block;
-    transform: rotate(32deg);
-    transform-origin: center;
-  }
-  .rotate-33 {
-    display: inline-block;
-    transform: rotate(33deg);
-    transform-origin: center;
-  }
-  .rotate-34 {
-    display: inline-block;
-    transform: rotate(34deg);
-    transform-origin: center;
-  }
-  .rotate-35 {
-    display: inline-block;
-    transform: rotate(35deg);
-    transform-origin: center;
-  }
-  .rotate-36 {
-    display: inline-block;
-    transform: rotate(36deg);
-    transform-origin: center;
-  }
-  .rotate-37 {
-    display: inline-block;
-    transform: rotate(37deg);
-    transform-origin: center;
-  }
-  .rotate-38 {
-    display: inline-block;
-    transform: rotate(38deg);
-    transform-origin: center;
-  }
-  .rotate-39 {
-    display: inline-block;
-    transform: rotate(39deg);
-    transform-origin: center;
-  }
-  .rotate-40 {
-    display: inline-block;
-    transform: rotate(40deg);
-    transform-origin: center;
-  }
-  .rotate-41 {
-    display: inline-block;
-    transform: rotate(41deg);
-    transform-origin: center;
-  }
-  .rotate-42 {
-    display: inline-block;
-    transform: rotate(42deg);
-    transform-origin: center;
-  }
-  .rotate-43 {
-    display: inline-block;
-    transform: rotate(43deg);
-    transform-origin: center;
-  }
-  .rotate-44 {
-    display: inline-block;
-    transform: rotate(44deg);
-    transform-origin: center;
-  }
-  .rotate-45 {
-    display: inline-block;
-    transform: rotate(45deg);
-    transform-origin: center;
-  }
-  .rotate-46 {
-    display: inline-block;
-    transform: rotate(46deg);
-    transform-origin: center;
-  }
-  .rotate-47 {
-    display: inline-block;
-    transform: rotate(47deg);
-    transform-origin: center;
-  }
-  .rotate-48 {
-    display: inline-block;
-    transform: rotate(48deg);
-    transform-origin: center;
-  }
-  .rotate-49 {
-    display: inline-block;
-    transform: rotate(49deg);
-    transform-origin: center;
-  }
-  .rotate-50 {
-    display: inline-block;
-    transform: rotate(50deg);
-    transform-origin: center;
-  }
-  .rotate-51 {
-    display: inline-block;
-    transform: rotate(51deg);
-    transform-origin: center;
-  }
-  .rotate-52 {
-    display: inline-block;
-    transform: rotate(52deg);
-    transform-origin: center;
-  }
-  .rotate-53 {
-    display: inline-block;
-    transform: rotate(53deg);
-    transform-origin: center;
-  }
-  .rotate-54 {
-    display: inline-block;
-    transform: rotate(54deg);
-    transform-origin: center;
-  }
-  .rotate-55 {
-    display: inline-block;
-    transform: rotate(55deg);
-    transform-origin: center;
-  }
-  .rotate-56 {
-    display: inline-block;
-    transform: rotate(56deg);
-    transform-origin: center;
-  }
-  .rotate-57 {
-    display: inline-block;
-    transform: rotate(57deg);
-    transform-origin: center;
-  }
-  .rotate-58 {
-    display: inline-block;
-    transform: rotate(58deg);
-    transform-origin: center;
-  }
-  .rotate-59 {
-    display: inline-block;
-    transform: rotate(59deg);
-    transform-origin: center;
-  }
-  .rotate-60 {
-    display: inline-block;
-    transform: rotate(60deg);
-    transform-origin: center;
-  }
-  .rotate-61 {
-    display: inline-block;
-    transform: rotate(61deg);
-    transform-origin: center;
-  }
-  .rotate-62 {
-    display: inline-block;
-    transform: rotate(62deg);
-    transform-origin: center;
-  }
-  .rotate-63 {
-    display: inline-block;
-    transform: rotate(63deg);
-    transform-origin: center;
-  }
-  .rotate-64 {
-    display: inline-block;
-    transform: rotate(64deg);
-    transform-origin: center;
-  }
-  .rotate-65 {
-    display: inline-block;
-    transform: rotate(65deg);
-    transform-origin: center;
-  }
-  .rotate-66 {
-    display: inline-block;
-    transform: rotate(66deg);
-    transform-origin: center;
-  }
-  .rotate-67 {
-    display: inline-block;
-    transform: rotate(67deg);
-    transform-origin: center;
-  }
-  .rotate-68 {
-    display: inline-block;
-    transform: rotate(68deg);
-    transform-origin: center;
-  }
-  .rotate-69 {
-    display: inline-block;
-    transform: rotate(69deg);
-    transform-origin: center;
-  }
-  .rotate-70 {
-    display: inline-block;
-    transform: rotate(70deg);
-    transform-origin: center;
-  }
-  .rotate-71 {
-    display: inline-block;
-    transform: rotate(71deg);
-    transform-origin: center;
-  }
-  .rotate-72 {
-    display: inline-block;
-    transform: rotate(72deg);
-    transform-origin: center;
-  }
-  .rotate-73 {
-    display: inline-block;
-    transform: rotate(73deg);
-    transform-origin: center;
-  }
-  .rotate-74 {
-    display: inline-block;
-    transform: rotate(74deg);
-    transform-origin: center;
-  }
-  .rotate-75 {
-    display: inline-block;
-    transform: rotate(75deg);
-    transform-origin: center;
-  }
-  .rotate-76 {
-    display: inline-block;
-    transform: rotate(76deg);
-    transform-origin: center;
-  }
-  .rotate-77 {
-    display: inline-block;
-    transform: rotate(77deg);
-    transform-origin: center;
-  }
-  .rotate-78 {
-    display: inline-block;
-    transform: rotate(78deg);
-    transform-origin: center;
-  }
-  .rotate-79 {
-    display: inline-block;
-    transform: rotate(79deg);
-    transform-origin: center;
-  }
-  .rotate-80 {
-    display: inline-block;
-    transform: rotate(80deg);
-    transform-origin: center;
-  }
-  .rotate-81 {
-    display: inline-block;
-    transform: rotate(81deg);
-    transform-origin: center;
-  }
-  .rotate-82 {
-    display: inline-block;
-    transform: rotate(82deg);
-    transform-origin: center;
-  }
-  .rotate-83 {
-    display: inline-block;
-    transform: rotate(83deg);
-    transform-origin: center;
-  }
-  .rotate-84 {
-    display: inline-block;
-    transform: rotate(84deg);
-    transform-origin: center;
-  }
-  .rotate-85 {
-    display: inline-block;
-    transform: rotate(85deg);
-    transform-origin: center;
-  }
-  .rotate-86 {
-    display: inline-block;
-    transform: rotate(86deg);
-    transform-origin: center;
-  }
-  .rotate-87 {
-    display: inline-block;
-    transform: rotate(87deg);
-    transform-origin: center;
-  }
-  .rotate-88 {
-    display: inline-block;
-    transform: rotate(88deg);
-    transform-origin: center;
-  }
-  .rotate-89 {
-    display: inline-block;
-    transform: rotate(89deg);
-    transform-origin: center;
-  }
-  .rotate-90 {
-    display: inline-block;
-    transform: rotate(90deg);
-    transform-origin: center;
-  }
-  .rotate-91 {
-    display: inline-block;
-    transform: rotate(91deg);
-    transform-origin: center;
-  }
-  .rotate-92 {
-    display: inline-block;
-    transform: rotate(92deg);
-    transform-origin: center;
-  }
-  .rotate-93 {
-    display: inline-block;
-    transform: rotate(93deg);
-    transform-origin: center;
-  }
-  .rotate-94 {
-    display: inline-block;
-    transform: rotate(94deg);
-    transform-origin: center;
-  }
-  .rotate-95 {
-    display: inline-block;
-    transform: rotate(95deg);
-    transform-origin: center;
-  }
-  .rotate-96 {
-    display: inline-block;
-    transform: rotate(96deg);
-    transform-origin: center;
-  }
-  .rotate-97 {
-    display: inline-block;
-    transform: rotate(97deg);
-    transform-origin: center;
-  }
-  .rotate-98 {
-    display: inline-block;
-    transform: rotate(98deg);
-    transform-origin: center;
-  }
-  .rotate-99 {
-    display: inline-block;
-    transform: rotate(99deg);
-    transform-origin: center;
-  }
-  .rotate-100 {
-    display: inline-block;
-    transform: rotate(100deg);
-    transform-origin: center;
-  }
-  .rotate-101 {
-    display: inline-block;
-    transform: rotate(101deg);
-    transform-origin: center;
-  }
-  .rotate-102 {
-    display: inline-block;
-    transform: rotate(102deg);
-    transform-origin: center;
-  }
-  .rotate-103 {
-    display: inline-block;
-    transform: rotate(103deg);
-    transform-origin: center;
-  }
-  .rotate-104 {
-    display: inline-block;
-    transform: rotate(104deg);
-    transform-origin: center;
-  }
-  .rotate-105 {
-    display: inline-block;
-    transform: rotate(105deg);
-    transform-origin: center;
-  }
-  .rotate-106 {
-    display: inline-block;
-    transform: rotate(106deg);
-    transform-origin: center;
-  }
-  .rotate-107 {
-    display: inline-block;
-    transform: rotate(107deg);
-    transform-origin: center;
-  }
-  .rotate-108 {
-    display: inline-block;
-    transform: rotate(108deg);
-    transform-origin: center;
-  }
-  .rotate-109 {
-    display: inline-block;
-    transform: rotate(109deg);
-    transform-origin: center;
-  }
-  .rotate-110 {
-    display: inline-block;
-    transform: rotate(110deg);
-    transform-origin: center;
-  }
-  .rotate-111 {
-    display: inline-block;
-    transform: rotate(111deg);
-    transform-origin: center;
-  }
-  .rotate-112 {
-    display: inline-block;
-    transform: rotate(112deg);
-    transform-origin: center;
-  }
-  .rotate-113 {
-    display: inline-block;
-    transform: rotate(113deg);
-    transform-origin: center;
-  }
-  .rotate-114 {
-    display: inline-block;
-    transform: rotate(114deg);
-    transform-origin: center;
-  }
-  .rotate-115 {
-    display: inline-block;
-    transform: rotate(115deg);
-    transform-origin: center;
-  }
-  .rotate-116 {
-    display: inline-block;
-    transform: rotate(116deg);
-    transform-origin: center;
-  }
-  .rotate-117 {
-    display: inline-block;
-    transform: rotate(117deg);
-    transform-origin: center;
-  }
-  .rotate-118 {
-    display: inline-block;
-    transform: rotate(118deg);
-    transform-origin: center;
-  }
-  .rotate-119 {
-    display: inline-block;
-    transform: rotate(119deg);
-    transform-origin: center;
-  }
-  .rotate-120 {
-    display: inline-block;
-    transform: rotate(120deg);
-    transform-origin: center;
-  }
-  .rotate-121 {
-    display: inline-block;
-    transform: rotate(121deg);
-    transform-origin: center;
-  }
-  .rotate-122 {
-    display: inline-block;
-    transform: rotate(122deg);
-    transform-origin: center;
-  }
-  .rotate-123 {
-    display: inline-block;
-    transform: rotate(123deg);
-    transform-origin: center;
-  }
-  .rotate-124 {
-    display: inline-block;
-    transform: rotate(124deg);
-    transform-origin: center;
-  }
-  .rotate-125 {
-    display: inline-block;
-    transform: rotate(125deg);
-    transform-origin: center;
-  }
-  .rotate-126 {
-    display: inline-block;
-    transform: rotate(126deg);
-    transform-origin: center;
-  }
-  .rotate-127 {
-    display: inline-block;
-    transform: rotate(127deg);
-    transform-origin: center;
-  }
-  .rotate-128 {
-    display: inline-block;
-    transform: rotate(128deg);
-    transform-origin: center;
-  }
-  .rotate-129 {
-    display: inline-block;
-    transform: rotate(129deg);
-    transform-origin: center;
-  }
-  .rotate-130 {
-    display: inline-block;
-    transform: rotate(130deg);
-    transform-origin: center;
-  }
-  .rotate-131 {
-    display: inline-block;
-    transform: rotate(131deg);
-    transform-origin: center;
-  }
-  .rotate-132 {
-    display: inline-block;
-    transform: rotate(132deg);
-    transform-origin: center;
-  }
-  .rotate-133 {
-    display: inline-block;
-    transform: rotate(133deg);
-    transform-origin: center;
-  }
-  .rotate-134 {
-    display: inline-block;
-    transform: rotate(134deg);
-    transform-origin: center;
-  }
-  .rotate-135 {
-    display: inline-block;
-    transform: rotate(135deg);
-    transform-origin: center;
-  }
-  .rotate-136 {
-    display: inline-block;
-    transform: rotate(136deg);
-    transform-origin: center;
-  }
-  .rotate-137 {
-    display: inline-block;
-    transform: rotate(137deg);
-    transform-origin: center;
-  }
-  .rotate-138 {
-    display: inline-block;
-    transform: rotate(138deg);
-    transform-origin: center;
-  }
-  .rotate-139 {
-    display: inline-block;
-    transform: rotate(139deg);
-    transform-origin: center;
-  }
-  .rotate-140 {
-    display: inline-block;
-    transform: rotate(140deg);
-    transform-origin: center;
-  }
-  .rotate-141 {
-    display: inline-block;
-    transform: rotate(141deg);
-    transform-origin: center;
-  }
-  .rotate-142 {
-    display: inline-block;
-    transform: rotate(142deg);
-    transform-origin: center;
-  }
-  .rotate-143 {
-    display: inline-block;
-    transform: rotate(143deg);
-    transform-origin: center;
-  }
-  .rotate-144 {
-    display: inline-block;
-    transform: rotate(144deg);
-    transform-origin: center;
-  }
-  .rotate-145 {
-    display: inline-block;
-    transform: rotate(145deg);
-    transform-origin: center;
-  }
-  .rotate-146 {
-    display: inline-block;
-    transform: rotate(146deg);
-    transform-origin: center;
-  }
-  .rotate-147 {
-    display: inline-block;
-    transform: rotate(147deg);
-    transform-origin: center;
-  }
-  .rotate-148 {
-    display: inline-block;
-    transform: rotate(148deg);
-    transform-origin: center;
-  }
-  .rotate-149 {
-    display: inline-block;
-    transform: rotate(149deg);
-    transform-origin: center;
-  }
-  .rotate-150 {
-    display: inline-block;
-    transform: rotate(150deg);
-    transform-origin: center;
-  }
-  .rotate-151 {
-    display: inline-block;
-    transform: rotate(151deg);
-    transform-origin: center;
-  }
-  .rotate-152 {
-    display: inline-block;
-    transform: rotate(152deg);
-    transform-origin: center;
-  }
-  .rotate-153 {
-    display: inline-block;
-    transform: rotate(153deg);
-    transform-origin: center;
-  }
-  .rotate-154 {
-    display: inline-block;
-    transform: rotate(154deg);
-    transform-origin: center;
-  }
-  .rotate-155 {
-    display: inline-block;
-    transform: rotate(155deg);
-    transform-origin: center;
-  }
-  .rotate-156 {
-    display: inline-block;
-    transform: rotate(156deg);
-    transform-origin: center;
-  }
-  .rotate-157 {
-    display: inline-block;
-    transform: rotate(157deg);
-    transform-origin: center;
-  }
-  .rotate-158 {
-    display: inline-block;
-    transform: rotate(158deg);
-    transform-origin: center;
-  }
-  .rotate-159 {
-    display: inline-block;
-    transform: rotate(159deg);
-    transform-origin: center;
-  }
-  .rotate-160 {
-    display: inline-block;
-    transform: rotate(160deg);
-    transform-origin: center;
-  }
-  .rotate-161 {
-    display: inline-block;
-    transform: rotate(161deg);
-    transform-origin: center;
-  }
-  .rotate-162 {
-    display: inline-block;
-    transform: rotate(162deg);
-    transform-origin: center;
-  }
-  .rotate-163 {
-    display: inline-block;
-    transform: rotate(163deg);
-    transform-origin: center;
-  }
-  .rotate-164 {
-    display: inline-block;
-    transform: rotate(164deg);
-    transform-origin: center;
-  }
-  .rotate-165 {
-    display: inline-block;
-    transform: rotate(165deg);
-    transform-origin: center;
-  }
-  .rotate-166 {
-    display: inline-block;
-    transform: rotate(166deg);
-    transform-origin: center;
-  }
-  .rotate-167 {
-    display: inline-block;
-    transform: rotate(167deg);
-    transform-origin: center;
-  }
-  .rotate-168 {
-    display: inline-block;
-    transform: rotate(168deg);
-    transform-origin: center;
-  }
-  .rotate-169 {
-    display: inline-block;
-    transform: rotate(169deg);
-    transform-origin: center;
-  }
-  .rotate-170 {
-    display: inline-block;
-    transform: rotate(170deg);
-    transform-origin: center;
-  }
-  .rotate-171 {
-    display: inline-block;
-    transform: rotate(171deg);
-    transform-origin: center;
-  }
-  .rotate-172 {
-    display: inline-block;
-    transform: rotate(172deg);
-    transform-origin: center;
-  }
-  .rotate-173 {
-    display: inline-block;
-    transform: rotate(173deg);
-    transform-origin: center;
-  }
-  .rotate-174 {
-    display: inline-block;
-    transform: rotate(174deg);
-    transform-origin: center;
-  }
-  .rotate-175 {
-    display: inline-block;
-    transform: rotate(175deg);
-    transform-origin: center;
-  }
-  .rotate-176 {
-    display: inline-block;
-    transform: rotate(176deg);
-    transform-origin: center;
-  }
-  .rotate-177 {
-    display: inline-block;
-    transform: rotate(177deg);
-    transform-origin: center;
-  }
-  .rotate-178 {
-    display: inline-block;
-    transform: rotate(178deg);
-    transform-origin: center;
-  }
-  .rotate-179 {
-    display: inline-block;
-    transform: rotate(179deg);
-    transform-origin: center;
-  }
-  .rotate-180 {
-    display: inline-block;
-    transform: rotate(180deg);
-    transform-origin: center;
-  }
-  .rotate-181 {
-    display: inline-block;
-    transform: rotate(181deg);
-    transform-origin: center;
-  }
-  .rotate-182 {
-    display: inline-block;
-    transform: rotate(182deg);
-    transform-origin: center;
-  }
-  .rotate-183 {
-    display: inline-block;
-    transform: rotate(183deg);
-    transform-origin: center;
-  }
-  .rotate-184 {
-    display: inline-block;
-    transform: rotate(184deg);
-    transform-origin: center;
-  }
-  .rotate-185 {
-    display: inline-block;
-    transform: rotate(185deg);
-    transform-origin: center;
-  }
-  .rotate-186 {
-    display: inline-block;
-    transform: rotate(186deg);
-    transform-origin: center;
-  }
-  .rotate-187 {
-    display: inline-block;
-    transform: rotate(187deg);
-    transform-origin: center;
-  }
-  .rotate-188 {
-    display: inline-block;
-    transform: rotate(188deg);
-    transform-origin: center;
-  }
-  .rotate-189 {
-    display: inline-block;
-    transform: rotate(189deg);
-    transform-origin: center;
-  }
-  .rotate-190 {
-    display: inline-block;
-    transform: rotate(190deg);
-    transform-origin: center;
-  }
-  .rotate-191 {
-    display: inline-block;
-    transform: rotate(191deg);
-    transform-origin: center;
-  }
-  .rotate-192 {
-    display: inline-block;
-    transform: rotate(192deg);
-    transform-origin: center;
-  }
-  .rotate-193 {
-    display: inline-block;
-    transform: rotate(193deg);
-    transform-origin: center;
-  }
-  .rotate-194 {
-    display: inline-block;
-    transform: rotate(194deg);
-    transform-origin: center;
-  }
-  .rotate-195 {
-    display: inline-block;
-    transform: rotate(195deg);
-    transform-origin: center;
-  }
-  .rotate-196 {
-    display: inline-block;
-    transform: rotate(196deg);
-    transform-origin: center;
-  }
-  .rotate-197 {
-    display: inline-block;
-    transform: rotate(197deg);
-    transform-origin: center;
-  }
-  .rotate-198 {
-    display: inline-block;
-    transform: rotate(198deg);
-    transform-origin: center;
-  }
-  .rotate-199 {
-    display: inline-block;
-    transform: rotate(199deg);
-    transform-origin: center;
-  }
-  .rotate-200 {
-    display: inline-block;
-    transform: rotate(200deg);
-    transform-origin: center;
-  }
-  .rotate-201 {
-    display: inline-block;
-    transform: rotate(201deg);
-    transform-origin: center;
-  }
-  .rotate-202 {
-    display: inline-block;
-    transform: rotate(202deg);
-    transform-origin: center;
-  }
-  .rotate-203 {
-    display: inline-block;
-    transform: rotate(203deg);
-    transform-origin: center;
-  }
-  .rotate-204 {
-    display: inline-block;
-    transform: rotate(204deg);
-    transform-origin: center;
-  }
-  .rotate-205 {
-    display: inline-block;
-    transform: rotate(205deg);
-    transform-origin: center;
-  }
-  .rotate-206 {
-    display: inline-block;
-    transform: rotate(206deg);
-    transform-origin: center;
-  }
-  .rotate-207 {
-    display: inline-block;
-    transform: rotate(207deg);
-    transform-origin: center;
-  }
-  .rotate-208 {
-    display: inline-block;
-    transform: rotate(208deg);
-    transform-origin: center;
-  }
-  .rotate-209 {
-    display: inline-block;
-    transform: rotate(209deg);
-    transform-origin: center;
-  }
-  .rotate-210 {
-    display: inline-block;
-    transform: rotate(210deg);
-    transform-origin: center;
-  }
-  .rotate-211 {
-    display: inline-block;
-    transform: rotate(211deg);
-    transform-origin: center;
-  }
-  .rotate-212 {
-    display: inline-block;
-    transform: rotate(212deg);
-    transform-origin: center;
-  }
-  .rotate-213 {
-    display: inline-block;
-    transform: rotate(213deg);
-    transform-origin: center;
-  }
-  .rotate-214 {
-    display: inline-block;
-    transform: rotate(214deg);
-    transform-origin: center;
-  }
-  .rotate-215 {
-    display: inline-block;
-    transform: rotate(215deg);
-    transform-origin: center;
-  }
-  .rotate-216 {
-    display: inline-block;
-    transform: rotate(216deg);
-    transform-origin: center;
-  }
-  .rotate-217 {
-    display: inline-block;
-    transform: rotate(217deg);
-    transform-origin: center;
-  }
-  .rotate-218 {
-    display: inline-block;
-    transform: rotate(218deg);
-    transform-origin: center;
-  }
-  .rotate-219 {
-    display: inline-block;
-    transform: rotate(219deg);
-    transform-origin: center;
-  }
-  .rotate-220 {
-    display: inline-block;
-    transform: rotate(220deg);
-    transform-origin: center;
-  }
-  .rotate-221 {
-    display: inline-block;
-    transform: rotate(221deg);
-    transform-origin: center;
-  }
-  .rotate-222 {
-    display: inline-block;
-    transform: rotate(222deg);
-    transform-origin: center;
-  }
-  .rotate-223 {
-    display: inline-block;
-    transform: rotate(223deg);
-    transform-origin: center;
-  }
-  .rotate-224 {
-    display: inline-block;
-    transform: rotate(224deg);
-    transform-origin: center;
-  }
-  .rotate-225 {
-    display: inline-block;
-    transform: rotate(225deg);
-    transform-origin: center;
-  }
-  .rotate-226 {
-    display: inline-block;
-    transform: rotate(226deg);
-    transform-origin: center;
-  }
-  .rotate-227 {
-    display: inline-block;
-    transform: rotate(227deg);
-    transform-origin: center;
-  }
-  .rotate-228 {
-    display: inline-block;
-    transform: rotate(228deg);
-    transform-origin: center;
-  }
-  .rotate-229 {
-    display: inline-block;
-    transform: rotate(229deg);
-    transform-origin: center;
-  }
-  .rotate-230 {
-    display: inline-block;
-    transform: rotate(230deg);
-    transform-origin: center;
-  }
-  .rotate-231 {
-    display: inline-block;
-    transform: rotate(231deg);
-    transform-origin: center;
-  }
-  .rotate-232 {
-    display: inline-block;
-    transform: rotate(232deg);
-    transform-origin: center;
-  }
-  .rotate-233 {
-    display: inline-block;
-    transform: rotate(233deg);
-    transform-origin: center;
-  }
-  .rotate-234 {
-    display: inline-block;
-    transform: rotate(234deg);
-    transform-origin: center;
-  }
-  .rotate-235 {
-    display: inline-block;
-    transform: rotate(235deg);
-    transform-origin: center;
-  }
-  .rotate-236 {
-    display: inline-block;
-    transform: rotate(236deg);
-    transform-origin: center;
-  }
-  .rotate-237 {
-    display: inline-block;
-    transform: rotate(237deg);
-    transform-origin: center;
-  }
-  .rotate-238 {
-    display: inline-block;
-    transform: rotate(238deg);
-    transform-origin: center;
-  }
-  .rotate-239 {
-    display: inline-block;
-    transform: rotate(239deg);
-    transform-origin: center;
-  }
-  .rotate-240 {
-    display: inline-block;
-    transform: rotate(240deg);
-    transform-origin: center;
-  }
-  .rotate-241 {
-    display: inline-block;
-    transform: rotate(241deg);
-    transform-origin: center;
-  }
-  .rotate-242 {
-    display: inline-block;
-    transform: rotate(242deg);
-    transform-origin: center;
-  }
-  .rotate-243 {
-    display: inline-block;
-    transform: rotate(243deg);
-    transform-origin: center;
-  }
-  .rotate-244 {
-    display: inline-block;
-    transform: rotate(244deg);
-    transform-origin: center;
-  }
-  .rotate-245 {
-    display: inline-block;
-    transform: rotate(245deg);
-    transform-origin: center;
-  }
-  .rotate-246 {
-    display: inline-block;
-    transform: rotate(246deg);
-    transform-origin: center;
-  }
-  .rotate-247 {
-    display: inline-block;
-    transform: rotate(247deg);
-    transform-origin: center;
-  }
-  .rotate-248 {
-    display: inline-block;
-    transform: rotate(248deg);
-    transform-origin: center;
-  }
-  .rotate-249 {
-    display: inline-block;
-    transform: rotate(249deg);
-    transform-origin: center;
-  }
-  .rotate-250 {
-    display: inline-block;
-    transform: rotate(250deg);
-    transform-origin: center;
-  }
-  .rotate-251 {
-    display: inline-block;
-    transform: rotate(251deg);
-    transform-origin: center;
-  }
-  .rotate-252 {
-    display: inline-block;
-    transform: rotate(252deg);
-    transform-origin: center;
-  }
-  .rotate-253 {
-    display: inline-block;
-    transform: rotate(253deg);
-    transform-origin: center;
-  }
-  .rotate-254 {
-    display: inline-block;
-    transform: rotate(254deg);
-    transform-origin: center;
-  }
-  .rotate-255 {
-    display: inline-block;
-    transform: rotate(255deg);
-    transform-origin: center;
-  }
   .rotate-256 {
     display: inline-block;
     transform: rotate(256deg);
     transform-origin: center;
+  }
+  .grid-columns-257 {
+    /* Create 257 columns of the same size */
+    grid-template-columns: repeat(257, 1fr);
+  }
+  .grid-rows-257 {
+    /* Create 257 rows of the same size */
+    grid-template-rows: repeat(257, 1fr);
   }
   .rotate-257 {
     display: inline-block;
     transform: rotate(257deg);
     transform-origin: center;
   }
+  .grid-columns-258 {
+    /* Create 258 columns of the same size */
+    grid-template-columns: repeat(258, 1fr);
+  }
+  .grid-rows-258 {
+    /* Create 258 rows of the same size */
+    grid-template-rows: repeat(258, 1fr);
+  }
   .rotate-258 {
     display: inline-block;
     transform: rotate(258deg);
     transform-origin: center;
+  }
+  .grid-columns-259 {
+    /* Create 259 columns of the same size */
+    grid-template-columns: repeat(259, 1fr);
+  }
+  .grid-rows-259 {
+    /* Create 259 rows of the same size */
+    grid-template-rows: repeat(259, 1fr);
   }
   .rotate-259 {
     display: inline-block;
     transform: rotate(259deg);
     transform-origin: center;
   }
+  .grid-columns-260 {
+    /* Create 260 columns of the same size */
+    grid-template-columns: repeat(260, 1fr);
+  }
+  .grid-rows-260 {
+    /* Create 260 rows of the same size */
+    grid-template-rows: repeat(260, 1fr);
+  }
   .rotate-260 {
     display: inline-block;
     transform: rotate(260deg);
     transform-origin: center;
+  }
+  .grid-columns-261 {
+    /* Create 261 columns of the same size */
+    grid-template-columns: repeat(261, 1fr);
+  }
+  .grid-rows-261 {
+    /* Create 261 rows of the same size */
+    grid-template-rows: repeat(261, 1fr);
   }
   .rotate-261 {
     display: inline-block;
     transform: rotate(261deg);
     transform-origin: center;
   }
+  .grid-columns-262 {
+    /* Create 262 columns of the same size */
+    grid-template-columns: repeat(262, 1fr);
+  }
+  .grid-rows-262 {
+    /* Create 262 rows of the same size */
+    grid-template-rows: repeat(262, 1fr);
+  }
   .rotate-262 {
     display: inline-block;
     transform: rotate(262deg);
     transform-origin: center;
+  }
+  .grid-columns-263 {
+    /* Create 263 columns of the same size */
+    grid-template-columns: repeat(263, 1fr);
+  }
+  .grid-rows-263 {
+    /* Create 263 rows of the same size */
+    grid-template-rows: repeat(263, 1fr);
   }
   .rotate-263 {
     display: inline-block;
     transform: rotate(263deg);
     transform-origin: center;
   }
+  .grid-columns-264 {
+    /* Create 264 columns of the same size */
+    grid-template-columns: repeat(264, 1fr);
+  }
+  .grid-rows-264 {
+    /* Create 264 rows of the same size */
+    grid-template-rows: repeat(264, 1fr);
+  }
   .rotate-264 {
     display: inline-block;
     transform: rotate(264deg);
     transform-origin: center;
+  }
+  .grid-columns-265 {
+    /* Create 265 columns of the same size */
+    grid-template-columns: repeat(265, 1fr);
+  }
+  .grid-rows-265 {
+    /* Create 265 rows of the same size */
+    grid-template-rows: repeat(265, 1fr);
   }
   .rotate-265 {
     display: inline-block;
     transform: rotate(265deg);
     transform-origin: center;
   }
+  .grid-columns-266 {
+    /* Create 266 columns of the same size */
+    grid-template-columns: repeat(266, 1fr);
+  }
+  .grid-rows-266 {
+    /* Create 266 rows of the same size */
+    grid-template-rows: repeat(266, 1fr);
+  }
   .rotate-266 {
     display: inline-block;
     transform: rotate(266deg);
     transform-origin: center;
+  }
+  .grid-columns-267 {
+    /* Create 267 columns of the same size */
+    grid-template-columns: repeat(267, 1fr);
+  }
+  .grid-rows-267 {
+    /* Create 267 rows of the same size */
+    grid-template-rows: repeat(267, 1fr);
   }
   .rotate-267 {
     display: inline-block;
     transform: rotate(267deg);
     transform-origin: center;
   }
+  .grid-columns-268 {
+    /* Create 268 columns of the same size */
+    grid-template-columns: repeat(268, 1fr);
+  }
+  .grid-rows-268 {
+    /* Create 268 rows of the same size */
+    grid-template-rows: repeat(268, 1fr);
+  }
   .rotate-268 {
     display: inline-block;
     transform: rotate(268deg);
     transform-origin: center;
+  }
+  .grid-columns-269 {
+    /* Create 269 columns of the same size */
+    grid-template-columns: repeat(269, 1fr);
+  }
+  .grid-rows-269 {
+    /* Create 269 rows of the same size */
+    grid-template-rows: repeat(269, 1fr);
   }
   .rotate-269 {
     display: inline-block;
     transform: rotate(269deg);
     transform-origin: center;
   }
+  .grid-columns-270 {
+    /* Create 270 columns of the same size */
+    grid-template-columns: repeat(270, 1fr);
+  }
+  .grid-rows-270 {
+    /* Create 270 rows of the same size */
+    grid-template-rows: repeat(270, 1fr);
+  }
   .rotate-270 {
     display: inline-block;
     transform: rotate(270deg);
     transform-origin: center;
+  }
+  .grid-columns-271 {
+    /* Create 271 columns of the same size */
+    grid-template-columns: repeat(271, 1fr);
+  }
+  .grid-rows-271 {
+    /* Create 271 rows of the same size */
+    grid-template-rows: repeat(271, 1fr);
   }
   .rotate-271 {
     display: inline-block;
     transform: rotate(271deg);
     transform-origin: center;
   }
+  .grid-columns-272 {
+    /* Create 272 columns of the same size */
+    grid-template-columns: repeat(272, 1fr);
+  }
+  .grid-rows-272 {
+    /* Create 272 rows of the same size */
+    grid-template-rows: repeat(272, 1fr);
+  }
   .rotate-272 {
     display: inline-block;
     transform: rotate(272deg);
     transform-origin: center;
+  }
+  .grid-columns-273 {
+    /* Create 273 columns of the same size */
+    grid-template-columns: repeat(273, 1fr);
+  }
+  .grid-rows-273 {
+    /* Create 273 rows of the same size */
+    grid-template-rows: repeat(273, 1fr);
   }
   .rotate-273 {
     display: inline-block;
     transform: rotate(273deg);
     transform-origin: center;
   }
+  .grid-columns-274 {
+    /* Create 274 columns of the same size */
+    grid-template-columns: repeat(274, 1fr);
+  }
+  .grid-rows-274 {
+    /* Create 274 rows of the same size */
+    grid-template-rows: repeat(274, 1fr);
+  }
   .rotate-274 {
     display: inline-block;
     transform: rotate(274deg);
     transform-origin: center;
+  }
+  .grid-columns-275 {
+    /* Create 275 columns of the same size */
+    grid-template-columns: repeat(275, 1fr);
+  }
+  .grid-rows-275 {
+    /* Create 275 rows of the same size */
+    grid-template-rows: repeat(275, 1fr);
   }
   .rotate-275 {
     display: inline-block;
     transform: rotate(275deg);
     transform-origin: center;
   }
+  .grid-columns-276 {
+    /* Create 276 columns of the same size */
+    grid-template-columns: repeat(276, 1fr);
+  }
+  .grid-rows-276 {
+    /* Create 276 rows of the same size */
+    grid-template-rows: repeat(276, 1fr);
+  }
   .rotate-276 {
     display: inline-block;
     transform: rotate(276deg);
     transform-origin: center;
+  }
+  .grid-columns-277 {
+    /* Create 277 columns of the same size */
+    grid-template-columns: repeat(277, 1fr);
+  }
+  .grid-rows-277 {
+    /* Create 277 rows of the same size */
+    grid-template-rows: repeat(277, 1fr);
   }
   .rotate-277 {
     display: inline-block;
     transform: rotate(277deg);
     transform-origin: center;
   }
+  .grid-columns-278 {
+    /* Create 278 columns of the same size */
+    grid-template-columns: repeat(278, 1fr);
+  }
+  .grid-rows-278 {
+    /* Create 278 rows of the same size */
+    grid-template-rows: repeat(278, 1fr);
+  }
   .rotate-278 {
     display: inline-block;
     transform: rotate(278deg);
     transform-origin: center;
+  }
+  .grid-columns-279 {
+    /* Create 279 columns of the same size */
+    grid-template-columns: repeat(279, 1fr);
+  }
+  .grid-rows-279 {
+    /* Create 279 rows of the same size */
+    grid-template-rows: repeat(279, 1fr);
   }
   .rotate-279 {
     display: inline-block;
     transform: rotate(279deg);
     transform-origin: center;
   }
+  .grid-columns-280 {
+    /* Create 280 columns of the same size */
+    grid-template-columns: repeat(280, 1fr);
+  }
+  .grid-rows-280 {
+    /* Create 280 rows of the same size */
+    grid-template-rows: repeat(280, 1fr);
+  }
   .rotate-280 {
     display: inline-block;
     transform: rotate(280deg);
     transform-origin: center;
+  }
+  .grid-columns-281 {
+    /* Create 281 columns of the same size */
+    grid-template-columns: repeat(281, 1fr);
+  }
+  .grid-rows-281 {
+    /* Create 281 rows of the same size */
+    grid-template-rows: repeat(281, 1fr);
   }
   .rotate-281 {
     display: inline-block;
     transform: rotate(281deg);
     transform-origin: center;
   }
+  .grid-columns-282 {
+    /* Create 282 columns of the same size */
+    grid-template-columns: repeat(282, 1fr);
+  }
+  .grid-rows-282 {
+    /* Create 282 rows of the same size */
+    grid-template-rows: repeat(282, 1fr);
+  }
   .rotate-282 {
     display: inline-block;
     transform: rotate(282deg);
     transform-origin: center;
+  }
+  .grid-columns-283 {
+    /* Create 283 columns of the same size */
+    grid-template-columns: repeat(283, 1fr);
+  }
+  .grid-rows-283 {
+    /* Create 283 rows of the same size */
+    grid-template-rows: repeat(283, 1fr);
   }
   .rotate-283 {
     display: inline-block;
     transform: rotate(283deg);
     transform-origin: center;
   }
+  .grid-columns-284 {
+    /* Create 284 columns of the same size */
+    grid-template-columns: repeat(284, 1fr);
+  }
+  .grid-rows-284 {
+    /* Create 284 rows of the same size */
+    grid-template-rows: repeat(284, 1fr);
+  }
   .rotate-284 {
     display: inline-block;
     transform: rotate(284deg);
     transform-origin: center;
+  }
+  .grid-columns-285 {
+    /* Create 285 columns of the same size */
+    grid-template-columns: repeat(285, 1fr);
+  }
+  .grid-rows-285 {
+    /* Create 285 rows of the same size */
+    grid-template-rows: repeat(285, 1fr);
   }
   .rotate-285 {
     display: inline-block;
     transform: rotate(285deg);
     transform-origin: center;
   }
+  .grid-columns-286 {
+    /* Create 286 columns of the same size */
+    grid-template-columns: repeat(286, 1fr);
+  }
+  .grid-rows-286 {
+    /* Create 286 rows of the same size */
+    grid-template-rows: repeat(286, 1fr);
+  }
   .rotate-286 {
     display: inline-block;
     transform: rotate(286deg);
     transform-origin: center;
+  }
+  .grid-columns-287 {
+    /* Create 287 columns of the same size */
+    grid-template-columns: repeat(287, 1fr);
+  }
+  .grid-rows-287 {
+    /* Create 287 rows of the same size */
+    grid-template-rows: repeat(287, 1fr);
   }
   .rotate-287 {
     display: inline-block;
     transform: rotate(287deg);
     transform-origin: center;
   }
+  .grid-columns-288 {
+    /* Create 288 columns of the same size */
+    grid-template-columns: repeat(288, 1fr);
+  }
+  .grid-rows-288 {
+    /* Create 288 rows of the same size */
+    grid-template-rows: repeat(288, 1fr);
+  }
   .rotate-288 {
     display: inline-block;
     transform: rotate(288deg);
     transform-origin: center;
+  }
+  .grid-columns-289 {
+    /* Create 289 columns of the same size */
+    grid-template-columns: repeat(289, 1fr);
+  }
+  .grid-rows-289 {
+    /* Create 289 rows of the same size */
+    grid-template-rows: repeat(289, 1fr);
   }
   .rotate-289 {
     display: inline-block;
     transform: rotate(289deg);
     transform-origin: center;
   }
+  .grid-columns-290 {
+    /* Create 290 columns of the same size */
+    grid-template-columns: repeat(290, 1fr);
+  }
+  .grid-rows-290 {
+    /* Create 290 rows of the same size */
+    grid-template-rows: repeat(290, 1fr);
+  }
   .rotate-290 {
     display: inline-block;
     transform: rotate(290deg);
     transform-origin: center;
+  }
+  .grid-columns-291 {
+    /* Create 291 columns of the same size */
+    grid-template-columns: repeat(291, 1fr);
+  }
+  .grid-rows-291 {
+    /* Create 291 rows of the same size */
+    grid-template-rows: repeat(291, 1fr);
   }
   .rotate-291 {
     display: inline-block;
     transform: rotate(291deg);
     transform-origin: center;
   }
+  .grid-columns-292 {
+    /* Create 292 columns of the same size */
+    grid-template-columns: repeat(292, 1fr);
+  }
+  .grid-rows-292 {
+    /* Create 292 rows of the same size */
+    grid-template-rows: repeat(292, 1fr);
+  }
   .rotate-292 {
     display: inline-block;
     transform: rotate(292deg);
     transform-origin: center;
+  }
+  .grid-columns-293 {
+    /* Create 293 columns of the same size */
+    grid-template-columns: repeat(293, 1fr);
+  }
+  .grid-rows-293 {
+    /* Create 293 rows of the same size */
+    grid-template-rows: repeat(293, 1fr);
   }
   .rotate-293 {
     display: inline-block;
     transform: rotate(293deg);
     transform-origin: center;
   }
+  .grid-columns-294 {
+    /* Create 294 columns of the same size */
+    grid-template-columns: repeat(294, 1fr);
+  }
+  .grid-rows-294 {
+    /* Create 294 rows of the same size */
+    grid-template-rows: repeat(294, 1fr);
+  }
   .rotate-294 {
     display: inline-block;
     transform: rotate(294deg);
     transform-origin: center;
+  }
+  .grid-columns-295 {
+    /* Create 295 columns of the same size */
+    grid-template-columns: repeat(295, 1fr);
+  }
+  .grid-rows-295 {
+    /* Create 295 rows of the same size */
+    grid-template-rows: repeat(295, 1fr);
   }
   .rotate-295 {
     display: inline-block;
     transform: rotate(295deg);
     transform-origin: center;
   }
+  .grid-columns-296 {
+    /* Create 296 columns of the same size */
+    grid-template-columns: repeat(296, 1fr);
+  }
+  .grid-rows-296 {
+    /* Create 296 rows of the same size */
+    grid-template-rows: repeat(296, 1fr);
+  }
   .rotate-296 {
     display: inline-block;
     transform: rotate(296deg);
     transform-origin: center;
+  }
+  .grid-columns-297 {
+    /* Create 297 columns of the same size */
+    grid-template-columns: repeat(297, 1fr);
+  }
+  .grid-rows-297 {
+    /* Create 297 rows of the same size */
+    grid-template-rows: repeat(297, 1fr);
   }
   .rotate-297 {
     display: inline-block;
     transform: rotate(297deg);
     transform-origin: center;
   }
+  .grid-columns-298 {
+    /* Create 298 columns of the same size */
+    grid-template-columns: repeat(298, 1fr);
+  }
+  .grid-rows-298 {
+    /* Create 298 rows of the same size */
+    grid-template-rows: repeat(298, 1fr);
+  }
   .rotate-298 {
     display: inline-block;
     transform: rotate(298deg);
     transform-origin: center;
+  }
+  .grid-columns-299 {
+    /* Create 299 columns of the same size */
+    grid-template-columns: repeat(299, 1fr);
+  }
+  .grid-rows-299 {
+    /* Create 299 rows of the same size */
+    grid-template-rows: repeat(299, 1fr);
   }
   .rotate-299 {
     display: inline-block;
     transform: rotate(299deg);
     transform-origin: center;
   }
+  .grid-columns-300 {
+    /* Create 300 columns of the same size */
+    grid-template-columns: repeat(300, 1fr);
+  }
+  .grid-rows-300 {
+    /* Create 300 rows of the same size */
+    grid-template-rows: repeat(300, 1fr);
+  }
   .rotate-300 {
     display: inline-block;
     transform: rotate(300deg);
     transform-origin: center;
+  }
+  .grid-columns-301 {
+    /* Create 301 columns of the same size */
+    grid-template-columns: repeat(301, 1fr);
+  }
+  .grid-rows-301 {
+    /* Create 301 rows of the same size */
+    grid-template-rows: repeat(301, 1fr);
   }
   .rotate-301 {
     display: inline-block;
     transform: rotate(301deg);
     transform-origin: center;
   }
+  .grid-columns-302 {
+    /* Create 302 columns of the same size */
+    grid-template-columns: repeat(302, 1fr);
+  }
+  .grid-rows-302 {
+    /* Create 302 rows of the same size */
+    grid-template-rows: repeat(302, 1fr);
+  }
   .rotate-302 {
     display: inline-block;
     transform: rotate(302deg);
     transform-origin: center;
+  }
+  .grid-columns-303 {
+    /* Create 303 columns of the same size */
+    grid-template-columns: repeat(303, 1fr);
+  }
+  .grid-rows-303 {
+    /* Create 303 rows of the same size */
+    grid-template-rows: repeat(303, 1fr);
   }
   .rotate-303 {
     display: inline-block;
     transform: rotate(303deg);
     transform-origin: center;
   }
+  .grid-columns-304 {
+    /* Create 304 columns of the same size */
+    grid-template-columns: repeat(304, 1fr);
+  }
+  .grid-rows-304 {
+    /* Create 304 rows of the same size */
+    grid-template-rows: repeat(304, 1fr);
+  }
   .rotate-304 {
     display: inline-block;
     transform: rotate(304deg);
     transform-origin: center;
+  }
+  .grid-columns-305 {
+    /* Create 305 columns of the same size */
+    grid-template-columns: repeat(305, 1fr);
+  }
+  .grid-rows-305 {
+    /* Create 305 rows of the same size */
+    grid-template-rows: repeat(305, 1fr);
   }
   .rotate-305 {
     display: inline-block;
     transform: rotate(305deg);
     transform-origin: center;
   }
+  .grid-columns-306 {
+    /* Create 306 columns of the same size */
+    grid-template-columns: repeat(306, 1fr);
+  }
+  .grid-rows-306 {
+    /* Create 306 rows of the same size */
+    grid-template-rows: repeat(306, 1fr);
+  }
   .rotate-306 {
     display: inline-block;
     transform: rotate(306deg);
     transform-origin: center;
+  }
+  .grid-columns-307 {
+    /* Create 307 columns of the same size */
+    grid-template-columns: repeat(307, 1fr);
+  }
+  .grid-rows-307 {
+    /* Create 307 rows of the same size */
+    grid-template-rows: repeat(307, 1fr);
   }
   .rotate-307 {
     display: inline-block;
     transform: rotate(307deg);
     transform-origin: center;
   }
+  .grid-columns-308 {
+    /* Create 308 columns of the same size */
+    grid-template-columns: repeat(308, 1fr);
+  }
+  .grid-rows-308 {
+    /* Create 308 rows of the same size */
+    grid-template-rows: repeat(308, 1fr);
+  }
   .rotate-308 {
     display: inline-block;
     transform: rotate(308deg);
     transform-origin: center;
+  }
+  .grid-columns-309 {
+    /* Create 309 columns of the same size */
+    grid-template-columns: repeat(309, 1fr);
+  }
+  .grid-rows-309 {
+    /* Create 309 rows of the same size */
+    grid-template-rows: repeat(309, 1fr);
   }
   .rotate-309 {
     display: inline-block;
     transform: rotate(309deg);
     transform-origin: center;
   }
+  .grid-columns-310 {
+    /* Create 310 columns of the same size */
+    grid-template-columns: repeat(310, 1fr);
+  }
+  .grid-rows-310 {
+    /* Create 310 rows of the same size */
+    grid-template-rows: repeat(310, 1fr);
+  }
   .rotate-310 {
     display: inline-block;
     transform: rotate(310deg);
     transform-origin: center;
+  }
+  .grid-columns-311 {
+    /* Create 311 columns of the same size */
+    grid-template-columns: repeat(311, 1fr);
+  }
+  .grid-rows-311 {
+    /* Create 311 rows of the same size */
+    grid-template-rows: repeat(311, 1fr);
   }
   .rotate-311 {
     display: inline-block;
     transform: rotate(311deg);
     transform-origin: center;
   }
+  .grid-columns-312 {
+    /* Create 312 columns of the same size */
+    grid-template-columns: repeat(312, 1fr);
+  }
+  .grid-rows-312 {
+    /* Create 312 rows of the same size */
+    grid-template-rows: repeat(312, 1fr);
+  }
   .rotate-312 {
     display: inline-block;
     transform: rotate(312deg);
     transform-origin: center;
+  }
+  .grid-columns-313 {
+    /* Create 313 columns of the same size */
+    grid-template-columns: repeat(313, 1fr);
+  }
+  .grid-rows-313 {
+    /* Create 313 rows of the same size */
+    grid-template-rows: repeat(313, 1fr);
   }
   .rotate-313 {
     display: inline-block;
     transform: rotate(313deg);
     transform-origin: center;
   }
+  .grid-columns-314 {
+    /* Create 314 columns of the same size */
+    grid-template-columns: repeat(314, 1fr);
+  }
+  .grid-rows-314 {
+    /* Create 314 rows of the same size */
+    grid-template-rows: repeat(314, 1fr);
+  }
   .rotate-314 {
     display: inline-block;
     transform: rotate(314deg);
     transform-origin: center;
+  }
+  .grid-columns-315 {
+    /* Create 315 columns of the same size */
+    grid-template-columns: repeat(315, 1fr);
+  }
+  .grid-rows-315 {
+    /* Create 315 rows of the same size */
+    grid-template-rows: repeat(315, 1fr);
   }
   .rotate-315 {
     display: inline-block;
     transform: rotate(315deg);
     transform-origin: center;
   }
+  .grid-columns-316 {
+    /* Create 316 columns of the same size */
+    grid-template-columns: repeat(316, 1fr);
+  }
+  .grid-rows-316 {
+    /* Create 316 rows of the same size */
+    grid-template-rows: repeat(316, 1fr);
+  }
   .rotate-316 {
     display: inline-block;
     transform: rotate(316deg);
     transform-origin: center;
+  }
+  .grid-columns-317 {
+    /* Create 317 columns of the same size */
+    grid-template-columns: repeat(317, 1fr);
+  }
+  .grid-rows-317 {
+    /* Create 317 rows of the same size */
+    grid-template-rows: repeat(317, 1fr);
   }
   .rotate-317 {
     display: inline-block;
     transform: rotate(317deg);
     transform-origin: center;
   }
+  .grid-columns-318 {
+    /* Create 318 columns of the same size */
+    grid-template-columns: repeat(318, 1fr);
+  }
+  .grid-rows-318 {
+    /* Create 318 rows of the same size */
+    grid-template-rows: repeat(318, 1fr);
+  }
   .rotate-318 {
     display: inline-block;
     transform: rotate(318deg);
     transform-origin: center;
+  }
+  .grid-columns-319 {
+    /* Create 319 columns of the same size */
+    grid-template-columns: repeat(319, 1fr);
+  }
+  .grid-rows-319 {
+    /* Create 319 rows of the same size */
+    grid-template-rows: repeat(319, 1fr);
   }
   .rotate-319 {
     display: inline-block;
     transform: rotate(319deg);
     transform-origin: center;
   }
+  .grid-columns-320 {
+    /* Create 320 columns of the same size */
+    grid-template-columns: repeat(320, 1fr);
+  }
+  .grid-rows-320 {
+    /* Create 320 rows of the same size */
+    grid-template-rows: repeat(320, 1fr);
+  }
   .rotate-320 {
     display: inline-block;
     transform: rotate(320deg);
     transform-origin: center;
+  }
+  .grid-columns-321 {
+    /* Create 321 columns of the same size */
+    grid-template-columns: repeat(321, 1fr);
+  }
+  .grid-rows-321 {
+    /* Create 321 rows of the same size */
+    grid-template-rows: repeat(321, 1fr);
   }
   .rotate-321 {
     display: inline-block;
     transform: rotate(321deg);
     transform-origin: center;
   }
+  .grid-columns-322 {
+    /* Create 322 columns of the same size */
+    grid-template-columns: repeat(322, 1fr);
+  }
+  .grid-rows-322 {
+    /* Create 322 rows of the same size */
+    grid-template-rows: repeat(322, 1fr);
+  }
   .rotate-322 {
     display: inline-block;
     transform: rotate(322deg);
     transform-origin: center;
+  }
+  .grid-columns-323 {
+    /* Create 323 columns of the same size */
+    grid-template-columns: repeat(323, 1fr);
+  }
+  .grid-rows-323 {
+    /* Create 323 rows of the same size */
+    grid-template-rows: repeat(323, 1fr);
   }
   .rotate-323 {
     display: inline-block;
     transform: rotate(323deg);
     transform-origin: center;
   }
+  .grid-columns-324 {
+    /* Create 324 columns of the same size */
+    grid-template-columns: repeat(324, 1fr);
+  }
+  .grid-rows-324 {
+    /* Create 324 rows of the same size */
+    grid-template-rows: repeat(324, 1fr);
+  }
   .rotate-324 {
     display: inline-block;
     transform: rotate(324deg);
     transform-origin: center;
+  }
+  .grid-columns-325 {
+    /* Create 325 columns of the same size */
+    grid-template-columns: repeat(325, 1fr);
+  }
+  .grid-rows-325 {
+    /* Create 325 rows of the same size */
+    grid-template-rows: repeat(325, 1fr);
   }
   .rotate-325 {
     display: inline-block;
     transform: rotate(325deg);
     transform-origin: center;
   }
+  .grid-columns-326 {
+    /* Create 326 columns of the same size */
+    grid-template-columns: repeat(326, 1fr);
+  }
+  .grid-rows-326 {
+    /* Create 326 rows of the same size */
+    grid-template-rows: repeat(326, 1fr);
+  }
   .rotate-326 {
     display: inline-block;
     transform: rotate(326deg);
     transform-origin: center;
+  }
+  .grid-columns-327 {
+    /* Create 327 columns of the same size */
+    grid-template-columns: repeat(327, 1fr);
+  }
+  .grid-rows-327 {
+    /* Create 327 rows of the same size */
+    grid-template-rows: repeat(327, 1fr);
   }
   .rotate-327 {
     display: inline-block;
     transform: rotate(327deg);
     transform-origin: center;
   }
+  .grid-columns-328 {
+    /* Create 328 columns of the same size */
+    grid-template-columns: repeat(328, 1fr);
+  }
+  .grid-rows-328 {
+    /* Create 328 rows of the same size */
+    grid-template-rows: repeat(328, 1fr);
+  }
   .rotate-328 {
     display: inline-block;
     transform: rotate(328deg);
     transform-origin: center;
+  }
+  .grid-columns-329 {
+    /* Create 329 columns of the same size */
+    grid-template-columns: repeat(329, 1fr);
+  }
+  .grid-rows-329 {
+    /* Create 329 rows of the same size */
+    grid-template-rows: repeat(329, 1fr);
   }
   .rotate-329 {
     display: inline-block;
     transform: rotate(329deg);
     transform-origin: center;
   }
+  .grid-columns-330 {
+    /* Create 330 columns of the same size */
+    grid-template-columns: repeat(330, 1fr);
+  }
+  .grid-rows-330 {
+    /* Create 330 rows of the same size */
+    grid-template-rows: repeat(330, 1fr);
+  }
   .rotate-330 {
     display: inline-block;
     transform: rotate(330deg);
     transform-origin: center;
+  }
+  .grid-columns-331 {
+    /* Create 331 columns of the same size */
+    grid-template-columns: repeat(331, 1fr);
+  }
+  .grid-rows-331 {
+    /* Create 331 rows of the same size */
+    grid-template-rows: repeat(331, 1fr);
   }
   .rotate-331 {
     display: inline-block;
     transform: rotate(331deg);
     transform-origin: center;
   }
+  .grid-columns-332 {
+    /* Create 332 columns of the same size */
+    grid-template-columns: repeat(332, 1fr);
+  }
+  .grid-rows-332 {
+    /* Create 332 rows of the same size */
+    grid-template-rows: repeat(332, 1fr);
+  }
   .rotate-332 {
     display: inline-block;
     transform: rotate(332deg);
     transform-origin: center;
+  }
+  .grid-columns-333 {
+    /* Create 333 columns of the same size */
+    grid-template-columns: repeat(333, 1fr);
+  }
+  .grid-rows-333 {
+    /* Create 333 rows of the same size */
+    grid-template-rows: repeat(333, 1fr);
   }
   .rotate-333 {
     display: inline-block;
     transform: rotate(333deg);
     transform-origin: center;
   }
+  .grid-columns-334 {
+    /* Create 334 columns of the same size */
+    grid-template-columns: repeat(334, 1fr);
+  }
+  .grid-rows-334 {
+    /* Create 334 rows of the same size */
+    grid-template-rows: repeat(334, 1fr);
+  }
   .rotate-334 {
     display: inline-block;
     transform: rotate(334deg);
     transform-origin: center;
+  }
+  .grid-columns-335 {
+    /* Create 335 columns of the same size */
+    grid-template-columns: repeat(335, 1fr);
+  }
+  .grid-rows-335 {
+    /* Create 335 rows of the same size */
+    grid-template-rows: repeat(335, 1fr);
   }
   .rotate-335 {
     display: inline-block;
     transform: rotate(335deg);
     transform-origin: center;
   }
+  .grid-columns-336 {
+    /* Create 336 columns of the same size */
+    grid-template-columns: repeat(336, 1fr);
+  }
+  .grid-rows-336 {
+    /* Create 336 rows of the same size */
+    grid-template-rows: repeat(336, 1fr);
+  }
   .rotate-336 {
     display: inline-block;
     transform: rotate(336deg);
     transform-origin: center;
+  }
+  .grid-columns-337 {
+    /* Create 337 columns of the same size */
+    grid-template-columns: repeat(337, 1fr);
+  }
+  .grid-rows-337 {
+    /* Create 337 rows of the same size */
+    grid-template-rows: repeat(337, 1fr);
   }
   .rotate-337 {
     display: inline-block;
     transform: rotate(337deg);
     transform-origin: center;
   }
+  .grid-columns-338 {
+    /* Create 338 columns of the same size */
+    grid-template-columns: repeat(338, 1fr);
+  }
+  .grid-rows-338 {
+    /* Create 338 rows of the same size */
+    grid-template-rows: repeat(338, 1fr);
+  }
   .rotate-338 {
     display: inline-block;
     transform: rotate(338deg);
     transform-origin: center;
+  }
+  .grid-columns-339 {
+    /* Create 339 columns of the same size */
+    grid-template-columns: repeat(339, 1fr);
+  }
+  .grid-rows-339 {
+    /* Create 339 rows of the same size */
+    grid-template-rows: repeat(339, 1fr);
   }
   .rotate-339 {
     display: inline-block;
     transform: rotate(339deg);
     transform-origin: center;
   }
+  .grid-columns-340 {
+    /* Create 340 columns of the same size */
+    grid-template-columns: repeat(340, 1fr);
+  }
+  .grid-rows-340 {
+    /* Create 340 rows of the same size */
+    grid-template-rows: repeat(340, 1fr);
+  }
   .rotate-340 {
     display: inline-block;
     transform: rotate(340deg);
     transform-origin: center;
+  }
+  .grid-columns-341 {
+    /* Create 341 columns of the same size */
+    grid-template-columns: repeat(341, 1fr);
+  }
+  .grid-rows-341 {
+    /* Create 341 rows of the same size */
+    grid-template-rows: repeat(341, 1fr);
   }
   .rotate-341 {
     display: inline-block;
     transform: rotate(341deg);
     transform-origin: center;
   }
+  .grid-columns-342 {
+    /* Create 342 columns of the same size */
+    grid-template-columns: repeat(342, 1fr);
+  }
+  .grid-rows-342 {
+    /* Create 342 rows of the same size */
+    grid-template-rows: repeat(342, 1fr);
+  }
   .rotate-342 {
     display: inline-block;
     transform: rotate(342deg);
     transform-origin: center;
+  }
+  .grid-columns-343 {
+    /* Create 343 columns of the same size */
+    grid-template-columns: repeat(343, 1fr);
+  }
+  .grid-rows-343 {
+    /* Create 343 rows of the same size */
+    grid-template-rows: repeat(343, 1fr);
   }
   .rotate-343 {
     display: inline-block;
     transform: rotate(343deg);
     transform-origin: center;
   }
+  .grid-columns-344 {
+    /* Create 344 columns of the same size */
+    grid-template-columns: repeat(344, 1fr);
+  }
+  .grid-rows-344 {
+    /* Create 344 rows of the same size */
+    grid-template-rows: repeat(344, 1fr);
+  }
   .rotate-344 {
     display: inline-block;
     transform: rotate(344deg);
     transform-origin: center;
+  }
+  .grid-columns-345 {
+    /* Create 345 columns of the same size */
+    grid-template-columns: repeat(345, 1fr);
+  }
+  .grid-rows-345 {
+    /* Create 345 rows of the same size */
+    grid-template-rows: repeat(345, 1fr);
   }
   .rotate-345 {
     display: inline-block;
     transform: rotate(345deg);
     transform-origin: center;
   }
+  .grid-columns-346 {
+    /* Create 346 columns of the same size */
+    grid-template-columns: repeat(346, 1fr);
+  }
+  .grid-rows-346 {
+    /* Create 346 rows of the same size */
+    grid-template-rows: repeat(346, 1fr);
+  }
   .rotate-346 {
     display: inline-block;
     transform: rotate(346deg);
     transform-origin: center;
+  }
+  .grid-columns-347 {
+    /* Create 347 columns of the same size */
+    grid-template-columns: repeat(347, 1fr);
+  }
+  .grid-rows-347 {
+    /* Create 347 rows of the same size */
+    grid-template-rows: repeat(347, 1fr);
   }
   .rotate-347 {
     display: inline-block;
     transform: rotate(347deg);
     transform-origin: center;
   }
+  .grid-columns-348 {
+    /* Create 348 columns of the same size */
+    grid-template-columns: repeat(348, 1fr);
+  }
+  .grid-rows-348 {
+    /* Create 348 rows of the same size */
+    grid-template-rows: repeat(348, 1fr);
+  }
   .rotate-348 {
     display: inline-block;
     transform: rotate(348deg);
     transform-origin: center;
+  }
+  .grid-columns-349 {
+    /* Create 349 columns of the same size */
+    grid-template-columns: repeat(349, 1fr);
+  }
+  .grid-rows-349 {
+    /* Create 349 rows of the same size */
+    grid-template-rows: repeat(349, 1fr);
   }
   .rotate-349 {
     display: inline-block;
     transform: rotate(349deg);
     transform-origin: center;
   }
+  .grid-columns-350 {
+    /* Create 350 columns of the same size */
+    grid-template-columns: repeat(350, 1fr);
+  }
+  .grid-rows-350 {
+    /* Create 350 rows of the same size */
+    grid-template-rows: repeat(350, 1fr);
+  }
   .rotate-350 {
     display: inline-block;
     transform: rotate(350deg);
     transform-origin: center;
+  }
+  .grid-columns-351 {
+    /* Create 351 columns of the same size */
+    grid-template-columns: repeat(351, 1fr);
+  }
+  .grid-rows-351 {
+    /* Create 351 rows of the same size */
+    grid-template-rows: repeat(351, 1fr);
   }
   .rotate-351 {
     display: inline-block;
     transform: rotate(351deg);
     transform-origin: center;
   }
+  .grid-columns-352 {
+    /* Create 352 columns of the same size */
+    grid-template-columns: repeat(352, 1fr);
+  }
+  .grid-rows-352 {
+    /* Create 352 rows of the same size */
+    grid-template-rows: repeat(352, 1fr);
+  }
   .rotate-352 {
     display: inline-block;
     transform: rotate(352deg);
     transform-origin: center;
+  }
+  .grid-columns-353 {
+    /* Create 353 columns of the same size */
+    grid-template-columns: repeat(353, 1fr);
+  }
+  .grid-rows-353 {
+    /* Create 353 rows of the same size */
+    grid-template-rows: repeat(353, 1fr);
   }
   .rotate-353 {
     display: inline-block;
     transform: rotate(353deg);
     transform-origin: center;
   }
+  .grid-columns-354 {
+    /* Create 354 columns of the same size */
+    grid-template-columns: repeat(354, 1fr);
+  }
+  .grid-rows-354 {
+    /* Create 354 rows of the same size */
+    grid-template-rows: repeat(354, 1fr);
+  }
   .rotate-354 {
     display: inline-block;
     transform: rotate(354deg);
     transform-origin: center;
+  }
+  .grid-columns-355 {
+    /* Create 355 columns of the same size */
+    grid-template-columns: repeat(355, 1fr);
+  }
+  .grid-rows-355 {
+    /* Create 355 rows of the same size */
+    grid-template-rows: repeat(355, 1fr);
   }
   .rotate-355 {
     display: inline-block;
     transform: rotate(355deg);
     transform-origin: center;
   }
+  .grid-columns-356 {
+    /* Create 356 columns of the same size */
+    grid-template-columns: repeat(356, 1fr);
+  }
+  .grid-rows-356 {
+    /* Create 356 rows of the same size */
+    grid-template-rows: repeat(356, 1fr);
+  }
   .rotate-356 {
     display: inline-block;
     transform: rotate(356deg);
     transform-origin: center;
+  }
+  .grid-columns-357 {
+    /* Create 357 columns of the same size */
+    grid-template-columns: repeat(357, 1fr);
+  }
+  .grid-rows-357 {
+    /* Create 357 rows of the same size */
+    grid-template-rows: repeat(357, 1fr);
   }
   .rotate-357 {
     display: inline-block;
     transform: rotate(357deg);
     transform-origin: center;
   }
+  .grid-columns-358 {
+    /* Create 358 columns of the same size */
+    grid-template-columns: repeat(358, 1fr);
+  }
+  .grid-rows-358 {
+    /* Create 358 rows of the same size */
+    grid-template-rows: repeat(358, 1fr);
+  }
   .rotate-358 {
     display: inline-block;
     transform: rotate(358deg);
     transform-origin: center;
   }
+  .grid-columns-359 {
+    /* Create 359 columns of the same size */
+    grid-template-columns: repeat(359, 1fr);
+  }
+  .grid-rows-359 {
+    /* Create 359 rows of the same size */
+    grid-template-rows: repeat(359, 1fr);
+  }
   .rotate-359 {
     display: inline-block;
     transform: rotate(359deg);
     transform-origin: center;
+  }
+  .grid-columns-360 {
+    /* Create 360 columns of the same size */
+    grid-template-columns: repeat(360, 1fr);
+  }
+  .grid-rows-360 {
+    /* Create 360 rows of the same size */
+    grid-template-rows: repeat(360, 1fr);
   }
   .rotate-360 {
     display: inline-block;

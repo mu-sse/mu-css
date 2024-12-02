@@ -1,0 +1,16 @@
+@use "functions";
+
+@mixin outline-style() {
+    --border-width: 1px;
+    --darker-color: var(--mutted-color);
+    background-color: transparent;
+    border: var(--border-width) solid var(--variant-color);
+    color: var(--variant-color);
+}
+
+@mixin color-variables($variant: 'primary') {
+    --darker-color: #{functions.get_variant_color($variant, 'darker-color')};
+    --variant-color: #{functions.get_variant_color($variant, 'color')};
+    --mutted-color: #{functions.get_variant_color($variant, 'mutted-color')};
+    --contrast-color: #{functions.get_variant_color($variant, 'contrast-color')};
+}
