@@ -4,7 +4,8 @@ import { LitElement, html, css } from 'https://cdn.jsdelivr.net/gh/lit/dist@3/co
 class MULoader extends LitElement {
 
     static BASE_WIDTH = 90;
-    static BASE_HEIGHT = 30;
+    static BASE_HEIGHT = 35;
+    static ASPECT_RATIO = MULoader.BASE_WIDTH / MULoader.BASE_HEIGHT;
 
     static DEFAULT_VARIANT = 'mu';
     static DEFAULT_EMPTY_SPACE = 30;
@@ -59,11 +60,19 @@ class MULoader extends LitElement {
         return colorMap[this.variant] || colorMap.mu;
     }
 
+    horizontalEmptySpace() {
+        return this.emptySpace;
+    }
+    verticalEmptySpace() {
+        return this.emptySpace / MULoader.ASPECT_RATIO;
+    }
+
     render() {
         /* SVG Dimensions */
-        const width = MULoader.BASE_WIDTH + 2 * this.emptySpace;
-        const height = MULoader.BASE_HEIGHT + 2 * this.emptySpace;
-        const aspectRatio = width / height;
+        const width = MULoader.BASE_WIDTH + 2 * this.horizontalEmptySpace();
+        const height = MULoader.BASE_HEIGHT + 2 * this.verticalEmptySpace();
+        const lineWidth = 10;
+        const lineRadius = lineWidth / 2;
 
         /* Animation */
         const animationString = `dash ${this.duration} ` +
@@ -73,42 +82,42 @@ class MULoader extends LitElement {
         
         /* SVG Path Data */
         const muPathD = `
-            M ${this.emptySpace + 5},${this.emptySpace + 30} 
-            L ${this.emptySpace + 5},${this.emptySpace + 15} 
-            A 10 10 0 1 1 ${this.emptySpace + 25} ${this.emptySpace + 15} 
-            L ${this.emptySpace + 25},${this.emptySpace + 30} 
-            M ${this.emptySpace + 25},${this.emptySpace + 15} 
-            A 10 10 0 1 1 ${this.emptySpace + 45},${this.emptySpace + 15} 
-            L ${this.emptySpace + 45},${this.emptySpace + 20} 
-            A 10 10 0 1 0 ${this.emptySpace + 65},${this.emptySpace + 20} 
-            L ${this.emptySpace + 65},${this.emptySpace + 15} 
-            A 10 10 0 1 1 ${this.emptySpace + 85} ${this.emptySpace + 15} 
-            L ${this.emptySpace + 85},${this.emptySpace + 30}
+            M ${this.horizontalEmptySpace() + 5},${this.verticalEmptySpace() + 30} 
+            L ${this.horizontalEmptySpace() + 5},${this.verticalEmptySpace() + 15} 
+            A ${lineWidth} ${lineWidth} 0 1 1 ${this.horizontalEmptySpace() + 25} ${this.verticalEmptySpace() + 15} 
+            L ${this.horizontalEmptySpace() + 25},${this.verticalEmptySpace() + 30} 
+            M ${this.horizontalEmptySpace() + 25},${this.verticalEmptySpace() + 15} 
+            A ${lineWidth} ${lineWidth} 0 1 1 ${this.horizontalEmptySpace() + 45},${this.verticalEmptySpace() + 15} 
+            L ${this.horizontalEmptySpace() + 45},${this.verticalEmptySpace() + 20} 
+            A ${lineWidth} ${lineWidth} 0 1 0 ${this.horizontalEmptySpace() + 65},${this.verticalEmptySpace() + 20} 
+            L ${this.horizontalEmptySpace() + 65},${this.verticalEmptySpace() + 15} 
+            A ${lineWidth} ${lineWidth} 0 1 1 ${this.horizontalEmptySpace() + 85} ${this.verticalEmptySpace() + 15} 
+            L ${this.horizontalEmptySpace() + 85},${this.verticalEmptySpace() + 30}
         `;
         const muGreen1PathD = `
-            M ${this.emptySpace + 5},${this.emptySpace + 30} 
-            L ${this.emptySpace + 5},${this.emptySpace + 15} 
-            A 10 10 0 1 1 ${this.emptySpace + 25} ${this.emptySpace + 15} 
-            L ${this.emptySpace + 25},${this.emptySpace + 30}
+            M ${this.horizontalEmptySpace() + 5},${this.verticalEmptySpace() + 30} 
+            L ${this.horizontalEmptySpace() + 5},${this.verticalEmptySpace() + 15} 
+            A ${lineWidth} ${lineWidth} 0 1 1 ${this.horizontalEmptySpace() + 25} ${this.verticalEmptySpace() + 15} 
+            L ${this.horizontalEmptySpace() + 25},${this.verticalEmptySpace() + 30}
         `;
         const muGreen2PathD = `
-            M ${this.emptySpace + 45},${this.emptySpace + 20} 
-            L ${this.emptySpace + 45},${this.emptySpace + 15} 
-            A 10 10 0 1 0 ${this.emptySpace + 25} ${this.emptySpace + 15} 
-            L ${this.emptySpace + 25},${this.emptySpace + 30}
+            M ${this.horizontalEmptySpace() + 45},${this.verticalEmptySpace() + 20} 
+            L ${this.horizontalEmptySpace() + 45},${this.verticalEmptySpace() + 15} 
+            A ${lineWidth} ${lineWidth} 0 1 0 ${this.horizontalEmptySpace() + 25} ${this.verticalEmptySpace() + 15} 
+            L ${this.horizontalEmptySpace() + 25},${this.verticalEmptySpace() + 30}
         `;
         const muGreen3PathD = `
-            M ${this.emptySpace + 45},${this.emptySpace + 20} 
-            A 10 10 0 1 0 ${this.emptySpace + 65} ${this.emptySpace + 20} 
-            L ${this.emptySpace + 65},${this.emptySpace + 15} 
-            A 10 10 0 1 1 ${this.emptySpace + 85} ${this.emptySpace + 15} 
-            L ${this.emptySpace + 85},${this.emptySpace + 30}
+            M ${this.horizontalEmptySpace() + 45},${this.verticalEmptySpace() + 20} 
+            A ${lineWidth} ${lineWidth} 0 1 0 ${this.horizontalEmptySpace() + 65} ${this.verticalEmptySpace() + 20} 
+            L ${this.horizontalEmptySpace() + 65},${this.verticalEmptySpace() + 15} 
+            A ${lineWidth} ${lineWidth} 0 1 1 ${this.horizontalEmptySpace() + 85} ${this.verticalEmptySpace() + 15} 
+            L ${this.horizontalEmptySpace() + 85},${this.verticalEmptySpace() + 30}
         `;
         const muGreen4PathD = `
-            M ${this.emptySpace + 85},${this.emptySpace + 30} 
-            L ${this.emptySpace + 85},${this.emptySpace + 15} 
-            A 10 10 0 1 0 ${this.emptySpace + 65} ${this.emptySpace + 15}
-        `;
+            M ${this.horizontalEmptySpace() + 85},${this.verticalEmptySpace() + 30} 
+            L ${this.horizontalEmptySpace() + 85},${this.verticalEmptySpace() + 15} 
+            A ${lineWidth} ${lineWidth} 0 1 0 ${this.horizontalEmptySpace() + 65} ${this.verticalEmptySpace() + 15}
+`;
 
         /* SVG tag */
         return html`
@@ -123,22 +132,22 @@ class MULoader extends LitElement {
                     svg {
                         width: 100%;
                         height: 100%;
-                        aspect-ratio: ${aspectRatio};
+                        aspect-ratio: ${this.aspectRatio};
                     }
                     @keyframes dash {
                         from {
                             stroke-width: 0;
-                            stroke-dashoffset: 100;
+                            stroke-dashoffset: ${10 * lineWidth};
                         }
                         to {
-                            stroke-width: 10;
-                            stroke-dashoffset: 40;
+                            stroke-width: ${lineWidth};
+                            stroke-dashoffset: ${4 * lineWidth};
                         }
                     }
 
                     .mugreen {
-                        stroke-dasharray: 100;
-                        stroke-dashoffset: 100;
+                        stroke-dasharray: ${10 * lineWidth};
+                        stroke-dashoffset: ${10 * lineWidth};
                         animation: ${animationString};
                         fill: none;
                         stroke: ${this.getColor()};
@@ -148,7 +157,7 @@ class MULoader extends LitElement {
                     #mu {
                         fill:none;
                         stroke: ${this.getColor(0.1)};
-                        stroke-width: 10;
+                        stroke-width: ${lineWidth};
                         stroke-linecap: round;
                     }
                 </style>
